@@ -16,7 +16,7 @@ export default function Impressum() {
           </h2>
           <p className="text-sm leading-relaxed text-gray-700 dark:text-white/70">
             Toni Blankenburg<br />
-            Hoelderlinstraßw 15/1<br />
+            Hoelderlinstraße 15/1<br />
             70174 Stuttgart<br />
             Deutschland
           </p>
