@@ -1,49 +1,41 @@
 # Vocly
-A minimalist micro-learning web app for ultra-fast Spanish vocabulary training.
+
+A minimalist micro-learning web app for ultra-fast German ↔ Spanish vocabulary training.
 Designed to replace doomscrolling with rapid-fire vocabulary reps.
-MVP Features
 
-German ↔ Spanish vocabulary (both directions, randomly mixed)
-Multiple choice answers (4 options per question)
-Category-aware distractors — wrong answers are pulled from the same category as the correct word for harder, more useful reps
-Instant feedback
-Mobile-first
-No login
-No setup
-Ultra-fast interaction loop
+**Live:** [vocly.org](https://www.vocly.org)
 
-Vocabulary Data
-Vocabulary lives in a single JSON file at src/data/vocab.json so it's easy to read, edit, and download directly from GitHub.
-The MVP ships with a small seed list (~50 words) to keep things minimal. The list is meant to grow — just edit the JSON.
-Each entry has the shape:
-json{
-  "de": "der Apfel",
-  "es": "la manzana",
-  "category": "food"
-}
-Categories used in the seed list include food, family, color, verb, number, animal, and a few others. Add new categories freely; the app picks them up automatically.
-Out of Scope for MVP
-These are planned for later, not part of the first release:
+## Features
 
-Audio / text-to-speech
-Spaced repetition / smart review of wrong answers
-Progress persistence, streaks, accuracy stats
-Accounts or sync
-Difficulty levels / CEFR filtering (A1, A2, …)
+- German ↔ Spanish vocabulary, both directions, randomly mixed
+- 4-choice multiple choice — wrong answers drawn from the same category for harder reps
+- Keyboard support — press 1–4 to answer
+- Instant feedback with streak counter
+- Mobile-first, no login, no setup
 
-Tech Stack
+## Tech Stack
 
-React
-Vite
-TypeScript
-TailwindCSS
+- React + TypeScript
+- Vite
+- TailwindCSS
 
-Philosophy
-Fast brain reps.
-Minimal friction.
-One more round.
-Run locally
-bashnpm install
+## Run locally
+
+```bash
+npm install
 npm run dev
-Deploy
-Deploy instantly with Vercel.
+```
+
+## Vocabulary data
+
+Lives in [`src/data/vocab.json`](src/data/vocab.json) — one entry per word:
+
+```json
+{ "de": "der Apfel", "es": "la manzana", "category": "food" }
+```
+
+To add words: edit the JSON. No rebuild config needed, new categories are picked up automatically.
+
+## Out of scope for MVP
+
+Audio/TTS, spaced repetition, progress persistence, accounts, difficulty/CEFR filtering.
