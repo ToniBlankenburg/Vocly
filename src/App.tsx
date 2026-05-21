@@ -54,6 +54,11 @@ export default function App() {
   const [total, setTotal]   = useState(0)
   const [streak, setStreak] = useState(0)
   const [cardKey, setKey]   = useState(0)
+  const [dark, setDark]     = useState(true)
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', dark)
+  }, [dark])
 
   const advance = useCallback(() => {
     setQ(buildQuestion(WORDS))
@@ -89,10 +94,10 @@ export default function App() {
   }
 
   const optionStyles: Record<OptionState, string> = {
-    idle:    'bg-white/5 border-white/10 text-white hover:bg-white/10 active:scale-95 cursor-pointer',
-    correct: 'bg-emerald-500/20 border-emerald-400 text-emerald-300 scale-[1.03]',
-    wrong:   'bg-red-500/20 border-red-500 text-red-300',
-    dimmed:  'bg-white/[0.02] border-white/5 text-white/20',
+    idle:    'bg-gray-100 border-gray-200 text-gray-900 hover:bg-gray-200 active:scale-95 cursor-pointer dark:bg-white/5 dark:border-white/10 dark:text-white dark:hover:bg-white/10',
+    correct: 'bg-emerald-500/20 border-emerald-400 text-emerald-700 dark:text-emerald-300 scale-[1.03]',
+    wrong:   'bg-red-500/20 border-red-400 text-red-700 dark:text-red-300',
+    dimmed:  'bg-gray-50 border-gray-100 text-gray-300 dark:bg-white/[0.02] dark:border-white/5 dark:text-white/20',
   }
 
   const fromFlag = q.dir === 'de→es' ? '🇩🇪' : '🇪🇸'
@@ -101,36 +106,43 @@ export default function App() {
   const accuracy = total > 0 ? Math.round((correct / total) * 100) : null
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center px-4 py-8 select-none">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-white flex flex-col items-center justify-center px-4 py-8 select-none">
 
       {/* top bar */}
       <div className="w-full max-w-sm flex items-center justify-between mb-6 text-sm">
-        <span className="text-white/30 font-mono tracking-tight">
+        <span className="text-gray-400 dark:text-white/30 font-mono tracking-tight">
           {accuracy !== null ? `${accuracy}%` : 'vocly'}
         </span>
-        <span className="text-white/20 font-mono text-xs">
+        <span className="text-gray-400 dark:text-white/20 font-mono text-xs">
           {correct}/{total}
         </span>
-        <div className="w-16 text-right">
+        <div className="w-16 text-right flex items-center justify-end gap-2">
           {streak >= 3 && (
             <span className="text-orange-400 font-bold tabular-nums animate-pulse">
               🔥 {streak}
             </span>
           )}
+          <button
+            onClick={() => setDark(d => !d)}
+            className="text-base leading-none opacity-40 hover:opacity-70 transition-opacity"
+            aria-label="Toggle theme"
+          >
+            {dark ? '☀️' : '🌙'}
+          </button>
         </div>
       </div>
 
       {/* card */}
       <div
         key={cardKey}
-        className="w-full max-w-sm rounded-3xl border border-white/8 bg-white/[0.03] backdrop-blur-sm p-8 mb-5 shadow-2xl"
+        className="w-full max-w-sm rounded-3xl border border-gray-200 dark:border-white/8 bg-white dark:bg-white/[0.03] backdrop-blur-sm p-8 mb-5 shadow-2xl"
         style={{ animation: 'fadeUp 0.18s ease-out' }}
       >
         <div className="flex items-center gap-2 mb-6">
           <span className="text-lg">{fromFlag}</span>
-          <span className="text-white/20 text-xs mx-1">→</span>
+          <span className="text-gray-300 dark:text-white/20 text-xs mx-1">→</span>
           <span className="text-lg">{toFlag}</span>
-          <span className="ml-auto text-xs text-white/25 font-medium tracking-widest uppercase">
+          <span className="ml-auto text-xs text-gray-400 dark:text-white/25 font-medium tracking-widest uppercase">
             {icon} {q.category}
           </span>
         </div>
@@ -139,7 +151,7 @@ export default function App() {
           {q.question}
         </p>
 
-        <p className="mt-3 text-white/25 text-xs font-medium">
+        <p className="mt-3 text-gray-400 dark:text-white/25 text-xs font-medium">
           {q.dir === 'de→es' ? 'translate to Spanish' : 'translate to German'}
         </p>
       </div>
@@ -152,13 +164,13 @@ export default function App() {
             onClick={() => pick(opt)}
             className={`${optionStyles[stateFor(opt)]} border rounded-2xl px-4 py-4 text-sm font-medium transition-all duration-150 text-left relative`}
           >
-            <span className="absolute top-2 right-3 text-[10px] text-white/15 font-mono">{i + 1}</span>
+            <span className="absolute top-2 right-3 text-[10px] text-gray-300 dark:text-white/15 font-mono">{i + 1}</span>
             {opt}
           </button>
         ))}
       </div>
 
-      <p className="mt-8 text-white/10 text-xs">press 1–4 or tap</p>
+      <p className="mt-8 text-gray-300 dark:text-white/10 text-xs">press 1–4 or tap</p>
 
       <style>{`
         @keyframes fadeUp {
