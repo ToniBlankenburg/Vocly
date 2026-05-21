@@ -1,0 +1,146 @@
+[
+  {
+    "de": "die Hand",
+    "es": "la mano",
+    "category": "body",
+    "level": "A2"
+  },
+  {
+    "de": "der Kopf",
+    "es": "la cabeza",
+    "category": "body",
+    "level": "A2"
+  },
+  {
+    "de": "das Auge",
+    "es": "el ojo",
+    "category": "body",
+    "level": "A2"
+  },
+  {
+    "de": "das Ohr",
+    "es": "la oreja",
+    "category": "body",
+    "level": "A2"
+  },
+  {
+    "de": "der Fuß",
+    "es": "el pie",
+    "category": "body",
+    "level": "A2"
+  },
+  {
+    "de": "der Mund",
+    "es": "la boca",
+    "category": "body",
+    "level": "A2"
+  },
+  {
+    "de": "die Stadt",
+    "es": "la ciudad",
+    "category": "place",
+    "level": "A2"
+  },
+  {
+    "de": "das Haus",
+    "es": "la casa",
+    "category": "place",
+    "level": "A2"
+  },
+  {
+    "de": "die Schule",
+    "es": "la escuela",
+    "category": "place",
+    "level": "A2"
+  },
+  {
+    "de": "die Straße",
+    "es": "la calle",
+    "category": "place",
+    "level": "A2"
+  },
+  {
+    "de": "das Geschäft",
+    "es": "la tienda",
+    "category": "place",
+    "level": "A2"
+  },
+  {
+    "de": "das Krankenhaus",
+    "es": "el hospital",
+    "category": "place",
+    "level": "A2"
+  },
+  {
+    "de": "groß",
+    "es": "grande",
+    "category": "adjective",
+    "level": "A2"
+  },
+  {
+    "de": "klein",
+    "es": "pequeño",
+    "category": "adjective",
+    "level": "A2"
+  },
+  {
+    "de": "alt",
+    "es": "viejo",
+    "category": "adjective",
+    "level": "A2"
+  },
+  {
+    "de": "jung",
+    "es": "joven",
+    "category": "adjective",
+    "level": "A2"
+  },
+  {
+    "de": "heiß",
+    "es": "caliente",
+    "category": "adjective",
+    "level": "A2"
+  },
+  {
+    "de": "kalt",
+    "es": "frío",
+    "category": "adjective",
+    "level": "A2"
+  },
+  {
+    "de": "arbeiten",
+    "es": "trabajar",
+    "category": "verb",
+    "level": "A2"
+  },
+  {
+    "de": "wohnen",
+    "es": "vivir",
+    "category": "verb",
+    "level": "A2"
+  },
+  {
+    "de": "kommen",
+    "es": "venir",
+    "category": "verb",
+    "level": "A2"
+  },
+  {
+    "de": "gehen",
+    "es": "ir",
+    "category": "verb",
+    "level": "A2"
+  },
+  {
+    "de": "geben",
+    "es": "dar",
+    "category": "verb",
+    "level": "A2"
+  },
+  {
+    "de": "nehmen",
+    "es": "tomar",
+    "category": "verb",
+    "level": "A2"
+  }
+]

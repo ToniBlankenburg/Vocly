@@ -1,0 +1,146 @@
+[
+  {
+    "de": "erklären",
+    "es": "explicar",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "entscheiden",
+    "es": "decidir",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "reisen",
+    "es": "viajar",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "verbessern",
+    "es": "mejorar",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "vergessen",
+    "es": "olvidar",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "glauben",
+    "es": "creer",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "versprechen",
+    "es": "prometer",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "erreichen",
+    "es": "alcanzar",
+    "category": "verb",
+    "level": "B1"
+  },
+  {
+    "de": "notwendig",
+    "es": "necesario",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "möglich",
+    "es": "posible",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "wichtig",
+    "es": "importante",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "schwierig",
+    "es": "difícil",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "neugierig",
+    "es": "curioso",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "geduldig",
+    "es": "paciente",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "ehrlich",
+    "es": "honesto",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "mutig",
+    "es": "valiente",
+    "category": "adjective",
+    "level": "B1"
+  },
+  {
+    "de": "die Erfahrung",
+    "es": "la experiencia",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "der Erfolg",
+    "es": "el éxito",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "die Sprache",
+    "es": "el idioma",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "die Gesundheit",
+    "es": "la salud",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "der Traum",
+    "es": "el sueño",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "die Freiheit",
+    "es": "la libertad",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "die Lösung",
+    "es": "la solución",
+    "category": "abstract",
+    "level": "B1"
+  },
+  {
+    "de": "die Meinung",
+    "es": "la opinión",
+    "category": "abstract",
+    "level": "B1"
+  }
+]
