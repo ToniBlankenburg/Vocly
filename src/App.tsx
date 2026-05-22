@@ -9,7 +9,7 @@ type Word = { de: string; es: string; category: string; level: Level }
 type Direction = 'de→es' | 'es→de'
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1']
-const LEVEL_UP_AT = 15
+const LEVEL_UP_AT = 7
 
 const VOCAB_LOADERS: Partial<Record<Level, () => Promise<{ default: unknown }>>> = {
   A2: () => import('./data/vocab-a2.json'),
@@ -67,7 +67,7 @@ export default function App() {
   const [total, setTotal]           = useState(0)
   const [streak, setStreak]         = useState(0)
   const [cardKey, setKey]           = useState(0)
-  const [dark, setDark]             = useState(true)
+  const [dark, setDark]             = useState(() => window.matchMedia('(prefers-color-scheme: dark)').matches)
   const [correctAtLevel, setCorrAt] = useState(0)
   const [levelingUp, setLevelingUp] = useState(false)
   const [complete, setComplete]     = useState(false)
