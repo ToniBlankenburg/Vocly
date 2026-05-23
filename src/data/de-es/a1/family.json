@@ -16,5 +16,12 @@
   { "de": "das Baby", "es": "el bebé" },
   { "de": "das Kind", "es": "el niño" },
   { "de": "die Nichte", "es": "la sobrina" },
-  { "de": "der Neffe", "es": "el sobrino" }
+  { "de": "der Neffe", "es": "el sobrino" },
+  { "de": "die Eltern", "es": "los padres" },
+  { "de": "die Geschwister", "es": "los hermanos" },
+  { "de": "die Großeltern", "es": "los abuelos" },
+  { "de": "die Familie", "es": "la familia" },
+  { "de": "der Zwilling", "es": "el gemelo" },
+  { "de": "das Mädchen", "es": "la niña" },
+  { "de": "der Junge", "es": "el chico" }
 ]

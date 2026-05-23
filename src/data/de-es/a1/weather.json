@@ -13,5 +13,15 @@
   { "de": "die Kälte", "es": "el frío" },
   { "de": "der Regenbogen", "es": "el arco iris" },
   { "de": "sonnig", "es": "soleado" },
-  { "de": "bewölkt", "es": "nublado" }
+  { "de": "bewölkt", "es": "nublado" },
+  { "de": "regnerisch", "es": "lluvioso" },
+  { "de": "heiß", "es": "caliente" },
+  { "de": "die Temperatur", "es": "la temperatura" },
+  { "de": "der Frost", "es": "la helada" },
+  { "de": "trocken", "es": "seco" },
+  { "de": "feucht", "es": "húmedo" },
+  { "de": "der Hagel", "es": "el granizo" },
+  { "de": "der Sturm", "es": "el temporal" },
+  { "de": "die Brise", "es": "la brisa" },
+  { "de": "schneeig", "es": "nevado" }
 ]

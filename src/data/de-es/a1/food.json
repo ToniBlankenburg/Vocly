@@ -23,5 +23,20 @@
   { "de": "der Wein", "es": "el vino" },
   { "de": "die Erdbeere", "es": "la fresa" },
   { "de": "die Zwiebel", "es": "la cebolla" },
-  { "de": "das Öl", "es": "el aceite" }
+  { "de": "das Öl", "es": "el aceite" },
+  { "de": "die Butter", "es": "la mantequilla" },
+  { "de": "das Mehl", "es": "la harina" },
+  { "de": "der Saft", "es": "el zumo" },
+  { "de": "die Limonade", "es": "la limonada" },
+  { "de": "die Gurke", "es": "el pepino" },
+  { "de": "die Karotte", "es": "la zanahoria" },
+  { "de": "der Pfeffer", "es": "la pimienta" },
+  { "de": "die Zitrone", "es": "el limón" },
+  { "de": "der Joghurt", "es": "el yogur" },
+  { "de": "die Schokolade", "es": "el chocolate" },
+  { "de": "der Kuchen", "es": "el pastel" },
+  { "de": "die Marmelade", "es": "la mermelada" },
+  { "de": "die Wurst", "es": "el embutido" },
+  { "de": "die Pizza", "es": "la pizza" },
+  { "de": "die Torte", "es": "la tarta" }
 ]

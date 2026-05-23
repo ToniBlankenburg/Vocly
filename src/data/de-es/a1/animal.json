@@ -18,5 +18,15 @@
   { "de": "die Biene", "es": "la abeja" },
   { "de": "die Schlange", "es": "la serpiente" },
   { "de": "der Frosch", "es": "la rana" },
-  { "de": "der Fisch", "es": "el pez" }
+  { "de": "der Delfin", "es": "el delfín" },
+  { "de": "die Spinne", "es": "la araña" },
+  { "de": "der Wolf", "es": "el lobo" },
+  { "de": "der Fuchs", "es": "el zorro" },
+  { "de": "die Ziege", "es": "la cabra" },
+  { "de": "die Schildkröte", "es": "la tortuga" },
+  { "de": "der Papagei", "es": "el loro" },
+  { "de": "das Krokodil", "es": "el cocodrilo" },
+  { "de": "der Pinguin", "es": "el pingüino" },
+  { "de": "der Hamster", "es": "el hámster" },
+  { "de": "der Hase", "es": "la liebre" }
 ]

@@ -23,5 +23,20 @@
   { "de": "finden", "es": "encontrar" },
   { "de": "helfen", "es": "ayudar" },
   { "de": "rufen", "es": "llamar" },
-  { "de": "machen", "es": "hacer" }
+  { "de": "machen", "es": "hacer" },
+  { "de": "haben", "es": "tener" },
+  { "de": "sein", "es": "ser" },
+  { "de": "fahren", "es": "conducir" },
+  { "de": "schicken", "es": "enviar" },
+  { "de": "zählen", "es": "contar" },
+  { "de": "bauen", "es": "construir" },
+  { "de": "fliegen", "es": "volar" },
+  { "de": "waschen", "es": "lavar" },
+  { "de": "putzen", "es": "limpiar" },
+  { "de": "schließen", "es": "cerrar" },
+  { "de": "fallen", "es": "caer" },
+  { "de": "bringen", "es": "traer" },
+  { "de": "halten", "es": "sostener" },
+  { "de": "verkaufen", "es": "vender" },
+  { "de": "besuchen", "es": "visitar" }
 ]

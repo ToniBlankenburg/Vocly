@@ -7,7 +7,7 @@ Designed to replace doomscrolling with rapid-fire vocabulary reps.
 
 ## Features
 
-- **CEFR level progression** — A1 → A2 → B1, unlocked by earning 15 correct answers per level
+- **CEFR level progression** — A1 → A2 → B1, unlocked by earning a number of1 correct answers per level
 - German ↔ Spanish, both directions, randomly mixed per session
 - 4-choice multiple choice — distractors drawn from the same category for harder reps
 - Keyboard support — press 1–4 to answer
@@ -35,7 +35,7 @@ Words live in `src/data/de-es/{level}/{category}.json` — one file per category
 
 | Level | Categories | Words |
 |-------|-----------|-------|
-| A1 | animal, clothing, color, family, food, house, number, time, transport, verb, weather | 200 |
+| A1 | animal, body, clothing, color, family, food, health, house, kitchen, number, place, school, sport, time, transport, verb, weather | 500 |
 | A2 | adjective, body, place, profession, shopping, verb | 109 |
 | B1 | abstract, adjective, emotion, nature, verb, work | 105 |
 

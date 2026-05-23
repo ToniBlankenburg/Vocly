@@ -18,5 +18,15 @@
   { "de": "früh", "es": "temprano" },
   { "de": "spät", "es": "tarde" },
   { "de": "bald", "es": "pronto" },
-  { "de": "manchmal", "es": "a veces" }
+  { "de": "manchmal", "es": "a veces" },
+  { "de": "die Sekunde", "es": "el segundo" },
+  { "de": "das Datum", "es": "la fecha" },
+  { "de": "der Montag", "es": "el lunes" },
+  { "de": "der Dienstag", "es": "el martes" },
+  { "de": "der Mittwoch", "es": "el miércoles" },
+  { "de": "der Donnerstag", "es": "el jueves" },
+  { "de": "der Freitag", "es": "el viernes" },
+  { "de": "das Wochenende", "es": "el fin de semana" },
+  { "de": "der Kalender", "es": "el calendario" },
+  { "de": "die Uhr", "es": "el reloj" }
 ]

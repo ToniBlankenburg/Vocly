@@ -13,5 +13,15 @@
   { "de": "hellblau", "es": "celeste" },
   { "de": "dunkel", "es": "oscuro" },
   { "de": "hell", "es": "claro" },
-  { "de": "bunt", "es": "colorido" }
+  { "de": "bunt", "es": "colorido" },
+  { "de": "türkis", "es": "turquesa" },
+  { "de": "beige", "es": "beige" },
+  { "de": "golden", "es": "dorado" },
+  { "de": "silbern", "es": "plateado" },
+  { "de": "dunkelblau", "es": "azul marino" },
+  { "de": "hellgrün", "es": "verde claro" },
+  { "de": "violett", "es": "violeta" },
+  { "de": "bordeaux", "es": "burdeos" },
+  { "de": "cremefarben", "es": "crema" },
+  { "de": "khaki", "es": "caqui" }
 ]

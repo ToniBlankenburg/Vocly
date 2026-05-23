@@ -12,9 +12,16 @@
   { "de": "zehn", "es": "diez" },
   { "de": "elf", "es": "once" },
   { "de": "zwölf", "es": "doce" },
+  { "de": "dreizehn", "es": "trece" },
+  { "de": "vierzehn", "es": "catorce" },
+  { "de": "fünfzehn", "es": "quince" },
+  { "de": "sechzehn", "es": "dieciséis" },
+  { "de": "siebzehn", "es": "diecisiete" },
   { "de": "zwanzig", "es": "veinte" },
   { "de": "dreißig", "es": "treinta" },
+  { "de": "vierzig", "es": "cuarenta" },
   { "de": "fünfzig", "es": "cincuenta" },
   { "de": "hundert", "es": "cien" },
-  { "de": "tausend", "es": "mil" }
+  { "de": "tausend", "es": "mil" },
+  { "de": "eine Million", "es": "un millón" }
 ]
