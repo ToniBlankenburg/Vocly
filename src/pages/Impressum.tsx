@@ -29,9 +29,10 @@ export default function Impressum() {
           <p className="text-sm text-gray-700 dark:text-white/70">
             E-Mail:{' '}
             <a
-              href="mailto:toniblankenburg@gmx.net"
+              href="mailto:impressum@vocly.org "
               className="underline underline-offset-2 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
+              impressum@vocly.org 
             </a>
           </p>
         </section>

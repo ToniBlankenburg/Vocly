@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import a1Data from './data/vocab-a1.json'
 import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
@@ -173,6 +174,8 @@ export default function App() {
   const isLastLevel = LEVELS.indexOf(level) === LEVELS.length - 1
 
   return (
+    <>
+    <Analytics />
     <Routes>
       <Route path="/impressum" element={<Impressum />} />
       <Route path="/datenschutz" element={<Datenschutz />} />
@@ -310,5 +313,6 @@ export default function App() {
     </div>
       } />
     </Routes>
+    </>
   )
 }
