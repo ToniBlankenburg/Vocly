@@ -1,20 +1,50 @@
 import { useState, useCallback, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
-import { Analytics } from '@vercel/analytics/react'
-import a1Data from './data/vocab-a1.json'
+import { Analytics } from '@vercel/analytics/react';
 import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
 
 type Level = 'A1' | 'A2' | 'B1'
+type VocabEntry = { de: string; es: string }
 type Word = { de: string; es: string; category: string; level: Level }
 type Direction = 'de→es' | 'es→de'
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1']
 const LEVEL_UP_AT = 7
 
-const VOCAB_LOADERS: Partial<Record<Level, () => Promise<{ default: unknown }>>> = {
-  A2: () => import('./data/vocab-a2.json'),
-  B1: () => import('./data/vocab-b1.json'),
+function categoryFromPath(path: string): string {
+  return path.split('/').pop()!.replace('.json', '')
+}
+
+function flattenEager(
+  modules: Record<string, { default: VocabEntry[] }>,
+  level: Level
+): Word[] {
+  return Object.entries(modules).flatMap(([path, mod]) =>
+    mod.default.map(e => ({ ...e, category: categoryFromPath(path), level }))
+  )
+}
+
+function flattenLazy(
+  modules: Record<string, () => Promise<{ default: VocabEntry[] }>>,
+  level: Level
+): Promise<Word[]> {
+  return Promise.all(
+    Object.entries(modules).map(([path, fn]) =>
+      fn().then(mod => mod.default.map(e => ({ ...e, category: categoryFromPath(path), level })))
+    )
+  ).then(arrays => arrays.flat())
+}
+
+const a1Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/de-es/a1/*.json', { eager: true })
+const a2Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/de-es/a2/*.json')
+const b1Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/de-es/b1/*.json')
+
+const a1Data = flattenEager(a1Modules, 'A1')
+
+const VOCAB_LOADERS: Partial<Record<Level, () => Promise<Word[]>>> = {
+  A2: () => flattenLazy(a2Modules, 'A2'),
+  B1: () => flattenLazy(b1Modules, 'B1'),
 }
 
 const CATEGORY_ICONS: Record<string, string> = {
@@ -87,8 +117,7 @@ export default function App() {
     const nextIdx = LEVELS.indexOf(level) + 1
     if (nextIdx < LEVELS.length) {
       const next = LEVELS[nextIdx]
-      VOCAB_LOADERS[next]!().then(mod => {
-        const nextWords = (mod.default as Word[])
+      VOCAB_LOADERS[next]!().then(nextWords => {
         setWords(nextWords)
         setLevel(next)
         setCorrAt(0)
