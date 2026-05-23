@@ -31,22 +31,22 @@ npm run dev
 
 ## Vocabulary data
 
-One JSON file per CEFR level in [`src/data/`](src/data/):
+Words live in `src/data/de-es/{level}/{category}.json` — one file per category per level.
 
-| File | Level | Words |
-|------|-------|-------|
-| `vocab-a1.json` | A1 | 61 |
-| `vocab-a2.json` | A2 | 24 |
-| `vocab-b1.json` | B1 | 24 |
+| Level | Categories | Words |
+|-------|-----------|-------|
+| A1 | animal, clothing, color, family, food, house, number, time, transport, verb, weather | 200 |
+| A2 | adjective, body, place, profession, shopping, verb | 109 |
+| B1 | abstract, adjective, emotion, nature, verb, work | 105 |
 
 Each entry:
 
 ```json
-{ "de": "der Apfel", "es": "la manzana", "category": "food", "level": "A1" }
+{ "de": "der Apfel", "es": "la manzana" }
 ```
 
 A1 is bundled with the main chunk; A2 and B1 are lazy-loaded when the user reaches that level.
-New categories are picked up automatically — no config needed.
+New categories are picked up automatically — just drop a JSON file into the right level folder.
 
 ## Out of scope
 
