@@ -115,7 +115,7 @@ export default function Datenschutz() {
           <h2 className="text-xs font-mono uppercase tracking-widest text-gray-400 dark:text-white/30 mb-2">
             Stand
           </h2>
-          <p className="text-sm text-gray-700 dark:text-white/70">Mai 2025</p>
+          <p className="text-sm text-gray-700 dark:text-white/70">Mai 2026</p>
         </section>
       </div>
     </div>
