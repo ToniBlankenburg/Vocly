@@ -3,5 +3,15 @@
   { "de": "der Regen", "es": "la lluvia" },
   { "de": "der Wind", "es": "el viento" },
   { "de": "der Schnee", "es": "la nieve" },
-  { "de": "die Wolke", "es": "la nube" }
+  { "de": "die Wolke", "es": "la nube" },
+  { "de": "das Gewitter", "es": "la tormenta" },
+  { "de": "das Eis", "es": "el hielo" },
+  { "de": "der Nebel", "es": "la niebla" },
+  { "de": "der Donner", "es": "el trueno" },
+  { "de": "der Blitz", "es": "el relámpago" },
+  { "de": "die Hitze", "es": "el calor" },
+  { "de": "die Kälte", "es": "el frío" },
+  { "de": "der Regenbogen", "es": "el arco iris" },
+  { "de": "sonnig", "es": "soleado" },
+  { "de": "bewölkt", "es": "nublado" }
 ]

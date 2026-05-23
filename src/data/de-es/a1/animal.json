@@ -4,5 +4,19 @@
   { "de": "der Vogel", "es": "el pájaro" },
   { "de": "das Pferd", "es": "el caballo" },
   { "de": "das Kaninchen", "es": "el conejo" },
-  { "de": "der Bär", "es": "el oso" }
+  { "de": "der Bär", "es": "el oso" },
+  { "de": "die Kuh", "es": "la vaca" },
+  { "de": "das Schwein", "es": "el cerdo" },
+  { "de": "die Maus", "es": "el ratón" },
+  { "de": "die Ente", "es": "el pato" },
+  { "de": "der Löwe", "es": "el león" },
+  { "de": "der Tiger", "es": "el tigre" },
+  { "de": "der Affe", "es": "el mono" },
+  { "de": "der Elefant", "es": "el elefante" },
+  { "de": "das Schaf", "es": "la oveja" },
+  { "de": "das Huhn", "es": "el pollo" },
+  { "de": "die Biene", "es": "la abeja" },
+  { "de": "die Schlange", "es": "la serpiente" },
+  { "de": "der Frosch", "es": "la rana" },
+  { "de": "der Fisch", "es": "el pez" }
 ]

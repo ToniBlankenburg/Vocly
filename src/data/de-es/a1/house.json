@@ -1,0 +1,17 @@
+[
+  { "de": "das Zimmer", "es": "la habitación" },
+  { "de": "die Küche", "es": "la cocina" },
+  { "de": "das Schlafzimmer", "es": "el dormitorio" },
+  { "de": "das Badezimmer", "es": "el baño" },
+  { "de": "der Tisch", "es": "la mesa" },
+  { "de": "der Stuhl", "es": "la silla" },
+  { "de": "die Tür", "es": "la puerta" },
+  { "de": "das Fenster", "es": "la ventana" },
+  { "de": "das Bett", "es": "la cama" },
+  { "de": "die Lampe", "es": "la lámpara" },
+  { "de": "der Boden", "es": "el suelo" },
+  { "de": "die Treppe", "es": "la escalera" },
+  { "de": "der Garten", "es": "el jardín" },
+  { "de": "der Schlüssel", "es": "la llave" },
+  { "de": "das Sofa", "es": "el sofá" }
+]

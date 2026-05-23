@@ -1,0 +1,16 @@
+[
+  { "de": "das Auto", "es": "el coche" },
+  { "de": "der Bus", "es": "el autobús" },
+  { "de": "der Zug", "es": "el tren" },
+  { "de": "das Flugzeug", "es": "el avión" },
+  { "de": "das Fahrrad", "es": "la bicicleta" },
+  { "de": "das Taxi", "es": "el taxi" },
+  { "de": "das Schiff", "es": "el barco" },
+  { "de": "die U-Bahn", "es": "el metro" },
+  { "de": "der Bahnhof", "es": "la estación" },
+  { "de": "das Ticket", "es": "el billete" },
+  { "de": "die Haltestelle", "es": "la parada" },
+  { "de": "der Flughafen", "es": "el aeropuerto" },
+  { "de": "das Motorrad", "es": "la moto" },
+  { "de": "die Straßenbahn", "es": "el tranvía" }
+]

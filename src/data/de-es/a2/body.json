@@ -4,5 +4,19 @@
   { "de": "das Auge", "es": "el ojo" },
   { "de": "das Ohr", "es": "la oreja" },
   { "de": "der Fuß", "es": "el pie" },
-  { "de": "der Mund", "es": "la boca" }
+  { "de": "der Mund", "es": "la boca" },
+  { "de": "die Nase", "es": "la nariz" },
+  { "de": "der Zahn", "es": "el diente" },
+  { "de": "das Haar", "es": "el pelo" },
+  { "de": "der Hals", "es": "el cuello" },
+  { "de": "die Schulter", "es": "el hombro" },
+  { "de": "der Arm", "es": "el brazo" },
+  { "de": "das Bein", "es": "la pierna" },
+  { "de": "das Knie", "es": "la rodilla" },
+  { "de": "der Finger", "es": "el dedo" },
+  { "de": "der Bauch", "es": "el vientre" },
+  { "de": "der Rücken", "es": "la espalda" },
+  { "de": "die Brust", "es": "el pecho" },
+  { "de": "das Herz", "es": "el corazón" },
+  { "de": "die Haut", "es": "la piel" }
 ]

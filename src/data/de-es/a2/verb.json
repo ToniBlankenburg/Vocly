@@ -4,5 +4,19 @@
   { "de": "kommen", "es": "venir" },
   { "de": "gehen", "es": "ir" },
   { "de": "geben", "es": "dar" },
-  { "de": "nehmen", "es": "tomar" }
+  { "de": "nehmen", "es": "tomar" },
+  { "de": "sagen", "es": "decir" },
+  { "de": "denken", "es": "pensar" },
+  { "de": "fühlen", "es": "sentir" },
+  { "de": "benutzen", "es": "usar" },
+  { "de": "zeigen", "es": "mostrar" },
+  { "de": "anfangen", "es": "empezar" },
+  { "de": "aufhören", "es": "parar" },
+  { "de": "ändern", "es": "cambiar" },
+  { "de": "brauchen", "es": "necesitar" },
+  { "de": "versuchen", "es": "intentar" },
+  { "de": "verstehen", "es": "entender" },
+  { "de": "bezahlen", "es": "pagar" },
+  { "de": "fragen", "es": "preguntar" },
+  { "de": "antworten", "es": "responder" }
 ]

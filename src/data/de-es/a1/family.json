@@ -6,5 +6,15 @@
   { "de": "die Tochter", "es": "la hija" },
   { "de": "der Sohn", "es": "el hijo" },
   { "de": "die Großmutter", "es": "la abuela" },
-  { "de": "der Großvater", "es": "el abuelo" }
+  { "de": "der Großvater", "es": "el abuelo" },
+  { "de": "die Tante", "es": "la tía" },
+  { "de": "der Onkel", "es": "el tío" },
+  { "de": "die Cousine", "es": "la prima" },
+  { "de": "der Cousin", "es": "el primo" },
+  { "de": "die Ehefrau", "es": "la esposa" },
+  { "de": "der Ehemann", "es": "el esposo" },
+  { "de": "das Baby", "es": "el bebé" },
+  { "de": "das Kind", "es": "el niño" },
+  { "de": "die Nichte", "es": "la sobrina" },
+  { "de": "der Neffe", "es": "el sobrino" }
 ]

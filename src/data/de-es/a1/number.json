@@ -1,9 +1,20 @@
 [
+  { "de": "null", "es": "cero" },
   { "de": "eins", "es": "uno" },
   { "de": "zwei", "es": "dos" },
   { "de": "drei", "es": "tres" },
   { "de": "vier", "es": "cuatro" },
   { "de": "fünf", "es": "cinco" },
+  { "de": "sechs", "es": "seis" },
+  { "de": "sieben", "es": "siete" },
+  { "de": "acht", "es": "ocho" },
+  { "de": "neun", "es": "nueve" },
   { "de": "zehn", "es": "diez" },
-  { "de": "hundert", "es": "cien" }
+  { "de": "elf", "es": "once" },
+  { "de": "zwölf", "es": "doce" },
+  { "de": "zwanzig", "es": "veinte" },
+  { "de": "dreißig", "es": "treinta" },
+  { "de": "fünfzig", "es": "cincuenta" },
+  { "de": "hundert", "es": "cien" },
+  { "de": "tausend", "es": "mil" }
 ]

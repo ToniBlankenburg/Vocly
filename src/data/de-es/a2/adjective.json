@@ -4,5 +4,19 @@
   { "de": "alt", "es": "viejo" },
   { "de": "jung", "es": "joven" },
   { "de": "heiß", "es": "caliente" },
-  { "de": "kalt", "es": "frío" }
+  { "de": "kalt", "es": "frío" },
+  { "de": "schnell", "es": "rápido" },
+  { "de": "langsam", "es": "lento" },
+  { "de": "lang", "es": "largo" },
+  { "de": "kurz", "es": "corto" },
+  { "de": "schwer", "es": "pesado" },
+  { "de": "leicht", "es": "ligero" },
+  { "de": "sauber", "es": "limpio" },
+  { "de": "schmutzig", "es": "sucio" },
+  { "de": "neu", "es": "nuevo" },
+  { "de": "müde", "es": "cansado" },
+  { "de": "glücklich", "es": "feliz" },
+  { "de": "traurig", "es": "triste" },
+  { "de": "lecker", "es": "delicioso" },
+  { "de": "interessant", "es": "interesante" }
 ]

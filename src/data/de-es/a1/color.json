@@ -6,5 +6,12 @@
   { "de": "schwarz", "es": "negro" },
   { "de": "weiß", "es": "blanco" },
   { "de": "orange", "es": "naranja" },
-  { "de": "lila", "es": "morado" }
+  { "de": "lila", "es": "morado" },
+  { "de": "rosa", "es": "rosa" },
+  { "de": "grau", "es": "gris" },
+  { "de": "braun", "es": "marrón" },
+  { "de": "hellblau", "es": "celeste" },
+  { "de": "dunkel", "es": "oscuro" },
+  { "de": "hell", "es": "claro" },
+  { "de": "bunt", "es": "colorido" }
 ]

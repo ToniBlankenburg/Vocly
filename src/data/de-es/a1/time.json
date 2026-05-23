@@ -5,5 +5,18 @@
   { "de": "der Monat", "es": "el mes" },
   { "de": "das Jahr", "es": "el año" },
   { "de": "heute", "es": "hoy" },
-  { "de": "morgen", "es": "mañana" }
+  { "de": "morgen", "es": "mañana" },
+  { "de": "gestern", "es": "ayer" },
+  { "de": "die Stunde", "es": "la hora" },
+  { "de": "die Minute", "es": "el minuto" },
+  { "de": "der Morgen", "es": "la mañana" },
+  { "de": "der Nachmittag", "es": "la tarde" },
+  { "de": "der Abend", "es": "la tarde-noche" },
+  { "de": "jetzt", "es": "ahora" },
+  { "de": "immer", "es": "siempre" },
+  { "de": "nie", "es": "nunca" },
+  { "de": "früh", "es": "temprano" },
+  { "de": "spät", "es": "tarde" },
+  { "de": "bald", "es": "pronto" },
+  { "de": "manchmal", "es": "a veces" }
 ]

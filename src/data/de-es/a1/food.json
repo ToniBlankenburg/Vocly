@@ -8,5 +8,20 @@
   { "de": "die Tomate", "es": "el tomate" },
   { "de": "der Käse", "es": "el queso" },
   { "de": "das Ei", "es": "el huevo" },
-  { "de": "die Kartoffel", "es": "la patata" }
+  { "de": "die Kartoffel", "es": "la patata" },
+  { "de": "die Banane", "es": "el plátano" },
+  { "de": "die Orange", "es": "la naranja" },
+  { "de": "der Salat", "es": "la ensalada" },
+  { "de": "die Suppe", "es": "la sopa" },
+  { "de": "der Reis", "es": "el arroz" },
+  { "de": "die Nudeln", "es": "los fideos" },
+  { "de": "der Zucker", "es": "el azúcar" },
+  { "de": "das Salz", "es": "la sal" },
+  { "de": "der Kaffee", "es": "el café" },
+  { "de": "der Tee", "es": "el té" },
+  { "de": "das Bier", "es": "la cerveza" },
+  { "de": "der Wein", "es": "el vino" },
+  { "de": "die Erdbeere", "es": "la fresa" },
+  { "de": "die Zwiebel", "es": "la cebolla" },
+  { "de": "das Öl", "es": "el aceite" }
 ]
