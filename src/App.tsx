@@ -102,6 +102,7 @@ export default function App() {
   const [correctAtLevel, setCorrAt] = useState(0)
   const [levelingUp, setLevelingUp] = useState(false)
   const [complete, setComplete]     = useState(false)
+  const [wrongWords, setWrongWords] = useState<Array<{ question: string; answer: string; dir: Direction }>>([])
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', dark)
@@ -121,23 +122,25 @@ export default function App() {
         setWords(nextWords)
         setLevel(next)
         setCorrAt(0)
+        setWrongWords([])
         setLevelingUp(false)
         setQ(buildQuestion(nextWords))
         setSel(null)
         setKey(k => k + 1)
       })
     } else {
+      setWrongWords([])
       setLevelingUp(false)
       setComplete(true)
     }
   }, [level])
 
-  // auto-advance the level-up screen after 2.5s
+  // auto-advance the level-up screen after 2.5s only when there are no misses to review
   useEffect(() => {
-    if (!levelingUp) return
+    if (!levelingUp || wrongWords.length > 0) return
     const t = setTimeout(handleLevelUp, 2500)
     return () => clearTimeout(t)
-  }, [levelingUp, handleLevelUp])
+  }, [levelingUp, handleLevelUp, wrongWords.length])
 
   const restart = useCallback(() => {
     const w = a1Data as Word[]
@@ -149,6 +152,7 @@ export default function App() {
     setStreak(0)
     setComplete(false)
     setLevelingUp(false)
+    setWrongWords([])
     setQ(buildQuestion(w))
     setSel(null)
     setKey(k => k + 1)
@@ -161,6 +165,7 @@ export default function App() {
     setCorr(c => c + (isCorrect ? 1 : 0))
     setTotal(t => t + 1)
     setStreak(s => (isCorrect ? s + 1 : 0))
+    if (!isCorrect) setWrongWords(w => [...w, { question: q.question, answer: q.answer, dir: q.dir }])
     if (isCorrect) {
       const next = correctAtLevel + 1
       setCorrAt(next)
@@ -195,6 +200,10 @@ export default function App() {
     wrong:   'bg-red-500/20 border-red-400 text-red-700 dark:text-red-300',
     dimmed:  'bg-gray-50 border-gray-100 text-gray-300 dark:bg-white/[0.02] dark:border-white/5 dark:text-white/20',
   }
+
+  const missed = wrongWords.filter(
+    (w, i, arr) => arr.findIndex(x => x.question === w.question) === i
+  )
 
   const fromFlag = q.dir === 'de→es' ? '🇩🇪' : '🇪🇸'
   const toFlag   = q.dir === 'de→es' ? '🇪🇸' : '🇩🇪'
@@ -273,15 +282,43 @@ export default function App() {
       ) : levelingUp ? (
         <div
           key="levelup"
-          className="w-full max-w-sm rounded-3xl border border-gray-200 dark:border-white/8 bg-white dark:bg-white/[0.03] p-8 mb-5 text-center shadow-2xl cursor-pointer"
+          className={`w-full max-w-sm rounded-3xl border border-gray-200 dark:border-white/8 bg-white dark:bg-white/[0.03] p-8 mb-5 shadow-2xl ${missed.length === 0 ? 'cursor-pointer' : ''}`}
           style={{ animation: 'fadeUp 0.18s ease-out' }}
-          onClick={handleLevelUp}
+          onClick={missed.length === 0 ? handleLevelUp : undefined}
         >
-          <p className="text-5xl mb-4">🎉</p>
-          <p className="text-2xl font-bold tracking-tight mb-2">Level up!</p>
-          <p className="text-gray-400 dark:text-white/40 text-sm">
-            {level} mastered — starting {LEVELS[LEVELS.indexOf(level) + 1]}
-          </p>
+          <div className="text-center">
+            <p className="text-5xl mb-4">{missed.length === 0 ? '🎉' : '📋'}</p>
+            <p className="text-2xl font-bold tracking-tight mb-2">Level up!</p>
+            <p className="text-gray-400 dark:text-white/40 text-sm">
+              {level} mastered — starting {LEVELS[LEVELS.indexOf(level) + 1]}
+            </p>
+          </div>
+          {missed.length > 0 ? (
+            <div className="mt-5">
+              <p className="text-[10px] font-mono text-gray-300 dark:text-white/20 mb-2 uppercase tracking-widest text-center">
+                {missed.length} missed
+              </p>
+              <div className="space-y-1.5 max-h-52 overflow-y-auto">
+                {missed.map((w, i) => (
+                  <div key={i} className="flex items-center gap-2 text-sm bg-gray-50 dark:bg-white/5 rounded-xl px-3 py-2">
+                    <span className="shrink-0">{w.dir === 'de→es' ? '🇩🇪' : '🇪🇸'}</span>
+                    <span className="font-medium flex-1 truncate">{w.question}</span>
+                    <span className="text-gray-300 dark:text-white/20 shrink-0">→</span>
+                    <span className="text-gray-400 dark:text-white/40 flex-1 truncate text-right">{w.answer}</span>
+                    <span className="shrink-0">{w.dir === 'de→es' ? '🇪🇸' : '🇩🇪'}</span>
+                  </div>
+                ))}
+              </div>
+              <button
+                onClick={handleLevelUp}
+                className="mt-4 w-full bg-gray-100 dark:bg-white/10 border border-gray-200 dark:border-white/10 rounded-2xl py-3 text-sm font-medium hover:bg-gray-200 dark:hover:bg-white/15 transition-colors"
+              >
+                Start {LEVELS[LEVELS.indexOf(level) + 1]}
+              </button>
+            </div>
+          ) : (
+            <p className="text-xs text-gray-300 dark:text-white/20 mt-3">advancing…</p>
+          )}
         </div>
       ) : (
         <div
