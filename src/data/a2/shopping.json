@@ -1,0 +1,16 @@
+[
+  { "de": "der Preis", "es": "el precio", "fr": "le prix", "en": "the price" },
+  { "de": "teuer", "es": "caro", "fr": "cher", "en": "expensive" },
+  { "de": "billig", "es": "barato", "fr": "bon marché", "en": "cheap" },
+  { "de": "die Kasse", "es": "la caja", "fr": "la caisse", "en": "the checkout" },
+  { "de": "das Geld", "es": "el dinero", "fr": "l'argent", "en": "the money" },
+  { "de": "die Rechnung", "es": "la cuenta", "fr": "la facture", "en": "the bill" },
+  { "de": "das Angebot", "es": "la oferta", "fr": "l'offre", "en": "the offer" },
+  { "de": "der Rabatt", "es": "el descuento", "fr": "la réduction", "en": "the discount" },
+  { "de": "die Größe", "es": "la talla", "fr": "la taille", "en": "the size" },
+  { "de": "die Marke", "es": "la marca", "fr": "la marque", "en": "the brand" },
+  { "de": "die Tüte", "es": "la bolsa", "fr": "le sac", "en": "the bag" },
+  { "de": "der Einkaufswagen", "es": "el carrito", "fr": "le chariot", "en": "the shopping trolley" },
+  { "de": "das Rückgeld", "es": "el cambio", "fr": "la monnaie", "en": "the change" },
+  { "de": "die Kreditkarte", "es": "la tarjeta de crédito", "fr": "la carte de crédit", "en": "the credit card" }
+]

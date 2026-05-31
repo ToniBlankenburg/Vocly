@@ -1,0 +1,22 @@
+[
+  { "de": "notwendig", "es": "necesario", "fr": "nécessaire", "en": "necessary" },
+  { "de": "möglich", "es": "posible", "fr": "possible", "en": "possible" },
+  { "de": "wichtig", "es": "importante", "fr": "important", "en": "important" },
+  { "de": "schwierig", "es": "difícil", "fr": "difficile", "en": "difficult" },
+  { "de": "neugierig", "es": "curioso", "fr": "curieux", "en": "curious" },
+  { "de": "geduldig", "es": "paciente", "fr": "patient", "en": "patient" },
+  { "de": "ehrlich", "es": "honesto", "fr": "honnête", "en": "honest" },
+  { "de": "mutig", "es": "valiente", "fr": "courageux", "en": "brave" },
+  { "de": "kompliziert", "es": "complicado", "fr": "compliqué", "en": "complicated" },
+  { "de": "überraschend", "es": "sorprendente", "fr": "surprenant", "en": "surprising" },
+  { "de": "selbstbewusst", "es": "seguro de sí mismo", "fr": "sûr de soi", "en": "confident" },
+  { "de": "kreativ", "es": "creativo", "fr": "créatif", "en": "creative" },
+  { "de": "verantwortungsbewusst", "es": "responsable", "fr": "responsable", "en": "responsible" },
+  { "de": "flexibel", "es": "flexible", "fr": "flexible", "en": "flexible" },
+  { "de": "zuverlässig", "es": "confiable", "fr": "fiable", "en": "reliable" },
+  { "de": "ehrgeizig", "es": "ambicioso", "fr": "ambitieux", "en": "ambitious" },
+  { "de": "großzügig", "es": "generoso", "fr": "généreux", "en": "generous" },
+  { "de": "unabhängig", "es": "independiente", "fr": "indépendant", "en": "independent" },
+  { "de": "ähnlich", "es": "similar", "fr": "similaire", "en": "similar" },
+  { "de": "besonders", "es": "especial", "fr": "spécial", "en": "special" }
+]

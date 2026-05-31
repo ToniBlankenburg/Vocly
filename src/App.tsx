@@ -5,9 +5,9 @@ import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
 
 type Level = 'A1' | 'A2' | 'B1'
-type VocabEntry = { de: string; es: string }
-type Word = { de: string; es: string; category: string; level: Level }
-type Direction = 'de→es' | 'es→de'
+type VocabEntry = { de: string; [lang: string]: string }
+type Word = { de: string; category: string; level: Level; [lang: string]: string }
+type Direction = string
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1']
 const LEVEL_UP_AT = 7
@@ -36,9 +36,9 @@ function flattenLazy(
   ).then(arrays => arrays.flat())
 }
 
-const a1Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/de-es/a1/*.json', { eager: true })
-const a2Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/de-es/a2/*.json')
-const b1Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/de-es/b1/*.json')
+const a1Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/a1/*.json', { eager: true })
+const a2Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/a2/*.json')
+const b1Modules = import.meta.glob<{ default: VocabEntry[] }>('./data/b1/*.json')
 
 const a1Data = flattenEager(a1Modules, 'A1')
 
@@ -53,11 +53,21 @@ const CATEGORY_ICONS: Record<string, string> = {
   body: '💪', place: '📍', adjective: '✨', abstract: '💭',
 }
 
-function buildQuestion(words: Word[]) {
-  const word = words[Math.floor(Math.random() * words.length)]
-  const dir: Direction = Math.random() > 0.5 ? 'de→es' : 'es→de'
-  const fromLang = dir === 'de→es' ? 'de' : 'es'
-  const toLang   = dir === 'de→es' ? 'es' : 'de'
+const LANG_FLAGS: Record<string, string> = {
+  de: '🇩🇪', es: '🇪🇸', fr: '🇫🇷', en:'🇬🇧'
+}
+
+const LANG_NAMES: Record<string, string> = {
+  de: 'German', es: 'Spanish', fr: 'French', en: 'English',
+}
+
+function buildQuestion(words: Word[], targetLang: string) {
+  const available = words.filter(w => w[targetLang])
+  const word = available[Math.floor(Math.random() * available.length)]
+  const fromDe = Math.random() > 0.5
+  const fromLang = fromDe ? 'de' : targetLang
+  const toLang   = fromDe ? targetLang : 'de'
+  const dir: Direction = `${fromLang}→${toLang}`
 
   const question = word[fromLang]
   const answer   = word[toLang]
@@ -92,7 +102,7 @@ type OptionState = 'idle' | 'correct' | 'wrong' | 'dimmed'
 export default function App() {
   const [level, setLevel]           = useState<Level>('A1')
   const [words, setWords]           = useState<Word[]>(a1Data as Word[])
-  const [q, setQ]                   = useState(() => buildQuestion(a1Data as Word[]))
+  const [q, setQ]                   = useState(() => buildQuestion(a1Data as Word[], 'es'))
   const [selected, setSel]          = useState<string | null>(null)
   const [correct, setCorr]          = useState(0)
   const [total, setTotal]           = useState(0)
@@ -102,6 +112,7 @@ export default function App() {
   const [correctAtLevel, setCorrAt] = useState(0)
   const [levelingUp, setLevelingUp] = useState(false)
   const [complete, setComplete]     = useState(false)
+  const [targetLang, setTargetLang] = useState('es')
   const [wrongWords, setWrongWords] = useState<Array<{ question: string; answer: string; dir: Direction }>>([])
 
   useEffect(() => {
@@ -109,10 +120,10 @@ export default function App() {
   }, [dark])
 
   const advance = useCallback(() => {
-    setQ(buildQuestion(words))
+    setQ(buildQuestion(words, targetLang))
     setSel(null)
     setKey(k => k + 1)
-  }, [words])
+  }, [words, targetLang])
 
   const handleLevelUp = useCallback(() => {
     const nextIdx = LEVELS.indexOf(level) + 1
@@ -124,7 +135,7 @@ export default function App() {
         setCorrAt(0)
         setWrongWords([])
         setLevelingUp(false)
-        setQ(buildQuestion(nextWords))
+        setQ(buildQuestion(nextWords, targetLang))
         setSel(null)
         setKey(k => k + 1)
       })
@@ -133,7 +144,7 @@ export default function App() {
       setLevelingUp(false)
       setComplete(true)
     }
-  }, [level])
+  }, [level, targetLang])
 
   // auto-advance the level-up screen after 2.5s only when there are no misses to review
   useEffect(() => {
@@ -153,10 +164,18 @@ export default function App() {
     setComplete(false)
     setLevelingUp(false)
     setWrongWords([])
-    setQ(buildQuestion(w))
+    setQ(buildQuestion(w, targetLang))
     setSel(null)
     setKey(k => k + 1)
-  }, [])
+  }, [targetLang])
+
+  const handleLangChange = useCallback((lang: string) => {
+    setTargetLang(lang)
+    setQ(buildQuestion(words, lang))
+    setSel(null)
+    setKey(k => k + 1)
+    setWrongWords([])
+  }, [words])
 
   const pick = useCallback((opt: string) => {
     if (selected !== null) return
@@ -205,8 +224,12 @@ export default function App() {
     (w, i, arr) => arr.findIndex(x => x.question === w.question) === i
   )
 
-  const fromFlag = q.dir === 'de→es' ? '🇩🇪' : '🇪🇸'
-  const toFlag   = q.dir === 'de→es' ? '🇪🇸' : '🇩🇪'
+  const [qFromLang, qToLang] = q.dir.split('→')
+  const fromFlag = LANG_FLAGS[qFromLang] ?? qFromLang
+  const toFlag   = LANG_FLAGS[qToLang]   ?? qToLang
+  const availableLangs = [...new Set(
+    words.flatMap(w => Object.keys(w).filter(k => k !== 'de' && k !== 'category' && k !== 'level'))
+  )]
   const icon     = CATEGORY_ICONS[q.category] ?? '📚'
   const progress = Math.min((correctAtLevel / LEVEL_UP_AT) * 100, 100)
   const isLastLevel = LEVELS.indexOf(level) === LEVELS.length - 1
@@ -222,9 +245,22 @@ export default function App() {
 
       {/* top bar */}
       <div className="w-full max-w-sm flex items-center justify-between mb-3 text-sm">
-        <span className="text-gray-400 dark:text-white/30 font-mono tracking-tight font-bold">
-          {level}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="text-gray-400 dark:text-white/30 font-mono tracking-tight font-bold">
+            {level}
+          </span>
+          <select
+            value={targetLang}
+            onChange={e => handleLangChange(e.target.value)}
+            className="text-xs font-mono px-1.5 py-0.5 rounded-md bg-gray-200 dark:bg-white/10 text-gray-700 dark:text-white/70 border-none outline-none cursor-pointer appearance-none"
+          >
+            {availableLangs.map(lang => (
+              <option key={lang} value={lang}>
+                {LANG_FLAGS['de']}⇄{LANG_FLAGS[lang] ?? lang} 
+              </option>
+            ))}
+          </select>
+        </div>
         <span className="text-gray-400 dark:text-white/20 font-mono text-xs">
           {correct}/{total}
         </span>
@@ -301,11 +337,11 @@ export default function App() {
               <div className="space-y-1.5 max-h-52 overflow-y-auto">
                 {missed.map((w, i) => (
                   <div key={i} className="flex items-center gap-2 text-sm bg-gray-50 dark:bg-white/5 rounded-xl px-3 py-2">
-                    <span className="shrink-0">{w.dir === 'de→es' ? '🇩🇪' : '🇪🇸'}</span>
+                    <span className="shrink-0">{LANG_FLAGS[w.dir.split('→')[0]] ?? w.dir.split('→')[0]}</span>
                     <span className="font-medium flex-1 truncate">{w.question}</span>
                     <span className="text-gray-300 dark:text-white/20 shrink-0">→</span>
                     <span className="text-gray-400 dark:text-white/40 flex-1 truncate text-right">{w.answer}</span>
-                    <span className="shrink-0">{w.dir === 'de→es' ? '🇪🇸' : '🇩🇪'}</span>
+                    <span className="shrink-0">{LANG_FLAGS[w.dir.split('→')[1]] ?? w.dir.split('→')[1]}</span>
                   </div>
                 ))}
               </div>
@@ -340,7 +376,7 @@ export default function App() {
           </p>
 
           <p className="mt-3 text-gray-400 dark:text-white/25 text-xs font-medium">
-            {q.dir === 'de→es' ? 'translate to Spanish' : 'translate to German'}
+            translate to {LANG_NAMES[qToLang] ?? qToLang}
           </p>
         </div>
       )}

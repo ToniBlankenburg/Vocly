@@ -1,0 +1,17 @@
+[
+  { "de": "der Arzt", "es": "el médico", "fr": "le médecin", "en": "the doctor" },
+  { "de": "der Lehrer", "es": "el profesor", "fr": "le professeur", "en": "the teacher" },
+  { "de": "der Ingenieur", "es": "el ingeniero", "fr": "l'ingénieur", "en": "the engineer" },
+  { "de": "der Koch", "es": "el cocinero", "fr": "le cuisinier", "en": "the cook" },
+  { "de": "der Fahrer", "es": "el conductor", "fr": "le conducteur", "en": "the driver" },
+  { "de": "die Krankenschwester", "es": "la enfermera", "fr": "l'infirmière", "en": "the nurse" },
+  { "de": "der Anwalt", "es": "el abogado", "fr": "l'avocat", "en": "the lawyer" },
+  { "de": "der Student", "es": "el estudiante", "fr": "l'étudiant", "en": "the student" },
+  { "de": "der Manager", "es": "el gerente", "fr": "le manager", "en": "the manager" },
+  { "de": "der Kellner", "es": "el camarero", "fr": "le serveur", "en": "the waiter" },
+  { "de": "der Polizist", "es": "el policía", "fr": "le policier", "en": "the police officer" },
+  { "de": "der Architekt", "es": "el arquitecto", "fr": "l'architecte", "en": "the architect" },
+  { "de": "der Verkäufer", "es": "el vendedor", "fr": "le vendeur", "en": "the salesperson" },
+  { "de": "der Mechaniker", "es": "el mecánico", "fr": "le mécanicien", "en": "the mechanic" },
+  { "de": "der Musiker", "es": "el músico", "fr": "le musicien", "en": "the musician" }
+]

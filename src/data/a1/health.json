@@ -1,0 +1,22 @@
+[
+  { "de": "die Klinik", "es": "la clínica", "fr": "la clinique", "en": "the clinic" },
+  { "de": "die Medizin", "es": "la medicina", "fr": "la médecine", "en": "the medicine" },
+  { "de": "die Krankheit", "es": "la enfermedad", "fr": "la maladie", "en": "the illness" },
+  { "de": "gesund", "es": "sano", "fr": "sain", "en": "healthy" },
+  { "de": "krank", "es": "enfermo", "fr": "malade", "en": "ill" },
+  { "de": "der Schmerz", "es": "el dolor", "fr": "la douleur", "en": "the pain" },
+  { "de": "das Fieber", "es": "la fiebre", "fr": "la fièvre", "en": "the fever" },
+  { "de": "der Husten", "es": "la tos", "fr": "la toux", "en": "the cough" },
+  { "de": "die Erkältung", "es": "el resfriado", "fr": "le rhume", "en": "the cold" },
+  { "de": "das Pflaster", "es": "la tirita", "fr": "le pansement", "en": "the plaster" },
+  { "de": "die Spritze", "es": "la inyección", "fr": "l'injection", "en": "the injection" },
+  { "de": "die Tablette", "es": "la pastilla", "fr": "le comprimé", "en": "the tablet" },
+  { "de": "der Zahnarzt", "es": "el dentista", "fr": "le dentiste", "en": "the dentist" },
+  { "de": "die Allergie", "es": "la alergia", "fr": "l'allergie", "en": "the allergy" },
+  { "de": "die Diät", "es": "la dieta", "fr": "le régime", "en": "the diet" },
+  { "de": "das Vitamin", "es": "la vitamina", "fr": "la vitamine", "en": "the vitamin" },
+  { "de": "das Rezept", "es": "la receta", "fr": "l'ordonnance", "en": "the prescription" },
+  { "de": "die Impfung", "es": "la vacuna", "fr": "la vaccination", "en": "the vaccination" },
+  { "de": "der Verband", "es": "el vendaje", "fr": "le bandage", "en": "the bandage" },
+  { "de": "die Salbe", "es": "la pomada", "fr": "la pommade", "en": "the ointment" }
+]

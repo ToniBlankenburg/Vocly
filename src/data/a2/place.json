@@ -1,0 +1,22 @@
+[
+  { "de": "das Kino", "es": "el cine", "fr": "le cinéma", "en": "the cinema" },
+  { "de": "das Theater", "es": "el teatro", "fr": "le théâtre", "en": "the theatre" },
+  { "de": "das Rathaus", "es": "el ayuntamiento", "fr": "la mairie", "en": "the town hall" },
+  { "de": "die Universität", "es": "la universidad", "fr": "l'université", "en": "the university" },
+  { "de": "die Polizei", "es": "la policía", "fr": "la police", "en": "the police" },
+  { "de": "die Feuerwehr", "es": "los bomberos", "fr": "les pompiers", "en": "the fire brigade" },
+  { "de": "das Schloss", "es": "el palacio", "fr": "le château", "en": "the palace" },
+  { "de": "der Zoo", "es": "el zoo", "fr": "le zoo", "en": "the zoo" },
+  { "de": "der Hafen", "es": "el puerto", "fr": "le port", "en": "the port" },
+  { "de": "der Platz", "es": "la plaza", "fr": "la place", "en": "the square" },
+  { "de": "das Einkaufszentrum", "es": "el centro comercial", "fr": "le centre commercial", "en": "the shopping centre" },
+  { "de": "die Fabrik", "es": "la fábrica", "fr": "l'usine", "en": "the factory" },
+  { "de": "das Schwimmbad", "es": "la piscina", "fr": "la piscine", "en": "the swimming pool" },
+  { "de": "die Werkstatt", "es": "el taller", "fr": "l'atelier", "en": "the workshop" },
+  { "de": "das Labor", "es": "el laboratorio", "fr": "le laboratoire", "en": "the laboratory" },
+  { "de": "die Galerie", "es": "la galería", "fr": "la galerie", "en": "the gallery" },
+  { "de": "das Denkmal", "es": "el monumento", "fr": "le monument", "en": "the monument" },
+  { "de": "die Burg", "es": "el castillo", "fr": "le château fort", "en": "the castle" },
+  { "de": "der Friedhof", "es": "el cementerio", "fr": "le cimetière", "en": "the cemetery" },
+  { "de": "die Sporthalle", "es": "el gimnasio", "fr": "le gymnase", "en": "the sports hall" }
+]

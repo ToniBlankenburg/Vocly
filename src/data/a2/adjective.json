@@ -1,0 +1,22 @@
+[
+  { "de": "groß", "es": "grande", "fr": "grand", "en": "big" },
+  { "de": "klein", "es": "pequeño", "fr": "petit", "en": "small" },
+  { "de": "alt", "es": "viejo", "fr": "vieux", "en": "old" },
+  { "de": "jung", "es": "joven", "fr": "jeune", "en": "young" },
+  { "de": "laut", "es": "ruidoso", "fr": "bruyant", "en": "loud" },
+  { "de": "kalt", "es": "frío", "fr": "froid", "en": "cold" },
+  { "de": "schnell", "es": "rápido", "fr": "rapide", "en": "fast" },
+  { "de": "langsam", "es": "lento", "fr": "lent", "en": "slow" },
+  { "de": "lang", "es": "largo", "fr": "long", "en": "long" },
+  { "de": "kurz", "es": "corto", "fr": "court", "en": "short" },
+  { "de": "schwer", "es": "pesado", "fr": "lourd", "en": "heavy" },
+  { "de": "leicht", "es": "ligero", "fr": "léger", "en": "light" },
+  { "de": "sauber", "es": "limpio", "fr": "propre", "en": "clean" },
+  { "de": "schmutzig", "es": "sucio", "fr": "sale", "en": "dirty" },
+  { "de": "neu", "es": "nuevo", "fr": "nouveau", "en": "new" },
+  { "de": "müde", "es": "cansado", "fr": "fatigué", "en": "tired" },
+  { "de": "glücklich", "es": "feliz", "fr": "heureux", "en": "happy" },
+  { "de": "traurig", "es": "triste", "fr": "triste", "en": "sad" },
+  { "de": "lecker", "es": "delicioso", "fr": "délicieux", "en": "delicious" },
+  { "de": "interessant", "es": "interesante", "fr": "intéressant", "en": "interesting" }
+]

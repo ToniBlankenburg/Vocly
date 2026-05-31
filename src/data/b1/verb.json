@@ -1,0 +1,22 @@
+[
+  { "de": "erklären", "es": "explicar", "fr": "expliquer", "en": "to explain" },
+  { "de": "entscheiden", "es": "decidir", "fr": "décider", "en": "to decide" },
+  { "de": "reisen", "es": "viajar", "fr": "voyager", "en": "to travel" },
+  { "de": "verbessern", "es": "mejorar", "fr": "améliorer", "en": "to improve" },
+  { "de": "vergessen", "es": "olvidar", "fr": "oublier", "en": "to forget" },
+  { "de": "glauben", "es": "creer", "fr": "croire", "en": "to believe" },
+  { "de": "versprechen", "es": "prometer", "fr": "promettre", "en": "to promise" },
+  { "de": "erreichen", "es": "alcanzar", "fr": "atteindre", "en": "to reach" },
+  { "de": "entwickeln", "es": "desarrollar", "fr": "développer", "en": "to develop" },
+  { "de": "vorschlagen", "es": "sugerir", "fr": "suggérer", "en": "to suggest" },
+  { "de": "verlangen", "es": "exigir", "fr": "exiger", "en": "to demand" },
+  { "de": "erlauben", "es": "permitir", "fr": "permettre", "en": "to allow" },
+  { "de": "verhindern", "es": "prevenir", "fr": "prévenir", "en": "to prevent" },
+  { "de": "zunehmen", "es": "aumentar", "fr": "augmenter", "en": "to increase" },
+  { "de": "abhängen", "es": "depender", "fr": "dépendre", "en": "to depend" },
+  { "de": "teilnehmen", "es": "participar", "fr": "participer", "en": "to participate" },
+  { "de": "respektieren", "es": "respetar", "fr": "respecter", "en": "to respect" },
+  { "de": "beeinflussen", "es": "influir", "fr": "influencer", "en": "to influence" },
+  { "de": "organisieren", "es": "organizar", "fr": "organiser", "en": "to organise" },
+  { "de": "analysieren", "es": "analizar", "fr": "analyser", "en": "to analyse" }
+]

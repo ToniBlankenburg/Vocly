@@ -1,0 +1,22 @@
+[
+  { "de": "arbeiten", "es": "trabajar", "fr": "travailler", "en": "to work" },
+  { "de": "wohnen", "es": "vivir", "fr": "habiter", "en": "to live" },
+  { "de": "kommen", "es": "venir", "fr": "venir", "en": "to come" },
+  { "de": "gehen", "es": "ir", "fr": "aller", "en": "to go" },
+  { "de": "geben", "es": "dar", "fr": "donner", "en": "to give" },
+  { "de": "nehmen", "es": "tomar", "fr": "prendre", "en": "to take" },
+  { "de": "sagen", "es": "decir", "fr": "dire", "en": "to say" },
+  { "de": "denken", "es": "pensar", "fr": "penser", "en": "to think" },
+  { "de": "fühlen", "es": "sentir", "fr": "sentir", "en": "to feel" },
+  { "de": "benutzen", "es": "usar", "fr": "utiliser", "en": "to use" },
+  { "de": "zeigen", "es": "mostrar", "fr": "montrer", "en": "to show" },
+  { "de": "anfangen", "es": "empezar", "fr": "commencer", "en": "to start" },
+  { "de": "aufhören", "es": "parar", "fr": "arrêter", "en": "to stop" },
+  { "de": "ändern", "es": "cambiar", "fr": "changer", "en": "to change" },
+  { "de": "brauchen", "es": "necesitar", "fr": "avoir besoin de", "en": "to need" },
+  { "de": "versuchen", "es": "intentar", "fr": "essayer", "en": "to try" },
+  { "de": "verstehen", "es": "entender", "fr": "comprendre", "en": "to understand" },
+  { "de": "bezahlen", "es": "pagar", "fr": "payer", "en": "to pay" },
+  { "de": "fragen", "es": "preguntar", "fr": "demander", "en": "to ask" },
+  { "de": "antworten", "es": "responder", "fr": "répondre", "en": "to answer" }
+]
