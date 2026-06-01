@@ -1,0 +1,210 @@
+[
+  {
+    "de": "gut",
+    "core": true,
+    "translations": {
+      "es": "bueno",
+      "fr": "bon",
+      "en": "good"
+    }
+  },
+  {
+    "de": "schlecht",
+    "core": true,
+    "translations": {
+      "es": "malo",
+      "fr": "mauvais",
+      "en": "bad"
+    }
+  },
+  {
+    "de": "groß",
+    "core": true,
+    "translations": {
+      "es": "grande",
+      "fr": "grand",
+      "en": "big"
+    }
+  },
+  {
+    "de": "klein",
+    "core": true,
+    "translations": {
+      "es": "pequeño",
+      "fr": "petit",
+      "en": "small"
+    }
+  },
+  {
+    "de": "heiß",
+    "core": true,
+    "translations": {
+      "es": "caliente",
+      "fr": "chaud",
+      "en": "hot"
+    }
+  },
+  {
+    "de": "kalt",
+    "core": true,
+    "translations": {
+      "es": "frío",
+      "fr": "froid",
+      "en": "cold"
+    }
+  },
+  {
+    "de": "schön",
+    "core": true,
+    "translations": {
+      "es": "bonito",
+      "fr": "beau",
+      "en": "beautiful"
+    }
+  },
+  {
+    "de": "müde",
+    "core": true,
+    "translations": {
+      "es": "cansado",
+      "fr": "fatigué",
+      "en": "tired"
+    }
+  },
+  {
+    "de": "neu",
+    "translations": {
+      "es": "nuevo",
+      "fr": "nouveau",
+      "en": "new"
+    }
+  },
+  {
+    "de": "alt",
+    "translations": {
+      "es": "viejo",
+      "fr": "vieux",
+      "en": "old"
+    }
+  },
+  {
+    "de": "schnell",
+    "translations": {
+      "es": "rápido",
+      "fr": "rapide",
+      "en": "fast"
+    }
+  },
+  {
+    "de": "langsam",
+    "translations": {
+      "es": "lento",
+      "fr": "lent",
+      "en": "slow"
+    }
+  },
+  {
+    "de": "teuer",
+    "translations": {
+      "es": "caro",
+      "fr": "cher",
+      "en": "expensive"
+    }
+  },
+  {
+    "de": "billig",
+    "translations": {
+      "es": "barato",
+      "fr": "bon marché",
+      "en": "cheap"
+    }
+  },
+  {
+    "de": "richtig",
+    "translations": {
+      "es": "correcto",
+      "fr": "correct",
+      "en": "correct"
+    }
+  },
+  {
+    "de": "falsch",
+    "translations": {
+      "es": "incorrecto",
+      "fr": "faux",
+      "en": "wrong"
+    }
+  },
+  {
+    "de": "jung",
+    "translations": {
+      "es": "joven",
+      "fr": "jeune",
+      "en": "young"
+    }
+  },
+  {
+    "de": "schwer",
+    "translations": {
+      "es": "difícil",
+      "fr": "difficile",
+      "en": "difficult"
+    }
+  },
+  {
+    "de": "leicht",
+    "translations": {
+      "es": "fácil",
+      "fr": "facile",
+      "en": "easy"
+    }
+  },
+  {
+    "de": "glücklich",
+    "translations": {
+      "es": "feliz",
+      "fr": "heureux",
+      "en": "happy"
+    }
+  },
+  {
+    "de": "traurig",
+    "translations": {
+      "es": "triste",
+      "fr": "triste",
+      "en": "sad"
+    }
+  },
+  {
+    "de": "krank",
+    "translations": {
+      "es": "enfermo",
+      "fr": "malade",
+      "en": "sick"
+    }
+  },
+  {
+    "de": "lecker",
+    "translations": {
+      "es": "delicioso",
+      "fr": "délicieux",
+      "en": "delicious"
+    }
+  },
+  {
+    "de": "wichtig",
+    "translations": {
+      "es": "importante",
+      "fr": "important",
+      "en": "important"
+    }
+  },
+  {
+    "de": "einfach",
+    "translations": {
+      "es": "sencillo",
+      "fr": "simple",
+      "en": "simple"
+    }
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "de": "Hallo",
+    "core": true,
+    "translations": {
+      "es": "Hola",
+      "fr": "Bonjour",
+      "en": "Hello"
+    }
+  },
+  {
+    "de": "Auf Wiedersehen",
+    "core": true,
+    "translations": {
+      "es": "Adiós",
+      "fr": "Au revoir",
+      "en": "Goodbye"
+    }
+  },
+  {
+    "de": "Tschüss",
+    "core": true,
+    "translations": {
+      "es": "Chao",
+      "fr": "Salut",
+      "en": "Bye"
+    }
+  },
+  {
+    "de": "Guten Morgen",
+    "core": true,
+    "translations": {
+      "es": "Buenos días",
+      "fr": "Bonjour",
+      "en": "Good morning"
+    }
+  },
+  {
+    "de": "Guten Tag",
+    "core": true,
+    "translations": {
+      "es": "Buenas tardes",
+      "fr": "Bonjour",
+      "en": "Good day"
+    }
+  },
+  {
+    "de": "Guten Abend",
+    "core": true,
+    "translations": {
+      "es": "Buenas noches",
+      "fr": "Bonsoir",
+      "en": "Good evening"
+    }
+  },
+  {
+    "de": "Bitte",
+    "core": true,
+    "translations": {
+      "es": "Por favor",
+      "fr": "S'il vous plaît",
+      "en": "Please"
+    }
+  },
+  {
+    "de": "Danke",
+    "core": true,
+    "translations": {
+      "es": "Gracias",
+      "fr": "Merci",
+      "en": "Thank you"
+    }
+  },
+  {
+    "de": "Danke schön",
+    "core": true,
+    "translations": {
+      "es": "Muchas gracias",
+      "fr": "Merci beaucoup",
+      "en": "Thank you very much"
+    }
+  },
+  {
+    "de": "Bitte sehr",
+    "core": true,
+    "translations": {
+      "es": "De nada",
+      "fr": "De rien",
+      "en": "You're welcome"
+    }
+  },
+  {
+    "de": "Entschuldigung",
+    "core": true,
+    "translations": {
+      "es": "Perdón",
+      "fr": "Excusez-moi",
+      "en": "Excuse me"
+    }
+  },
+  {
+    "de": "Es tut mir leid",
+    "core": true,
+    "translations": {
+      "es": "Lo siento",
+      "fr": "Je suis désolé",
+      "en": "I'm sorry"
+    }
+  },
+  {
+    "de": "Ja",
+    "core": true,
+    "translations": {
+      "es": "Sí",
+      "fr": "Oui",
+      "en": "Yes"
+    }
+  },
+  {
+    "de": "Nein",
+    "core": true,
+    "translations": {
+      "es": "No",
+      "fr": "Non",
+      "en": "No"
+    }
+  },
+  {
+    "de": "Willkommen",
+    "translations": {
+      "es": "Bienvenido",
+      "fr": "Bienvenue",
+      "en": "Welcome"
+    }
+  }
+]

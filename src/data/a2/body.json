@@ -1,22 +1,162 @@
 [
-  { "de": "der Muskel", "es": "el músculo", "fr": "le muscle", "en": "the muscle" },
-  { "de": "das Gehirn", "es": "el cerebro", "fr": "le cerveau", "en": "the brain" },
-  { "de": "der Magen", "es": "el estómago", "fr": "l'estomac", "en": "the stomach" },
-  { "de": "die Lunge", "es": "el pulmón", "fr": "le poumon", "en": "the lung" },
-  { "de": "die Niere", "es": "el riñón", "fr": "le rein", "en": "the kidney" },
-  { "de": "die Leber", "es": "el hígado", "fr": "le foie", "en": "the liver" },
-  { "de": "das Handgelenk", "es": "la muñeca", "fr": "le poignet", "en": "the wrist" },
-  { "de": "der Knöchel", "es": "el tobillo", "fr": "la cheville", "en": "the ankle" },
-  { "de": "die Wimper", "es": "la pestaña", "fr": "le cil", "en": "the eyelash" },
-  { "de": "die Augenbraue", "es": "la ceja", "fr": "le sourcil", "en": "the eyebrow" },
-  { "de": "der Nacken", "es": "la nuca", "fr": "la nuque", "en": "the nape" },
-  { "de": "der Nagel", "es": "la uña", "fr": "l'ongle", "en": "the nail" },
-  { "de": "die Kehle", "es": "la garganta", "fr": "la gorge", "en": "the throat" },
-  { "de": "der Oberschenkel", "es": "el muslo", "fr": "la cuisse", "en": "the thigh" },
-  { "de": "die Wade", "es": "la pantorrilla", "fr": "le mollet", "en": "the calf" },
-  { "de": "das Skelett", "es": "el esqueleto", "fr": "le squelette", "en": "the skeleton" },
-  { "de": "die Ader", "es": "la vena", "fr": "la veine", "en": "the vein" },
-  { "de": "der Nerv", "es": "el nervio", "fr": "le nerf", "en": "the nerve" },
-  { "de": "das Schulterblatt", "es": "el omóplato", "fr": "l'omoplate", "en": "the shoulder blade" },
-  { "de": "das Gelenk", "es": "la articulación", "fr": "l'articulation", "en": "the joint" }
+  {
+    "de": "der Muskel",
+    "translations": {
+      "es": "el músculo",
+      "fr": "le muscle",
+      "en": "the muscle"
+    }
+  },
+  {
+    "de": "das Gehirn",
+    "translations": {
+      "es": "el cerebro",
+      "fr": "le cerveau",
+      "en": "the brain"
+    }
+  },
+  {
+    "de": "der Magen",
+    "translations": {
+      "es": "el estómago",
+      "fr": "l'estomac",
+      "en": "the stomach"
+    }
+  },
+  {
+    "de": "die Lunge",
+    "translations": {
+      "es": "el pulmón",
+      "fr": "le poumon",
+      "en": "the lung"
+    }
+  },
+  {
+    "de": "die Niere",
+    "translations": {
+      "es": "el riñón",
+      "fr": "le rein",
+      "en": "the kidney"
+    }
+  },
+  {
+    "de": "die Leber",
+    "translations": {
+      "es": "el hígado",
+      "fr": "le foie",
+      "en": "the liver"
+    }
+  },
+  {
+    "de": "das Handgelenk",
+    "translations": {
+      "es": "la muñeca",
+      "fr": "le poignet",
+      "en": "the wrist"
+    }
+  },
+  {
+    "de": "der Knöchel",
+    "translations": {
+      "es": "el tobillo",
+      "fr": "la cheville",
+      "en": "the ankle"
+    }
+  },
+  {
+    "de": "die Wimper",
+    "translations": {
+      "es": "la pestaña",
+      "fr": "le cil",
+      "en": "the eyelash"
+    }
+  },
+  {
+    "de": "die Augenbraue",
+    "translations": {
+      "es": "la ceja",
+      "fr": "le sourcil",
+      "en": "the eyebrow"
+    }
+  },
+  {
+    "de": "der Nacken",
+    "translations": {
+      "es": "la nuca",
+      "fr": "la nuque",
+      "en": "the nape"
+    }
+  },
+  {
+    "de": "der Nagel",
+    "translations": {
+      "es": "la uña",
+      "fr": "l'ongle",
+      "en": "the nail"
+    }
+  },
+  {
+    "de": "die Kehle",
+    "translations": {
+      "es": "la garganta",
+      "fr": "la gorge",
+      "en": "the throat"
+    }
+  },
+  {
+    "de": "der Oberschenkel",
+    "translations": {
+      "es": "el muslo",
+      "fr": "la cuisse",
+      "en": "the thigh"
+    }
+  },
+  {
+    "de": "die Wade",
+    "translations": {
+      "es": "la pantorrilla",
+      "fr": "le mollet",
+      "en": "the calf"
+    }
+  },
+  {
+    "de": "das Skelett",
+    "translations": {
+      "es": "el esqueleto",
+      "fr": "le squelette",
+      "en": "the skeleton"
+    }
+  },
+  {
+    "de": "die Ader",
+    "translations": {
+      "es": "la vena",
+      "fr": "la veine",
+      "en": "the vein"
+    }
+  },
+  {
+    "de": "der Nerv",
+    "translations": {
+      "es": "el nervio",
+      "fr": "le nerf",
+      "en": "the nerve"
+    }
+  },
+  {
+    "de": "das Schulterblatt",
+    "translations": {
+      "es": "el omóplato",
+      "fr": "l'omoplate",
+      "en": "the shoulder blade"
+    }
+  },
+  {
+    "de": "das Gelenk",
+    "translations": {
+      "es": "la articulación",
+      "fr": "l'articulation",
+      "en": "the joint"
+    }
+  }
 ]

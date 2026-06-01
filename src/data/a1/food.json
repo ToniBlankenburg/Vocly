@@ -1,42 +1,330 @@
 [
-  { "de": "der Apfel", "es": "la manzana", "fr": "la pomme", "en": "the apple" },
-  { "de": "das Brot", "es": "el pan", "fr": "le pain", "en": "the bread" },
-  { "de": "die Milch", "es": "la leche", "fr": "le lait", "en": "the milk" },
-  { "de": "das Wasser", "es": "el agua", "fr": "l'eau", "en": "the water" },
-  { "de": "der Fisch", "es": "el pescado", "fr": "le poisson", "en": "the fish" },
-  { "de": "das Fleisch", "es": "la carne", "fr": "la viande", "en": "the meat" },
-  { "de": "die Tomate", "es": "el tomate", "fr": "la tomate", "en": "the tomato" },
-  { "de": "der Käse", "es": "el queso", "fr": "le fromage", "en": "the cheese" },
-  { "de": "das Ei", "es": "el huevo", "fr": "l'œuf", "en": "the egg" },
-  { "de": "die Kartoffel", "es": "la patata", "fr": "la pomme de terre", "en": "the potato" },
-  { "de": "die Banane", "es": "el plátano", "fr": "la banane", "en": "the banana" },
-  { "de": "die Orange", "es": "la naranja", "fr": "l'orange", "en": "the orange" },
-  { "de": "der Salat", "es": "la ensalada", "fr": "la salade", "en": "the salad" },
-  { "de": "die Suppe", "es": "la sopa", "fr": "la soupe", "en": "the soup" },
-  { "de": "der Reis", "es": "el arroz", "fr": "le riz", "en": "the rice" },
-  { "de": "die Nudeln", "es": "los fideos", "fr": "les pâtes", "en": "the pasta" },
-  { "de": "der Zucker", "es": "el azúcar", "fr": "le sucre", "en": "the sugar" },
-  { "de": "das Salz", "es": "la sal", "fr": "le sel", "en": "the salt" },
-  { "de": "der Kaffee", "es": "el café", "fr": "le café", "en": "the coffee" },
-  { "de": "der Tee", "es": "el té", "fr": "le thé", "en": "the tea" },
-  { "de": "das Bier", "es": "la cerveza", "fr": "la bière", "en": "the beer" },
-  { "de": "der Wein", "es": "el vino", "fr": "le vin", "en": "the wine" },
-  { "de": "die Erdbeere", "es": "la fresa", "fr": "la fraise", "en": "the strawberry" },
-  { "de": "die Zwiebel", "es": "la cebolla", "fr": "l'oignon", "en": "the onion" },
-  { "de": "das Öl", "es": "el aceite", "fr": "l'huile", "en": "the oil" },
-  { "de": "die Butter", "es": "la mantequilla", "fr": "le beurre", "en": "the butter" },
-  { "de": "das Mehl", "es": "la harina", "fr": "la farine", "en": "the flour" },
-  { "de": "der Saft", "es": "el zumo", "fr": "le jus", "en": "the juice" },
-  { "de": "die Limonade", "es": "la limonada", "fr": "la limonade", "en": "the lemonade" },
-  { "de": "die Gurke", "es": "el pepino", "fr": "le concombre", "en": "the cucumber" },
-  { "de": "die Karotte", "es": "la zanahoria", "fr": "la carotte", "en": "the carrot" },
-  { "de": "der Pfeffer", "es": "la pimienta", "fr": "le poivre", "en": "the pepper" },
-  { "de": "die Zitrone", "es": "el limón", "fr": "le citron", "en": "the lemon" },
-  { "de": "der Joghurt", "es": "el yogur", "fr": "le yaourt", "en": "the yoghurt" },
-  { "de": "die Schokolade", "es": "el chocolate", "fr": "le chocolat", "en": "the chocolate" },
-  { "de": "der Kuchen", "es": "el pastel", "fr": "le gâteau", "en": "the cake" },
-  { "de": "die Marmelade", "es": "la mermelada", "fr": "la confiture", "en": "the jam" },
-  { "de": "die Wurst", "es": "el embutido", "fr": "la saucisse", "en": "the sausage" },
-  { "de": "die Pizza", "es": "la pizza", "fr": "la pizza", "en": "the pizza" },
-  { "de": "die Torte", "es": "la tarta", "fr": "la tarte", "en": "the tart" }
+  {
+    "de": "das Wasser",
+    "core": true,
+    "translations": {
+      "es": "el agua",
+      "fr": "l'eau",
+      "en": "the water"
+    }
+  },
+  {
+    "de": "das Brot",
+    "core": true,
+    "translations": {
+      "es": "el pan",
+      "fr": "le pain",
+      "en": "the bread"
+    }
+  },
+  {
+    "de": "die Milch",
+    "core": true,
+    "translations": {
+      "es": "la leche",
+      "fr": "le lait",
+      "en": "the milk"
+    }
+  },
+  {
+    "de": "das Ei",
+    "core": true,
+    "translations": {
+      "es": "el huevo",
+      "fr": "l'œuf",
+      "en": "the egg"
+    }
+  },
+  {
+    "de": "der Kaffee",
+    "core": true,
+    "translations": {
+      "es": "el café",
+      "fr": "le café",
+      "en": "the coffee"
+    }
+  },
+  {
+    "de": "der Tee",
+    "core": true,
+    "translations": {
+      "es": "el té",
+      "fr": "le thé",
+      "en": "the tea"
+    }
+  },
+  {
+    "de": "der Apfel",
+    "core": true,
+    "translations": {
+      "es": "la manzana",
+      "fr": "la pomme",
+      "en": "the apple"
+    }
+  },
+  {
+    "de": "das Fleisch",
+    "core": true,
+    "translations": {
+      "es": "la carne",
+      "fr": "la viande",
+      "en": "the meat"
+    }
+  },
+  {
+    "de": "der Fisch",
+    "translations": {
+      "es": "el pescado",
+      "fr": "le poisson",
+      "en": "the fish"
+    }
+  },
+  {
+    "de": "die Tomate",
+    "translations": {
+      "es": "el tomate",
+      "fr": "la tomate",
+      "en": "the tomato"
+    }
+  },
+  {
+    "de": "der Käse",
+    "translations": {
+      "es": "el queso",
+      "fr": "le fromage",
+      "en": "the cheese"
+    }
+  },
+  {
+    "de": "die Kartoffel",
+    "translations": {
+      "es": "la patata",
+      "fr": "la pomme de terre",
+      "en": "the potato"
+    }
+  },
+  {
+    "de": "die Banane",
+    "translations": {
+      "es": "el plátano",
+      "fr": "la banane",
+      "en": "the banana"
+    }
+  },
+  {
+    "de": "die Orange",
+    "translations": {
+      "es": "la naranja",
+      "fr": "l'orange",
+      "en": "the orange"
+    }
+  },
+  {
+    "de": "der Salat",
+    "translations": {
+      "es": "la ensalada",
+      "fr": "la salade",
+      "en": "the salad"
+    }
+  },
+  {
+    "de": "die Suppe",
+    "translations": {
+      "es": "la sopa",
+      "fr": "la soupe",
+      "en": "the soup"
+    }
+  },
+  {
+    "de": "der Reis",
+    "translations": {
+      "es": "el arroz",
+      "fr": "le riz",
+      "en": "the rice"
+    }
+  },
+  {
+    "de": "die Nudeln",
+    "translations": {
+      "es": "los fideos",
+      "fr": "les pâtes",
+      "en": "the pasta"
+    }
+  },
+  {
+    "de": "der Zucker",
+    "translations": {
+      "es": "el azúcar",
+      "fr": "le sucre",
+      "en": "the sugar"
+    }
+  },
+  {
+    "de": "das Salz",
+    "translations": {
+      "es": "la sal",
+      "fr": "le sel",
+      "en": "the salt"
+    }
+  },
+  {
+    "de": "das Bier",
+    "translations": {
+      "es": "la cerveza",
+      "fr": "la bière",
+      "en": "the beer"
+    }
+  },
+  {
+    "de": "der Wein",
+    "translations": {
+      "es": "el vino",
+      "fr": "le vin",
+      "en": "the wine"
+    }
+  },
+  {
+    "de": "die Erdbeere",
+    "translations": {
+      "es": "la fresa",
+      "fr": "la fraise",
+      "en": "the strawberry"
+    }
+  },
+  {
+    "de": "die Zwiebel",
+    "translations": {
+      "es": "la cebolla",
+      "fr": "l'oignon",
+      "en": "the onion"
+    }
+  },
+  {
+    "de": "das Öl",
+    "translations": {
+      "es": "el aceite",
+      "fr": "l'huile",
+      "en": "the oil"
+    }
+  },
+  {
+    "de": "die Butter",
+    "translations": {
+      "es": "la mantequilla",
+      "fr": "le beurre",
+      "en": "the butter"
+    }
+  },
+  {
+    "de": "das Mehl",
+    "translations": {
+      "es": "la harina",
+      "fr": "la farine",
+      "en": "the flour"
+    }
+  },
+  {
+    "de": "der Saft",
+    "translations": {
+      "es": "el zumo",
+      "fr": "le jus",
+      "en": "the juice"
+    }
+  },
+  {
+    "de": "die Limonade",
+    "translations": {
+      "es": "la limonada",
+      "fr": "la limonade",
+      "en": "the lemonade"
+    }
+  },
+  {
+    "de": "die Gurke",
+    "translations": {
+      "es": "el pepino",
+      "fr": "le concombre",
+      "en": "the cucumber"
+    }
+  },
+  {
+    "de": "die Karotte",
+    "translations": {
+      "es": "la zanahoria",
+      "fr": "la carotte",
+      "en": "the carrot"
+    }
+  },
+  {
+    "de": "der Pfeffer",
+    "translations": {
+      "es": "la pimienta",
+      "fr": "le poivre",
+      "en": "the pepper"
+    }
+  },
+  {
+    "de": "die Zitrone",
+    "translations": {
+      "es": "el limón",
+      "fr": "le citron",
+      "en": "the lemon"
+    }
+  },
+  {
+    "de": "der Joghurt",
+    "translations": {
+      "es": "el yogur",
+      "fr": "le yaourt",
+      "en": "the yoghurt"
+    }
+  },
+  {
+    "de": "die Schokolade",
+    "translations": {
+      "es": "el chocolate",
+      "fr": "le chocolat",
+      "en": "the chocolate"
+    }
+  },
+  {
+    "de": "der Kuchen",
+    "translations": {
+      "es": "el pastel",
+      "fr": "le gâteau",
+      "en": "the cake"
+    }
+  },
+  {
+    "de": "die Marmelade",
+    "translations": {
+      "es": "la mermelada",
+      "fr": "la confiture",
+      "en": "the jam"
+    }
+  },
+  {
+    "de": "die Wurst",
+    "translations": {
+      "es": "el embutido",
+      "fr": "la saucisse",
+      "en": "the sausage"
+    }
+  },
+  {
+    "de": "die Pizza",
+    "translations": {
+      "es": "la pizza",
+      "fr": "la pizza",
+      "en": "the pizza"
+    }
+  },
+  {
+    "de": "die Torte",
+    "translations": {
+      "es": "la tarta",
+      "fr": "la tarte",
+      "en": "the tart"
+    }
+  }
 ]

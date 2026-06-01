@@ -1,42 +1,331 @@
 [
-  { "de": "das Auto", "es": "el coche", "fr": "la voiture", "en": "the car" },
-  { "de": "der Bus", "es": "el autobús", "fr": "le bus", "en": "the bus" },
-  { "de": "der Zug", "es": "el tren", "fr": "le train", "en": "the train" },
-  { "de": "das Flugzeug", "es": "el avión", "fr": "l'avion", "en": "the plane" },
-  { "de": "das Fahrrad", "es": "la bicicleta", "fr": "le vélo", "en": "the bicycle" },
-  { "de": "das Taxi", "es": "el taxi", "fr": "le taxi", "en": "the taxi" },
-  { "de": "das Schiff", "es": "el barco", "fr": "le bateau", "en": "the ship" },
-  { "de": "die U-Bahn", "es": "el metro", "fr": "le métro", "en": "the underground" },
-  { "de": "der Bahnhof", "es": "la estación", "fr": "la gare", "en": "the train station" },
-  { "de": "das Ticket", "es": "el billete", "fr": "le billet", "en": "the ticket" },
-  { "de": "die Haltestelle", "es": "la parada", "fr": "l'arrêt", "en": "the stop" },
-  { "de": "der Flughafen", "es": "el aeropuerto", "fr": "l'aéroport", "en": "the airport" },
-  { "de": "das Motorrad", "es": "la moto", "fr": "la moto", "en": "the motorbike" },
-  { "de": "die Straßenbahn", "es": "el tranvía", "fr": "le tramway", "en": "the tram" },
-  { "de": "die Fähre", "es": "el ferry", "fr": "le ferry", "en": "the ferry" },
-  { "de": "der Hubschrauber", "es": "el helicóptero", "fr": "l'hélicoptère", "en": "the helicopter" },
-  { "de": "der Roller", "es": "el patinete", "fr": "la trottinette", "en": "the scooter" },
-  { "de": "der LKW", "es": "el camión", "fr": "le camion", "en": "the lorry" },
-  { "de": "die Seilbahn", "es": "el teleférico", "fr": "le téléphérique", "en": "the cable car" },
-  { "de": "die Lokomotive", "es": "la locomotora", "fr": "la locomotive", "en": "the locomotive" },
-  { "de": "die Tankstelle", "es": "la gasolinera", "fr": "la station-service", "en": "the petrol station" },
-  { "de": "die Autobahn", "es": "la autopista", "fr": "l'autoroute", "en": "the motorway" },
-  { "de": "der Tunnel", "es": "el túnel", "fr": "le tunnel", "en": "the tunnel" },
-  { "de": "die Brücke", "es": "el puente", "fr": "le pont", "en": "the bridge" },
-  { "de": "die Ampel", "es": "el semáforo", "fr": "le feu de signalisation", "en": "the traffic lights" },
-  { "de": "der Stau", "es": "el atasco", "fr": "l'embouteillage", "en": "the traffic jam" },
-  { "de": "der Parkplatz", "es": "el aparcamiento", "fr": "le parking", "en": "the car park" },
-  { "de": "die Garage", "es": "el garaje", "fr": "le garage", "en": "the garage" },
-  { "de": "das Benzin", "es": "la gasolina", "fr": "l'essence", "en": "the petrol" },
-  { "de": "der Reifen", "es": "el neumático", "fr": "le pneu", "en": "the tyre" },
-  { "de": "die Kreuzung", "es": "el cruce", "fr": "le carrefour", "en": "the crossroads" },
-  { "de": "der Helm", "es": "el casco", "fr": "le casque", "en": "the helmet" },
-  { "de": "der Bahnsteig", "es": "el andén", "fr": "le quai", "en": "the platform" },
-  { "de": "die Abfahrt", "es": "la salida", "fr": "le départ", "en": "the departure" },
-  { "de": "die Ankunft", "es": "la llegada", "fr": "l'arrivée", "en": "the arrival" },
-  { "de": "der Fahrplan", "es": "el horario", "fr": "l'horaire", "en": "the timetable" },
-  { "de": "die Fahrt", "es": "el trayecto", "fr": "le trajet", "en": "the journey" },
-  { "de": "der Führerschein", "es": "el carné de conducir", "fr": "le permis de conduire", "en": "the driving licence" },
-  { "de": "das Ruderboot", "es": "el bote de remos", "fr": "le bateau à rames", "en": "the rowing boat" },
-  { "de": "der Schnellzug", "es": "el tren rápido", "fr": "le train rapide", "en": "the express train" }
+  {
+    "de": "das Auto",
+    "core": true,
+    "translations": {
+      "es": "el coche",
+      "fr": "la voiture",
+      "en": "the car"
+    }
+  },
+  {
+    "de": "der Bus",
+    "core": true,
+    "translations": {
+      "es": "el autobús",
+      "fr": "le bus",
+      "en": "the bus"
+    }
+  },
+  {
+    "de": "der Zug",
+    "core": true,
+    "translations": {
+      "es": "el tren",
+      "fr": "le train",
+      "en": "the train"
+    }
+  },
+  {
+    "de": "das Flugzeug",
+    "core": true,
+    "translations": {
+      "es": "el avión",
+      "fr": "l'avion",
+      "en": "the plane"
+    }
+  },
+  {
+    "de": "das Fahrrad",
+    "core": true,
+    "translations": {
+      "es": "la bicicleta",
+      "fr": "le vélo",
+      "en": "the bicycle"
+    }
+  },
+  {
+    "de": "das Taxi",
+    "core": true,
+    "translations": {
+      "es": "el taxi",
+      "fr": "le taxi",
+      "en": "the taxi"
+    }
+  },
+  {
+    "de": "die U-Bahn",
+    "core": true,
+    "translations": {
+      "es": "el metro",
+      "fr": "le métro",
+      "en": "the underground"
+    }
+  },
+  {
+    "de": "der Bahnhof",
+    "core": true,
+    "translations": {
+      "es": "la estación",
+      "fr": "la gare",
+      "en": "the train station"
+    }
+  },
+  {
+    "de": "das Ticket",
+    "core": true,
+    "translations": {
+      "es": "el billete",
+      "fr": "le billet",
+      "en": "the ticket"
+    }
+  },
+  {
+    "de": "das Schiff",
+    "translations": {
+      "es": "el barco",
+      "fr": "le bateau",
+      "en": "the ship"
+    }
+  },
+  {
+    "de": "die Haltestelle",
+    "translations": {
+      "es": "la parada",
+      "fr": "l'arrêt",
+      "en": "the stop"
+    }
+  },
+  {
+    "de": "der Flughafen",
+    "translations": {
+      "es": "el aeropuerto",
+      "fr": "l'aéroport",
+      "en": "the airport"
+    }
+  },
+  {
+    "de": "das Motorrad",
+    "translations": {
+      "es": "la moto",
+      "fr": "la moto",
+      "en": "the motorbike"
+    }
+  },
+  {
+    "de": "die Straßenbahn",
+    "translations": {
+      "es": "el tranvía",
+      "fr": "le tramway",
+      "en": "the tram"
+    }
+  },
+  {
+    "de": "die Fähre",
+    "translations": {
+      "es": "el ferry",
+      "fr": "le ferry",
+      "en": "the ferry"
+    }
+  },
+  {
+    "de": "der Hubschrauber",
+    "translations": {
+      "es": "el helicóptero",
+      "fr": "l'hélicoptère",
+      "en": "the helicopter"
+    }
+  },
+  {
+    "de": "der Roller",
+    "translations": {
+      "es": "el patinete",
+      "fr": "la trottinette",
+      "en": "the scooter"
+    }
+  },
+  {
+    "de": "der LKW",
+    "translations": {
+      "es": "el camión",
+      "fr": "le camion",
+      "en": "the lorry"
+    }
+  },
+  {
+    "de": "die Seilbahn",
+    "translations": {
+      "es": "el teleférico",
+      "fr": "le téléphérique",
+      "en": "the cable car"
+    }
+  },
+  {
+    "de": "die Lokomotive",
+    "translations": {
+      "es": "la locomotora",
+      "fr": "la locomotive",
+      "en": "the locomotive"
+    }
+  },
+  {
+    "de": "die Tankstelle",
+    "translations": {
+      "es": "la gasolinera",
+      "fr": "la station-service",
+      "en": "the petrol station"
+    }
+  },
+  {
+    "de": "die Autobahn",
+    "translations": {
+      "es": "la autopista",
+      "fr": "l'autoroute",
+      "en": "the motorway"
+    }
+  },
+  {
+    "de": "der Tunnel",
+    "translations": {
+      "es": "el túnel",
+      "fr": "le tunnel",
+      "en": "the tunnel"
+    }
+  },
+  {
+    "de": "die Brücke",
+    "translations": {
+      "es": "el puente",
+      "fr": "le pont",
+      "en": "the bridge"
+    }
+  },
+  {
+    "de": "die Ampel",
+    "translations": {
+      "es": "el semáforo",
+      "fr": "le feu de signalisation",
+      "en": "the traffic lights"
+    }
+  },
+  {
+    "de": "der Stau",
+    "translations": {
+      "es": "el atasco",
+      "fr": "l'embouteillage",
+      "en": "the traffic jam"
+    }
+  },
+  {
+    "de": "der Parkplatz",
+    "translations": {
+      "es": "el aparcamiento",
+      "fr": "le parking",
+      "en": "the car park"
+    }
+  },
+  {
+    "de": "die Garage",
+    "translations": {
+      "es": "el garaje",
+      "fr": "le garage",
+      "en": "the garage"
+    }
+  },
+  {
+    "de": "das Benzin",
+    "translations": {
+      "es": "la gasolina",
+      "fr": "l'essence",
+      "en": "the petrol"
+    }
+  },
+  {
+    "de": "der Reifen",
+    "translations": {
+      "es": "el neumático",
+      "fr": "le pneu",
+      "en": "the tyre"
+    }
+  },
+  {
+    "de": "die Kreuzung",
+    "translations": {
+      "es": "el cruce",
+      "fr": "le carrefour",
+      "en": "the crossroads"
+    }
+  },
+  {
+    "de": "der Helm",
+    "translations": {
+      "es": "el casco",
+      "fr": "le casque",
+      "en": "the helmet"
+    }
+  },
+  {
+    "de": "der Bahnsteig",
+    "translations": {
+      "es": "el andén",
+      "fr": "le quai",
+      "en": "the platform"
+    }
+  },
+  {
+    "de": "die Abfahrt",
+    "translations": {
+      "es": "la salida",
+      "fr": "le départ",
+      "en": "the departure"
+    }
+  },
+  {
+    "de": "die Ankunft",
+    "translations": {
+      "es": "la llegada",
+      "fr": "l'arrivée",
+      "en": "the arrival"
+    }
+  },
+  {
+    "de": "der Fahrplan",
+    "translations": {
+      "es": "el horario",
+      "fr": "l'horaire",
+      "en": "the timetable"
+    }
+  },
+  {
+    "de": "die Fahrt",
+    "translations": {
+      "es": "el trayecto",
+      "fr": "le trajet",
+      "en": "the journey"
+    }
+  },
+  {
+    "de": "der Führerschein",
+    "translations": {
+      "es": "el carné de conducir",
+      "fr": "le permis de conduire",
+      "en": "the driving licence"
+    }
+  },
+  {
+    "de": "das Ruderboot",
+    "translations": {
+      "es": "el bote de remos",
+      "fr": "le bateau à rames",
+      "en": "the rowing boat"
+    }
+  },
+  {
+    "de": "der Schnellzug",
+    "translations": {
+      "es": "el tren rápido",
+      "fr": "le train rapide",
+      "en": "the express train"
+    }
+  }
 ]

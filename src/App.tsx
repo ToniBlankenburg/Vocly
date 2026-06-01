@@ -5,8 +5,8 @@ import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
 
 type Level = 'A1' | 'A2' | 'B1'
-type VocabEntry = { de: string; [lang: string]: string }
-type Word = { de: string; category: string; level: Level; [lang: string]: string }
+type VocabEntry = { de: string; core?: boolean; translations: Record<string, string> }
+type Word = { de: string; category: string; level: Level; core?: boolean; translations: Record<string, string> }
 type Direction = string
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1']
@@ -61,29 +61,33 @@ const LANG_NAMES: Record<string, string> = {
   de: 'German', es: 'Spanish', fr: 'French', en: 'English',
 }
 
+function val(w: Word, lang: string): string {
+  return lang === 'de' ? w.de : w.translations[lang]
+}
+
 function buildQuestion(words: Word[], targetLang: string) {
-  const available = words.filter(w => w[targetLang])
+  const available = words.filter(w => w.translations[targetLang])
   const word = available[Math.floor(Math.random() * available.length)]
   const fromDe = Math.random() > 0.5
   const fromLang = fromDe ? 'de' : targetLang
   const toLang   = fromDe ? targetLang : 'de'
   const dir: Direction = `${fromLang}→${toLang}`
 
-  const question = word[fromLang]
-  const answer   = word[toLang]
+  const question = val(word, fromLang)
+  const answer   = val(word, toLang)
 
   const sameCategory = words.filter(
-    w => w.category === word.category && w[toLang] !== answer
+    w => w.category === word.category && val(w, toLang) !== answer
   )
-  const fallback = words.filter(w => w[toLang] !== answer)
+  const fallback = words.filter(w => val(w, toLang) !== answer)
   const pool = sameCategory.length >= 3 ? sameCategory : fallback
 
   const distractors: string[] = []
   const seen = new Set([answer])
   for (const w of [...pool].sort(() => Math.random() - 0.5)) {
-    if (!seen.has(w[toLang])) {
-      distractors.push(w[toLang])
-      seen.add(w[toLang])
+    if (!seen.has(val(w, toLang))) {
+      distractors.push(val(w, toLang))
+      seen.add(val(w, toLang))
       if (distractors.length === 3) break
     }
   }
@@ -227,9 +231,7 @@ export default function App() {
   const [qFromLang, qToLang] = q.dir.split('→')
   const fromFlag = LANG_FLAGS[qFromLang] ?? qFromLang
   const toFlag   = LANG_FLAGS[qToLang]   ?? qToLang
-  const availableLangs = [...new Set(
-    words.flatMap(w => Object.keys(w).filter(k => k !== 'de' && k !== 'category' && k !== 'level'))
-  )]
+  const availableLangs = [...new Set(words.flatMap(w => Object.keys(w.translations)))]
   const icon     = CATEGORY_ICONS[q.category] ?? '📚'
   const progress = Math.min((correctAtLevel / LEVEL_UP_AT) * 100, 100)
   const isLastLevel = LEVELS.indexOf(level) === LEVELS.length - 1

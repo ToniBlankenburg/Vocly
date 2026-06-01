@@ -1,17 +1,122 @@
 [
-  { "de": "die Besprechung", "es": "la reunión", "fr": "la réunion", "en": "the meeting" },
-  { "de": "das Projekt", "es": "el proyecto", "fr": "le projet", "en": "the project" },
-  { "de": "die Frist", "es": "el plazo", "fr": "le délai", "en": "the deadline" },
-  { "de": "der Kollege", "es": "el colega", "fr": "le collègue", "en": "the colleague" },
-  { "de": "der Chef", "es": "el jefe", "fr": "le chef", "en": "the boss" },
-  { "de": "die Aufgabe", "es": "la tarea", "fr": "la tâche", "en": "the task" },
-  { "de": "das Unternehmen", "es": "la empresa", "fr": "l'entreprise", "en": "the company" },
-  { "de": "das Gehalt", "es": "el salario", "fr": "le salaire", "en": "the salary" },
-  { "de": "der Vertrag", "es": "el contrato", "fr": "le contrat", "en": "the contract" },
-  { "de": "das Vorstellungsgespräch", "es": "la entrevista de trabajo", "fr": "l'entretien d'embauche", "en": "the job interview" },
-  { "de": "die Leistung", "es": "el rendimiento", "fr": "la performance", "en": "the performance" },
-  { "de": "die Präsentation", "es": "la presentación", "fr": "la présentation", "en": "the presentation" },
-  { "de": "die Bewerbung", "es": "la solicitud", "fr": "la candidature", "en": "the application" },
-  { "de": "die Abteilung", "es": "el departamento", "fr": "le département", "en": "the department" },
-  { "de": "der Arbeitsplatz", "es": "el puesto de trabajo", "fr": "le poste de travail", "en": "the workplace" }
+  {
+    "de": "die Besprechung",
+    "translations": {
+      "es": "la reunión",
+      "fr": "la réunion",
+      "en": "the meeting"
+    }
+  },
+  {
+    "de": "das Projekt",
+    "translations": {
+      "es": "el proyecto",
+      "fr": "le projet",
+      "en": "the project"
+    }
+  },
+  {
+    "de": "die Frist",
+    "translations": {
+      "es": "el plazo",
+      "fr": "le délai",
+      "en": "the deadline"
+    }
+  },
+  {
+    "de": "der Kollege",
+    "translations": {
+      "es": "el colega",
+      "fr": "le collègue",
+      "en": "the colleague"
+    }
+  },
+  {
+    "de": "der Chef",
+    "translations": {
+      "es": "el jefe",
+      "fr": "le chef",
+      "en": "the boss"
+    }
+  },
+  {
+    "de": "die Aufgabe",
+    "translations": {
+      "es": "la tarea",
+      "fr": "la tâche",
+      "en": "the task"
+    }
+  },
+  {
+    "de": "das Unternehmen",
+    "translations": {
+      "es": "la empresa",
+      "fr": "l'entreprise",
+      "en": "the company"
+    }
+  },
+  {
+    "de": "das Gehalt",
+    "translations": {
+      "es": "el salario",
+      "fr": "le salaire",
+      "en": "the salary"
+    }
+  },
+  {
+    "de": "der Vertrag",
+    "translations": {
+      "es": "el contrato",
+      "fr": "le contrat",
+      "en": "the contract"
+    }
+  },
+  {
+    "de": "das Vorstellungsgespräch",
+    "translations": {
+      "es": "la entrevista de trabajo",
+      "fr": "l'entretien d'embauche",
+      "en": "the job interview"
+    }
+  },
+  {
+    "de": "die Leistung",
+    "translations": {
+      "es": "el rendimiento",
+      "fr": "la performance",
+      "en": "the performance"
+    }
+  },
+  {
+    "de": "die Präsentation",
+    "translations": {
+      "es": "la presentación",
+      "fr": "la présentation",
+      "en": "the presentation"
+    }
+  },
+  {
+    "de": "die Bewerbung",
+    "translations": {
+      "es": "la solicitud",
+      "fr": "la candidature",
+      "en": "the application"
+    }
+  },
+  {
+    "de": "die Abteilung",
+    "translations": {
+      "es": "el departamento",
+      "fr": "le département",
+      "en": "the department"
+    }
+  },
+  {
+    "de": "der Arbeitsplatz",
+    "translations": {
+      "es": "el puesto de trabajo",
+      "fr": "le poste de travail",
+      "en": "the workplace"
+    }
+  }
 ]

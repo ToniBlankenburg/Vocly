@@ -1,0 +1,131 @@
+[
+  {
+    "de": "ich",
+    "core": true,
+    "translations": {
+      "es": "yo",
+      "fr": "je",
+      "en": "I"
+    }
+  },
+  {
+    "de": "du",
+    "core": true,
+    "translations": {
+      "es": "tú",
+      "fr": "tu",
+      "en": "you (informal)"
+    }
+  },
+  {
+    "de": "er",
+    "core": true,
+    "translations": {
+      "es": "él",
+      "fr": "il",
+      "en": "he"
+    }
+  },
+  {
+    "de": "sie (Singular)",
+    "core": true,
+    "translations": {
+      "es": "ella",
+      "fr": "elle",
+      "en": "she"
+    }
+  },
+  {
+    "de": "es",
+    "core": true,
+    "translations": {
+      "es": "ello",
+      "fr": "il/elle",
+      "en": "it"
+    }
+  },
+  {
+    "de": "wir",
+    "core": true,
+    "translations": {
+      "es": "nosotros",
+      "fr": "nous",
+      "en": "we"
+    }
+  },
+  {
+    "de": "ihr",
+    "core": true,
+    "translations": {
+      "es": "vosotros",
+      "fr": "vous",
+      "en": "you all"
+    }
+  },
+  {
+    "de": "sie (Plural)",
+    "core": true,
+    "translations": {
+      "es": "ellos/ellas",
+      "fr": "ils/elles",
+      "en": "they"
+    }
+  },
+  {
+    "de": "Sie",
+    "core": true,
+    "translations": {
+      "es": "usted",
+      "fr": "vous",
+      "en": "you (formal)"
+    }
+  },
+  {
+    "de": "man",
+    "translations": {
+      "es": "uno/se",
+      "fr": "on",
+      "en": "one (impersonal)"
+    }
+  },
+  {
+    "de": "dieser",
+    "translations": {
+      "es": "este",
+      "fr": "ce/cet",
+      "en": "this"
+    }
+  },
+  {
+    "de": "jeder",
+    "translations": {
+      "es": "cada",
+      "fr": "chaque",
+      "en": "each/every"
+    }
+  },
+  {
+    "de": "alles",
+    "translations": {
+      "es": "todo",
+      "fr": "tout",
+      "en": "everything"
+    }
+  },
+  {
+    "de": "nichts",
+    "translations": {
+      "es": "nada",
+      "fr": "rien",
+      "en": "nothing"
+    }
+  },
+  {
+    "de": "jemand",
+    "translations": {
+      "es": "alguien",
+      "fr": "quelqu'un",
+      "en": "someone"
+    }
+  }
+]

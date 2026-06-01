@@ -1,42 +1,493 @@
 [
-  { "de": "laufen", "es": "correr", "fr": "courir", "en": "to run" },
-  { "de": "essen", "es": "comer", "fr": "manger", "en": "to eat" },
-  { "de": "trinken", "es": "beber", "fr": "boire", "en": "to drink" },
-  { "de": "schlafen", "es": "dormir", "fr": "dormir", "en": "to sleep" },
-  { "de": "sprechen", "es": "hablar", "fr": "parler", "en": "to speak" },
-  { "de": "lesen", "es": "leer", "fr": "lire", "en": "to read" },
-  { "de": "schreiben", "es": "escribir", "fr": "écrire", "en": "to write" },
-  { "de": "kaufen", "es": "comprar", "fr": "acheter", "en": "to buy" },
-  { "de": "öffnen", "es": "abrir", "fr": "ouvrir", "en": "to open" },
-  { "de": "hören", "es": "escuchar", "fr": "écouter", "en": "to listen" },
-  { "de": "sehen", "es": "ver", "fr": "voir", "en": "to see" },
-  { "de": "spielen", "es": "jugar", "fr": "jouer", "en": "to play" },
-  { "de": "singen", "es": "cantar", "fr": "chanter", "en": "to sing" },
-  { "de": "tanzen", "es": "bailar", "fr": "danser", "en": "to dance" },
-  { "de": "kochen", "es": "cocinar", "fr": "cuisiner", "en": "to cook" },
-  { "de": "lieben", "es": "amar", "fr": "aimer", "en": "to love" },
-  { "de": "wissen", "es": "saber", "fr": "savoir", "en": "to know" },
-  { "de": "wollen", "es": "querer", "fr": "vouloir", "en": "to want" },
-  { "de": "lernen", "es": "aprender", "fr": "apprendre", "en": "to learn" },
-  { "de": "warten", "es": "esperar", "fr": "attendre", "en": "to wait" },
-  { "de": "suchen", "es": "buscar", "fr": "chercher", "en": "to look for" },
-  { "de": "finden", "es": "encontrar", "fr": "trouver", "en": "to find" },
-  { "de": "helfen", "es": "ayudar", "fr": "aider", "en": "to help" },
-  { "de": "rufen", "es": "llamar", "fr": "appeler", "en": "to call" },
-  { "de": "machen", "es": "hacer", "fr": "faire", "en": "to do" },
-  { "de": "haben", "es": "tener", "fr": "avoir", "en": "to have" },
-  { "de": "sein", "es": "ser", "fr": "être", "en": "to be" },
-  { "de": "fahren", "es": "conducir", "fr": "conduire", "en": "to drive" },
-  { "de": "schicken", "es": "enviar", "fr": "envoyer", "en": "to send" },
-  { "de": "zählen", "es": "contar", "fr": "compter", "en": "to count" },
-  { "de": "bauen", "es": "construir", "fr": "construire", "en": "to build" },
-  { "de": "fliegen", "es": "volar", "fr": "voler", "en": "to fly" },
-  { "de": "waschen", "es": "lavar", "fr": "laver", "en": "to wash" },
-  { "de": "putzen", "es": "limpiar", "fr": "nettoyer", "en": "to clean" },
-  { "de": "schließen", "es": "cerrar", "fr": "fermer", "en": "to close" },
-  { "de": "fallen", "es": "caer", "fr": "tomber", "en": "to fall" },
-  { "de": "bringen", "es": "traer", "fr": "apporter", "en": "to bring" },
-  { "de": "halten", "es": "sostener", "fr": "tenir", "en": "to hold" },
-  { "de": "verkaufen", "es": "vender", "fr": "vendre", "en": "to sell" },
-  { "de": "besuchen", "es": "visitar", "fr": "visiter", "en": "to visit" }
+  {
+    "de": "sein",
+    "core": true,
+    "translations": {
+      "es": "ser",
+      "fr": "être",
+      "en": "to be"
+    }
+  },
+  {
+    "de": "haben",
+    "core": true,
+    "translations": {
+      "es": "tener",
+      "fr": "avoir",
+      "en": "to have"
+    }
+  },
+  {
+    "de": "machen",
+    "core": true,
+    "translations": {
+      "es": "hacer",
+      "fr": "faire",
+      "en": "to do"
+    }
+  },
+  {
+    "de": "gehen",
+    "core": true,
+    "translations": {
+      "es": "ir",
+      "fr": "aller",
+      "en": "to go"
+    }
+  },
+  {
+    "de": "kommen",
+    "core": true,
+    "translations": {
+      "es": "venir",
+      "fr": "venir",
+      "en": "to come"
+    }
+  },
+  {
+    "de": "können",
+    "core": true,
+    "translations": {
+      "es": "poder",
+      "fr": "pouvoir",
+      "en": "can"
+    }
+  },
+  {
+    "de": "müssen",
+    "core": true,
+    "translations": {
+      "es": "deber",
+      "fr": "devoir",
+      "en": "must"
+    }
+  },
+  {
+    "de": "wollen",
+    "core": true,
+    "translations": {
+      "es": "querer",
+      "fr": "vouloir",
+      "en": "to want"
+    }
+  },
+  {
+    "de": "möchten",
+    "core": true,
+    "translations": {
+      "es": "quisiera",
+      "fr": "voudrais",
+      "en": "would like"
+    }
+  },
+  {
+    "de": "sagen",
+    "core": true,
+    "translations": {
+      "es": "decir",
+      "fr": "dire",
+      "en": "to say"
+    }
+  },
+  {
+    "de": "wissen",
+    "core": true,
+    "translations": {
+      "es": "saber",
+      "fr": "savoir",
+      "en": "to know"
+    }
+  },
+  {
+    "de": "verstehen",
+    "core": true,
+    "translations": {
+      "es": "entender",
+      "fr": "comprendre",
+      "en": "to understand"
+    }
+  },
+  {
+    "de": "sprechen",
+    "core": true,
+    "translations": {
+      "es": "hablar",
+      "fr": "parler",
+      "en": "to speak"
+    }
+  },
+  {
+    "de": "fragen",
+    "core": true,
+    "translations": {
+      "es": "preguntar",
+      "fr": "demander",
+      "en": "to ask"
+    }
+  },
+  {
+    "de": "geben",
+    "core": true,
+    "translations": {
+      "es": "dar",
+      "fr": "donner",
+      "en": "to give"
+    }
+  },
+  {
+    "de": "nehmen",
+    "core": true,
+    "translations": {
+      "es": "tomar",
+      "fr": "prendre",
+      "en": "to take"
+    }
+  },
+  {
+    "de": "brauchen",
+    "core": true,
+    "translations": {
+      "es": "necesitar",
+      "fr": "avoir besoin de",
+      "en": "to need"
+    }
+  },
+  {
+    "de": "essen",
+    "core": true,
+    "translations": {
+      "es": "comer",
+      "fr": "manger",
+      "en": "to eat"
+    }
+  },
+  {
+    "de": "trinken",
+    "core": true,
+    "translations": {
+      "es": "beber",
+      "fr": "boire",
+      "en": "to drink"
+    }
+  },
+  {
+    "de": "schlafen",
+    "core": true,
+    "translations": {
+      "es": "dormir",
+      "fr": "dormir",
+      "en": "to sleep"
+    }
+  },
+  {
+    "de": "lernen",
+    "core": true,
+    "translations": {
+      "es": "aprender",
+      "fr": "apprendre",
+      "en": "to learn"
+    }
+  },
+  {
+    "de": "helfen",
+    "core": true,
+    "translations": {
+      "es": "ayudar",
+      "fr": "aider",
+      "en": "to help"
+    }
+  },
+  {
+    "de": "sehen",
+    "core": true,
+    "translations": {
+      "es": "ver",
+      "fr": "voir",
+      "en": "to see"
+    }
+  },
+  {
+    "de": "hören",
+    "core": true,
+    "translations": {
+      "es": "escuchar",
+      "fr": "écouter",
+      "en": "to listen"
+    }
+  },
+  {
+    "de": "laufen",
+    "core": true,
+    "translations": {
+      "es": "correr",
+      "fr": "courir",
+      "en": "to run"
+    }
+  },
+  {
+    "de": "rufen",
+    "core": true,
+    "translations": {
+      "es": "llamar",
+      "fr": "appeler",
+      "en": "to call"
+    }
+  },
+  {
+    "de": "kochen",
+    "core": true,
+    "translations": {
+      "es": "cocinar",
+      "fr": "cuisiner",
+      "en": "to cook"
+    }
+  },
+  {
+    "de": "mögen",
+    "translations": {
+      "es": "gustar",
+      "fr": "aimer",
+      "en": "to like"
+    }
+  },
+  {
+    "de": "dürfen",
+    "translations": {
+      "es": "poder (con permiso)",
+      "fr": "avoir le droit",
+      "en": "may/to be allowed"
+    }
+  },
+  {
+    "de": "antworten",
+    "translations": {
+      "es": "responder",
+      "fr": "répondre",
+      "en": "to answer"
+    }
+  },
+  {
+    "de": "denken",
+    "translations": {
+      "es": "pensar",
+      "fr": "penser",
+      "en": "to think"
+    }
+  },
+  {
+    "de": "kennen",
+    "translations": {
+      "es": "conocer",
+      "fr": "connaître",
+      "en": "to know (a person)"
+    }
+  },
+  {
+    "de": "wohnen",
+    "translations": {
+      "es": "vivir",
+      "fr": "habiter",
+      "en": "to live"
+    }
+  },
+  {
+    "de": "arbeiten",
+    "translations": {
+      "es": "trabajar",
+      "fr": "travailler",
+      "en": "to work"
+    }
+  },
+  {
+    "de": "lesen",
+    "translations": {
+      "es": "leer",
+      "fr": "lire",
+      "en": "to read"
+    }
+  },
+  {
+    "de": "schreiben",
+    "translations": {
+      "es": "escribir",
+      "fr": "écrire",
+      "en": "to write"
+    }
+  },
+  {
+    "de": "kaufen",
+    "translations": {
+      "es": "comprar",
+      "fr": "acheter",
+      "en": "to buy"
+    }
+  },
+  {
+    "de": "öffnen",
+    "translations": {
+      "es": "abrir",
+      "fr": "ouvrir",
+      "en": "to open"
+    }
+  },
+  {
+    "de": "spielen",
+    "translations": {
+      "es": "jugar",
+      "fr": "jouer",
+      "en": "to play"
+    }
+  },
+  {
+    "de": "singen",
+    "translations": {
+      "es": "cantar",
+      "fr": "chanter",
+      "en": "to sing"
+    }
+  },
+  {
+    "de": "tanzen",
+    "translations": {
+      "es": "bailar",
+      "fr": "danser",
+      "en": "to dance"
+    }
+  },
+  {
+    "de": "lieben",
+    "translations": {
+      "es": "amar",
+      "fr": "aimer",
+      "en": "to love"
+    }
+  },
+  {
+    "de": "warten",
+    "translations": {
+      "es": "esperar",
+      "fr": "attendre",
+      "en": "to wait"
+    }
+  },
+  {
+    "de": "suchen",
+    "translations": {
+      "es": "buscar",
+      "fr": "chercher",
+      "en": "to look for"
+    }
+  },
+  {
+    "de": "finden",
+    "translations": {
+      "es": "encontrar",
+      "fr": "trouver",
+      "en": "to find"
+    }
+  },
+  {
+    "de": "fahren",
+    "translations": {
+      "es": "conducir",
+      "fr": "conduire",
+      "en": "to drive"
+    }
+  },
+  {
+    "de": "schicken",
+    "translations": {
+      "es": "enviar",
+      "fr": "envoyer",
+      "en": "to send"
+    }
+  },
+  {
+    "de": "zählen",
+    "translations": {
+      "es": "contar",
+      "fr": "compter",
+      "en": "to count"
+    }
+  },
+  {
+    "de": "bauen",
+    "translations": {
+      "es": "construir",
+      "fr": "construire",
+      "en": "to build"
+    }
+  },
+  {
+    "de": "fliegen",
+    "translations": {
+      "es": "volar",
+      "fr": "voler",
+      "en": "to fly"
+    }
+  },
+  {
+    "de": "waschen",
+    "translations": {
+      "es": "lavar",
+      "fr": "laver",
+      "en": "to wash"
+    }
+  },
+  {
+    "de": "putzen",
+    "translations": {
+      "es": "limpiar",
+      "fr": "nettoyer",
+      "en": "to clean"
+    }
+  },
+  {
+    "de": "schließen",
+    "translations": {
+      "es": "cerrar",
+      "fr": "fermer",
+      "en": "to close"
+    }
+  },
+  {
+    "de": "fallen",
+    "translations": {
+      "es": "caer",
+      "fr": "tomber",
+      "en": "to fall"
+    }
+  },
+  {
+    "de": "bringen",
+    "translations": {
+      "es": "traer",
+      "fr": "apporter",
+      "en": "to bring"
+    }
+  },
+  {
+    "de": "halten",
+    "translations": {
+      "es": "sostener",
+      "fr": "tenir",
+      "en": "to hold"
+    }
+  },
+  {
+    "de": "verkaufen",
+    "translations": {
+      "es": "vender",
+      "fr": "vendre",
+      "en": "to sell"
+    }
+  },
+  {
+    "de": "besuchen",
+    "translations": {
+      "es": "visitar",
+      "fr": "visiter",
+      "en": "to visit"
+    }
+  }
 ]

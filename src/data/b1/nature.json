@@ -1,17 +1,122 @@
 [
-  { "de": "der Baum", "es": "el árbol", "fr": "l'arbre", "en": "the tree" },
-  { "de": "die Blume", "es": "la flor", "fr": "la fleur", "en": "the flower" },
-  { "de": "der Berg", "es": "la montaña", "fr": "la montagne", "en": "the mountain" },
-  { "de": "der Fluss", "es": "el río", "fr": "la rivière", "en": "the river" },
-  { "de": "das Meer", "es": "el mar", "fr": "la mer", "en": "the sea" },
-  { "de": "der Wald", "es": "el bosque", "fr": "la forêt", "en": "the forest" },
-  { "de": "die Wüste", "es": "el desierto", "fr": "le désert", "en": "the desert" },
-  { "de": "die Insel", "es": "la isla", "fr": "l'île", "en": "the island" },
-  { "de": "der See", "es": "el lago", "fr": "le lac", "en": "the lake" },
-  { "de": "die Erde", "es": "la tierra", "fr": "la terre", "en": "the earth" },
-  { "de": "der Stein", "es": "la piedra", "fr": "la pierre", "en": "the stone" },
-  { "de": "das Gras", "es": "el césped", "fr": "l'herbe", "en": "the grass" },
-  { "de": "die Jahreszeit", "es": "la temporada", "fr": "la saison", "en": "the season" },
-  { "de": "das Klima", "es": "el clima", "fr": "le climat", "en": "the climate" },
-  { "de": "die Umwelt", "es": "el medio ambiente", "fr": "l'environnement", "en": "the environment" }
+  {
+    "de": "der Baum",
+    "translations": {
+      "es": "el árbol",
+      "fr": "l'arbre",
+      "en": "the tree"
+    }
+  },
+  {
+    "de": "die Blume",
+    "translations": {
+      "es": "la flor",
+      "fr": "la fleur",
+      "en": "the flower"
+    }
+  },
+  {
+    "de": "der Berg",
+    "translations": {
+      "es": "la montaña",
+      "fr": "la montagne",
+      "en": "the mountain"
+    }
+  },
+  {
+    "de": "der Fluss",
+    "translations": {
+      "es": "el río",
+      "fr": "la rivière",
+      "en": "the river"
+    }
+  },
+  {
+    "de": "das Meer",
+    "translations": {
+      "es": "el mar",
+      "fr": "la mer",
+      "en": "the sea"
+    }
+  },
+  {
+    "de": "der Wald",
+    "translations": {
+      "es": "el bosque",
+      "fr": "la forêt",
+      "en": "the forest"
+    }
+  },
+  {
+    "de": "die Wüste",
+    "translations": {
+      "es": "el desierto",
+      "fr": "le désert",
+      "en": "the desert"
+    }
+  },
+  {
+    "de": "die Insel",
+    "translations": {
+      "es": "la isla",
+      "fr": "l'île",
+      "en": "the island"
+    }
+  },
+  {
+    "de": "der See",
+    "translations": {
+      "es": "el lago",
+      "fr": "le lac",
+      "en": "the lake"
+    }
+  },
+  {
+    "de": "die Erde",
+    "translations": {
+      "es": "la tierra",
+      "fr": "la terre",
+      "en": "the earth"
+    }
+  },
+  {
+    "de": "der Stein",
+    "translations": {
+      "es": "la piedra",
+      "fr": "la pierre",
+      "en": "the stone"
+    }
+  },
+  {
+    "de": "das Gras",
+    "translations": {
+      "es": "el césped",
+      "fr": "l'herbe",
+      "en": "the grass"
+    }
+  },
+  {
+    "de": "die Jahreszeit",
+    "translations": {
+      "es": "la temporada",
+      "fr": "la saison",
+      "en": "the season"
+    }
+  },
+  {
+    "de": "das Klima",
+    "translations": {
+      "es": "el clima",
+      "fr": "le climat",
+      "en": "the climate"
+    }
+  },
+  {
+    "de": "die Umwelt",
+    "translations": {
+      "es": "el medio ambiente",
+      "fr": "l'environnement",
+      "en": "the environment"
+    }
+  }
 ]

@@ -1,32 +1,242 @@
 [
-  { "de": "der Hund", "es": "el perro", "fr": "le chien", "en": "the dog" },
-  { "de": "die Katze", "es": "el gato", "fr": "le chat", "en": "the cat" },
-  { "de": "der Vogel", "es": "el pájaro", "fr": "l'oiseau", "en": "the bird" },
-  { "de": "das Pferd", "es": "el caballo", "fr": "le cheval", "en": "the horse" },
-  { "de": "das Kaninchen", "es": "el conejo", "fr": "le lapin", "en": "the rabbit" },
-  { "de": "der Bär", "es": "el oso", "fr": "l'ours", "en": "the bear" },
-  { "de": "die Kuh", "es": "la vaca", "fr": "la vache", "en": "the cow" },
-  { "de": "das Schwein", "es": "el cerdo", "fr": "le cochon", "en": "the pig" },
-  { "de": "die Maus", "es": "el ratón", "fr": "la souris", "en": "the mouse" },
-  { "de": "die Ente", "es": "el pato", "fr": "le canard", "en": "the duck" },
-  { "de": "der Löwe", "es": "el león", "fr": "le lion", "en": "the lion" },
-  { "de": "der Tiger", "es": "el tigre", "fr": "le tigre", "en": "the tiger" },
-  { "de": "der Affe", "es": "el mono", "fr": "le singe", "en": "the monkey" },
-  { "de": "der Elefant", "es": "el elefante", "fr": "l'éléphant", "en": "the elephant" },
-  { "de": "das Schaf", "es": "la oveja", "fr": "le mouton", "en": "the sheep" },
-  { "de": "das Huhn", "es": "el pollo", "fr": "le poulet", "en": "the chicken" },
-  { "de": "die Biene", "es": "la abeja", "fr": "l'abeille", "en": "the bee" },
-  { "de": "die Schlange", "es": "la serpiente", "fr": "le serpent", "en": "the snake" },
-  { "de": "der Frosch", "es": "la rana", "fr": "la grenouille", "en": "the frog" },
-  { "de": "der Delfin", "es": "el delfín", "fr": "le dauphin", "en": "the dolphin" },
-  { "de": "die Spinne", "es": "la araña", "fr": "l'araignée", "en": "the spider" },
-  { "de": "der Wolf", "es": "el lobo", "fr": "le loup", "en": "the wolf" },
-  { "de": "der Fuchs", "es": "el zorro", "fr": "le renard", "en": "the fox" },
-  { "de": "die Ziege", "es": "la cabra", "fr": "la chèvre", "en": "the goat" },
-  { "de": "die Schildkröte", "es": "la tortuga", "fr": "la tortue", "en": "the turtle" },
-  { "de": "der Papagei", "es": "el loro", "fr": "le perroquet", "en": "the parrot" },
-  { "de": "das Krokodil", "es": "el cocodrilo", "fr": "le crocodile", "en": "the crocodile" },
-  { "de": "der Pinguin", "es": "el pingüino", "fr": "le pingouin", "en": "the penguin" },
-  { "de": "der Hamster", "es": "el hámster", "fr": "le hamster", "en": "the hamster" },
-  { "de": "der Hase", "es": "la liebre", "fr": "le lièvre", "en": "the hare" }
+  {
+    "de": "der Hund",
+    "translations": {
+      "es": "el perro",
+      "fr": "le chien",
+      "en": "the dog"
+    }
+  },
+  {
+    "de": "die Katze",
+    "translations": {
+      "es": "el gato",
+      "fr": "le chat",
+      "en": "the cat"
+    }
+  },
+  {
+    "de": "der Vogel",
+    "translations": {
+      "es": "el pájaro",
+      "fr": "l'oiseau",
+      "en": "the bird"
+    }
+  },
+  {
+    "de": "das Pferd",
+    "translations": {
+      "es": "el caballo",
+      "fr": "le cheval",
+      "en": "the horse"
+    }
+  },
+  {
+    "de": "das Kaninchen",
+    "translations": {
+      "es": "el conejo",
+      "fr": "le lapin",
+      "en": "the rabbit"
+    }
+  },
+  {
+    "de": "der Bär",
+    "translations": {
+      "es": "el oso",
+      "fr": "l'ours",
+      "en": "the bear"
+    }
+  },
+  {
+    "de": "die Kuh",
+    "translations": {
+      "es": "la vaca",
+      "fr": "la vache",
+      "en": "the cow"
+    }
+  },
+  {
+    "de": "das Schwein",
+    "translations": {
+      "es": "el cerdo",
+      "fr": "le cochon",
+      "en": "the pig"
+    }
+  },
+  {
+    "de": "die Maus",
+    "translations": {
+      "es": "el ratón",
+      "fr": "la souris",
+      "en": "the mouse"
+    }
+  },
+  {
+    "de": "die Ente",
+    "translations": {
+      "es": "el pato",
+      "fr": "le canard",
+      "en": "the duck"
+    }
+  },
+  {
+    "de": "der Löwe",
+    "translations": {
+      "es": "el león",
+      "fr": "le lion",
+      "en": "the lion"
+    }
+  },
+  {
+    "de": "der Tiger",
+    "translations": {
+      "es": "el tigre",
+      "fr": "le tigre",
+      "en": "the tiger"
+    }
+  },
+  {
+    "de": "der Affe",
+    "translations": {
+      "es": "el mono",
+      "fr": "le singe",
+      "en": "the monkey"
+    }
+  },
+  {
+    "de": "der Elefant",
+    "translations": {
+      "es": "el elefante",
+      "fr": "l'éléphant",
+      "en": "the elephant"
+    }
+  },
+  {
+    "de": "das Schaf",
+    "translations": {
+      "es": "la oveja",
+      "fr": "le mouton",
+      "en": "the sheep"
+    }
+  },
+  {
+    "de": "das Huhn",
+    "translations": {
+      "es": "el pollo",
+      "fr": "le poulet",
+      "en": "the chicken"
+    }
+  },
+  {
+    "de": "die Biene",
+    "translations": {
+      "es": "la abeja",
+      "fr": "l'abeille",
+      "en": "the bee"
+    }
+  },
+  {
+    "de": "die Schlange",
+    "translations": {
+      "es": "la serpiente",
+      "fr": "le serpent",
+      "en": "the snake"
+    }
+  },
+  {
+    "de": "der Frosch",
+    "translations": {
+      "es": "la rana",
+      "fr": "la grenouille",
+      "en": "the frog"
+    }
+  },
+  {
+    "de": "der Delfin",
+    "translations": {
+      "es": "el delfín",
+      "fr": "le dauphin",
+      "en": "the dolphin"
+    }
+  },
+  {
+    "de": "die Spinne",
+    "translations": {
+      "es": "la araña",
+      "fr": "l'araignée",
+      "en": "the spider"
+    }
+  },
+  {
+    "de": "der Wolf",
+    "translations": {
+      "es": "el lobo",
+      "fr": "le loup",
+      "en": "the wolf"
+    }
+  },
+  {
+    "de": "der Fuchs",
+    "translations": {
+      "es": "el zorro",
+      "fr": "le renard",
+      "en": "the fox"
+    }
+  },
+  {
+    "de": "die Ziege",
+    "translations": {
+      "es": "la cabra",
+      "fr": "la chèvre",
+      "en": "the goat"
+    }
+  },
+  {
+    "de": "die Schildkröte",
+    "translations": {
+      "es": "la tortuga",
+      "fr": "la tortue",
+      "en": "the turtle"
+    }
+  },
+  {
+    "de": "der Papagei",
+    "translations": {
+      "es": "el loro",
+      "fr": "le perroquet",
+      "en": "the parrot"
+    }
+  },
+  {
+    "de": "das Krokodil",
+    "translations": {
+      "es": "el cocodrilo",
+      "fr": "le crocodile",
+      "en": "the crocodile"
+    }
+  },
+  {
+    "de": "der Pinguin",
+    "translations": {
+      "es": "el pingüino",
+      "fr": "le pingouin",
+      "en": "the penguin"
+    }
+  },
+  {
+    "de": "der Hamster",
+    "translations": {
+      "es": "el hámster",
+      "fr": "le hamster",
+      "en": "the hamster"
+    }
+  },
+  {
+    "de": "der Hase",
+    "translations": {
+      "es": "la liebre",
+      "fr": "le lièvre",
+      "en": "the hare"
+    }
+  }
 ]

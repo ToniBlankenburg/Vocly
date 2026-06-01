@@ -1,27 +1,209 @@
 [
-  { "de": "die Stadt", "es": "la ciudad", "fr": "la ville", "en": "the city" },
-  { "de": "das Haus", "es": "la casa", "fr": "la maison", "en": "the house" },
-  { "de": "die Schule", "es": "la escuela", "fr": "l'école", "en": "the school" },
-  { "de": "die Straße", "es": "la calle", "fr": "la rue", "en": "the street" },
-  { "de": "das Geschäft", "es": "la tienda", "fr": "le magasin", "en": "the shop" },
-  { "de": "das Krankenhaus", "es": "el hospital", "fr": "l'hôpital", "en": "the hospital" },
-  { "de": "der Park", "es": "el parque", "fr": "le parc", "en": "the park" },
-  { "de": "das Museum", "es": "el museo", "fr": "le musée", "en": "the museum" },
-  { "de": "die Bibliothek", "es": "la biblioteca", "fr": "la bibliothèque", "en": "the library" },
-  { "de": "das Restaurant", "es": "el restaurante", "fr": "le restaurant", "en": "the restaurant" },
-  { "de": "das Hotel", "es": "el hotel", "fr": "l'hôtel", "en": "the hotel" },
-  { "de": "die Bank", "es": "el banco", "fr": "la banque", "en": "the bank" },
-  { "de": "die Apotheke", "es": "la farmacia", "fr": "la pharmacie", "en": "the pharmacy" },
-  { "de": "der Supermarkt", "es": "el supermercado", "fr": "le supermarché", "en": "the supermarket" },
-  { "de": "die Post", "es": "la oficina de correos", "fr": "la poste", "en": "the post office" },
-  { "de": "das Büro", "es": "la oficina", "fr": "le bureau", "en": "the office" },
-  { "de": "die Kirche", "es": "la iglesia", "fr": "l'église", "en": "the church" },
-  { "de": "der Strand", "es": "la playa", "fr": "la plage", "en": "the beach" },
-  { "de": "das Dorf", "es": "el pueblo", "fr": "le village", "en": "the village" },
-  { "de": "der Markt", "es": "el mercado", "fr": "le marché", "en": "the market" },
-  { "de": "die Wohnung", "es": "el piso", "fr": "l'appartement", "en": "the flat" },
-  { "de": "die Hauptstadt", "es": "la capital", "fr": "la capitale", "en": "the capital" },
-  { "de": "das Zentrum", "es": "el centro", "fr": "le centre", "en": "the centre" },
-  { "de": "die Ecke", "es": "la esquina", "fr": "le coin", "en": "the corner" },
-  { "de": "der Weg", "es": "el camino", "fr": "le chemin", "en": "the path" }
+  {
+    "de": "das Haus",
+    "core": true,
+    "translations": {
+      "es": "la casa",
+      "fr": "la maison",
+      "en": "the house"
+    }
+  },
+  {
+    "de": "die Stadt",
+    "core": true,
+    "translations": {
+      "es": "la ciudad",
+      "fr": "la ville",
+      "en": "the city"
+    }
+  },
+  {
+    "de": "die Straße",
+    "core": true,
+    "translations": {
+      "es": "la calle",
+      "fr": "la rue",
+      "en": "the street"
+    }
+  },
+  {
+    "de": "das Restaurant",
+    "core": true,
+    "translations": {
+      "es": "el restaurante",
+      "fr": "le restaurant",
+      "en": "the restaurant"
+    }
+  },
+  {
+    "de": "das Krankenhaus",
+    "core": true,
+    "translations": {
+      "es": "el hospital",
+      "fr": "l'hôpital",
+      "en": "the hospital"
+    }
+  },
+  {
+    "de": "der Supermarkt",
+    "core": true,
+    "translations": {
+      "es": "el supermercado",
+      "fr": "le supermarché",
+      "en": "the supermarket"
+    }
+  },
+  {
+    "de": "die Wohnung",
+    "core": true,
+    "translations": {
+      "es": "el piso",
+      "fr": "l'appartement",
+      "en": "the flat"
+    }
+  },
+  {
+    "de": "die Schule",
+    "translations": {
+      "es": "la escuela",
+      "fr": "l'école",
+      "en": "the school"
+    }
+  },
+  {
+    "de": "das Geschäft",
+    "translations": {
+      "es": "la tienda",
+      "fr": "le magasin",
+      "en": "the shop"
+    }
+  },
+  {
+    "de": "der Park",
+    "translations": {
+      "es": "el parque",
+      "fr": "le parc",
+      "en": "the park"
+    }
+  },
+  {
+    "de": "das Museum",
+    "translations": {
+      "es": "el museo",
+      "fr": "le musée",
+      "en": "the museum"
+    }
+  },
+  {
+    "de": "die Bibliothek",
+    "translations": {
+      "es": "la biblioteca",
+      "fr": "la bibliothèque",
+      "en": "the library"
+    }
+  },
+  {
+    "de": "das Hotel",
+    "translations": {
+      "es": "el hotel",
+      "fr": "l'hôtel",
+      "en": "the hotel"
+    }
+  },
+  {
+    "de": "die Bank",
+    "translations": {
+      "es": "el banco",
+      "fr": "la banque",
+      "en": "the bank"
+    }
+  },
+  {
+    "de": "die Apotheke",
+    "translations": {
+      "es": "la farmacia",
+      "fr": "la pharmacie",
+      "en": "the pharmacy"
+    }
+  },
+  {
+    "de": "die Post",
+    "translations": {
+      "es": "la oficina de correos",
+      "fr": "la poste",
+      "en": "the post office"
+    }
+  },
+  {
+    "de": "das Büro",
+    "translations": {
+      "es": "la oficina",
+      "fr": "le bureau",
+      "en": "the office"
+    }
+  },
+  {
+    "de": "die Kirche",
+    "translations": {
+      "es": "la iglesia",
+      "fr": "l'église",
+      "en": "the church"
+    }
+  },
+  {
+    "de": "der Strand",
+    "translations": {
+      "es": "la playa",
+      "fr": "la plage",
+      "en": "the beach"
+    }
+  },
+  {
+    "de": "das Dorf",
+    "translations": {
+      "es": "el pueblo",
+      "fr": "le village",
+      "en": "the village"
+    }
+  },
+  {
+    "de": "der Markt",
+    "translations": {
+      "es": "el mercado",
+      "fr": "le marché",
+      "en": "the market"
+    }
+  },
+  {
+    "de": "die Hauptstadt",
+    "translations": {
+      "es": "la capital",
+      "fr": "la capitale",
+      "en": "the capital"
+    }
+  },
+  {
+    "de": "das Zentrum",
+    "translations": {
+      "es": "el centro",
+      "fr": "le centre",
+      "en": "the centre"
+    }
+  },
+  {
+    "de": "die Ecke",
+    "translations": {
+      "es": "la esquina",
+      "fr": "le coin",
+      "en": "the corner"
+    }
+  },
+  {
+    "de": "der Weg",
+    "translations": {
+      "es": "el camino",
+      "fr": "le chemin",
+      "en": "the path"
+    }
+  }
 ]

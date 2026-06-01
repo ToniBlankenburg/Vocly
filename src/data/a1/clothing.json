@@ -1,42 +1,322 @@
 [
-  { "de": "das Hemd", "es": "la camisa", "fr": "la chemise", "en": "the shirt" },
-  { "de": "die Hose", "es": "los pantalones", "fr": "le pantalon", "en": "the trousers" },
-  { "de": "der Schuh", "es": "el zapato", "fr": "la chaussure", "en": "the shoe" },
-  { "de": "das Kleid", "es": "el vestido", "fr": "la robe", "en": "the dress" },
-  { "de": "der Hut", "es": "el sombrero", "fr": "le chapeau", "en": "the hat" },
-  { "de": "die Jacke", "es": "la chaqueta", "fr": "la veste", "en": "the jacket" },
-  { "de": "die Socke", "es": "el calcetín", "fr": "la chaussette", "en": "the sock" },
-  { "de": "der Rock", "es": "la falda", "fr": "la jupe", "en": "the skirt" },
-  { "de": "der Mantel", "es": "el abrigo", "fr": "le manteau", "en": "the coat" },
-  { "de": "der Pullover", "es": "el suéter", "fr": "le pull", "en": "the sweater" },
-  { "de": "der Schal", "es": "la bufanda", "fr": "l'écharpe", "en": "the scarf" },
-  { "de": "das T-Shirt", "es": "la camiseta", "fr": "le t-shirt", "en": "the t-shirt" },
-  { "de": "die Mütze", "es": "el gorro", "fr": "le bonnet", "en": "the beanie" },
-  { "de": "der Gürtel", "es": "el cinturón", "fr": "la ceinture", "en": "the belt" },
-  { "de": "die Handschuhe", "es": "los guantes", "fr": "les gants", "en": "the gloves" },
-  { "de": "der Stiefel", "es": "la bota", "fr": "la botte", "en": "the boot" },
-  { "de": "die Jeans", "es": "los vaqueros", "fr": "le jean", "en": "the jeans" },
-  { "de": "der Turnschuh", "es": "la zapatilla", "fr": "la basket", "en": "the trainers" },
-  { "de": "die Sandale", "es": "la sandalia", "fr": "la sandale", "en": "the sandal" },
-  { "de": "die Shorts", "es": "los pantalones cortos", "fr": "le short", "en": "the shorts" },
-  { "de": "der Anzug", "es": "el traje", "fr": "le costume", "en": "the suit" },
-  { "de": "die Krawatte", "es": "la corbata", "fr": "la cravate", "en": "the tie" },
-  { "de": "der Regenmantel", "es": "el impermeable", "fr": "l'imperméable", "en": "the raincoat" },
-  { "de": "der Badeanzug", "es": "el bañador", "fr": "le maillot de bain", "en": "the swimsuit" },
-  { "de": "die Unterwäsche", "es": "la ropa interior", "fr": "les sous-vêtements", "en": "the underwear" },
-  { "de": "die Weste", "es": "el chaleco", "fr": "le gilet", "en": "the vest" },
-  { "de": "der Pyjama", "es": "el pijama", "fr": "le pyjama", "en": "the pyjamas" },
-  { "de": "die Bluse", "es": "la blusa", "fr": "le chemisier", "en": "the blouse" },
-  { "de": "die Strickjacke", "es": "la rebeca", "fr": "le cardigan", "en": "the cardigan" },
-  { "de": "der Anorak", "es": "el anorak", "fr": "l'anorak", "en": "the anorak" },
-  { "de": "die Strumpfhose", "es": "las medias", "fr": "le collant", "en": "the tights" },
-  { "de": "die Schürze", "es": "el delantal", "fr": "le tablier", "en": "the apron" },
-  { "de": "die Baseballkappe", "es": "la gorra", "fr": "la casquette", "en": "the baseball cap" },
-  { "de": "die Tasche", "es": "el bolso", "fr": "le sac", "en": "the bag" },
-  { "de": "der Rucksack", "es": "la mochila", "fr": "le sac à dos", "en": "the backpack" },
-  { "de": "die Brille", "es": "las gafas", "fr": "les lunettes", "en": "the glasses" },
-  { "de": "das Nachthemd", "es": "el camisón", "fr": "la chemise de nuit", "en": "the nightgown" },
-  { "de": "die Uniform", "es": "el uniforme", "fr": "l'uniforme", "en": "the uniform" },
-  { "de": "die Badehose", "es": "el bañador masculino", "fr": "le slip de bain", "en": "the swimming trunks" },
-  { "de": "der Overall", "es": "el buzo", "fr": "la combinaison", "en": "the overalls" }
+  {
+    "de": "das Hemd",
+    "translations": {
+      "es": "la camisa",
+      "fr": "la chemise",
+      "en": "the shirt"
+    }
+  },
+  {
+    "de": "die Hose",
+    "translations": {
+      "es": "los pantalones",
+      "fr": "le pantalon",
+      "en": "the trousers"
+    }
+  },
+  {
+    "de": "der Schuh",
+    "translations": {
+      "es": "el zapato",
+      "fr": "la chaussure",
+      "en": "the shoe"
+    }
+  },
+  {
+    "de": "das Kleid",
+    "translations": {
+      "es": "el vestido",
+      "fr": "la robe",
+      "en": "the dress"
+    }
+  },
+  {
+    "de": "der Hut",
+    "translations": {
+      "es": "el sombrero",
+      "fr": "le chapeau",
+      "en": "the hat"
+    }
+  },
+  {
+    "de": "die Jacke",
+    "translations": {
+      "es": "la chaqueta",
+      "fr": "la veste",
+      "en": "the jacket"
+    }
+  },
+  {
+    "de": "die Socke",
+    "translations": {
+      "es": "el calcetín",
+      "fr": "la chaussette",
+      "en": "the sock"
+    }
+  },
+  {
+    "de": "der Rock",
+    "translations": {
+      "es": "la falda",
+      "fr": "la jupe",
+      "en": "the skirt"
+    }
+  },
+  {
+    "de": "der Mantel",
+    "translations": {
+      "es": "el abrigo",
+      "fr": "le manteau",
+      "en": "the coat"
+    }
+  },
+  {
+    "de": "der Pullover",
+    "translations": {
+      "es": "el suéter",
+      "fr": "le pull",
+      "en": "the sweater"
+    }
+  },
+  {
+    "de": "der Schal",
+    "translations": {
+      "es": "la bufanda",
+      "fr": "l'écharpe",
+      "en": "the scarf"
+    }
+  },
+  {
+    "de": "das T-Shirt",
+    "translations": {
+      "es": "la camiseta",
+      "fr": "le t-shirt",
+      "en": "the t-shirt"
+    }
+  },
+  {
+    "de": "die Mütze",
+    "translations": {
+      "es": "el gorro",
+      "fr": "le bonnet",
+      "en": "the beanie"
+    }
+  },
+  {
+    "de": "der Gürtel",
+    "translations": {
+      "es": "el cinturón",
+      "fr": "la ceinture",
+      "en": "the belt"
+    }
+  },
+  {
+    "de": "die Handschuhe",
+    "translations": {
+      "es": "los guantes",
+      "fr": "les gants",
+      "en": "the gloves"
+    }
+  },
+  {
+    "de": "der Stiefel",
+    "translations": {
+      "es": "la bota",
+      "fr": "la botte",
+      "en": "the boot"
+    }
+  },
+  {
+    "de": "die Jeans",
+    "translations": {
+      "es": "los vaqueros",
+      "fr": "le jean",
+      "en": "the jeans"
+    }
+  },
+  {
+    "de": "der Turnschuh",
+    "translations": {
+      "es": "la zapatilla",
+      "fr": "la basket",
+      "en": "the trainers"
+    }
+  },
+  {
+    "de": "die Sandale",
+    "translations": {
+      "es": "la sandalia",
+      "fr": "la sandale",
+      "en": "the sandal"
+    }
+  },
+  {
+    "de": "die Shorts",
+    "translations": {
+      "es": "los pantalones cortos",
+      "fr": "le short",
+      "en": "the shorts"
+    }
+  },
+  {
+    "de": "der Anzug",
+    "translations": {
+      "es": "el traje",
+      "fr": "le costume",
+      "en": "the suit"
+    }
+  },
+  {
+    "de": "die Krawatte",
+    "translations": {
+      "es": "la corbata",
+      "fr": "la cravate",
+      "en": "the tie"
+    }
+  },
+  {
+    "de": "der Regenmantel",
+    "translations": {
+      "es": "el impermeable",
+      "fr": "l'imperméable",
+      "en": "the raincoat"
+    }
+  },
+  {
+    "de": "der Badeanzug",
+    "translations": {
+      "es": "el bañador",
+      "fr": "le maillot de bain",
+      "en": "the swimsuit"
+    }
+  },
+  {
+    "de": "die Unterwäsche",
+    "translations": {
+      "es": "la ropa interior",
+      "fr": "les sous-vêtements",
+      "en": "the underwear"
+    }
+  },
+  {
+    "de": "die Weste",
+    "translations": {
+      "es": "el chaleco",
+      "fr": "le gilet",
+      "en": "the vest"
+    }
+  },
+  {
+    "de": "der Pyjama",
+    "translations": {
+      "es": "el pijama",
+      "fr": "le pyjama",
+      "en": "the pyjamas"
+    }
+  },
+  {
+    "de": "die Bluse",
+    "translations": {
+      "es": "la blusa",
+      "fr": "le chemisier",
+      "en": "the blouse"
+    }
+  },
+  {
+    "de": "die Strickjacke",
+    "translations": {
+      "es": "la rebeca",
+      "fr": "le cardigan",
+      "en": "the cardigan"
+    }
+  },
+  {
+    "de": "der Anorak",
+    "translations": {
+      "es": "el anorak",
+      "fr": "l'anorak",
+      "en": "the anorak"
+    }
+  },
+  {
+    "de": "die Strumpfhose",
+    "translations": {
+      "es": "las medias",
+      "fr": "le collant",
+      "en": "the tights"
+    }
+  },
+  {
+    "de": "die Schürze",
+    "translations": {
+      "es": "el delantal",
+      "fr": "le tablier",
+      "en": "the apron"
+    }
+  },
+  {
+    "de": "die Baseballkappe",
+    "translations": {
+      "es": "la gorra",
+      "fr": "la casquette",
+      "en": "the baseball cap"
+    }
+  },
+  {
+    "de": "die Tasche",
+    "translations": {
+      "es": "el bolso",
+      "fr": "le sac",
+      "en": "the bag"
+    }
+  },
+  {
+    "de": "der Rucksack",
+    "translations": {
+      "es": "la mochila",
+      "fr": "le sac à dos",
+      "en": "the backpack"
+    }
+  },
+  {
+    "de": "die Brille",
+    "translations": {
+      "es": "las gafas",
+      "fr": "les lunettes",
+      "en": "the glasses"
+    }
+  },
+  {
+    "de": "das Nachthemd",
+    "translations": {
+      "es": "el camisón",
+      "fr": "la chemise de nuit",
+      "en": "the nightgown"
+    }
+  },
+  {
+    "de": "die Uniform",
+    "translations": {
+      "es": "el uniforme",
+      "fr": "l'uniforme",
+      "en": "the uniform"
+    }
+  },
+  {
+    "de": "die Badehose",
+    "translations": {
+      "es": "el bañador masculino",
+      "fr": "le slip de bain",
+      "en": "the swimming trunks"
+    }
+  },
+  {
+    "de": "der Overall",
+    "translations": {
+      "es": "el buzo",
+      "fr": "la combinaison",
+      "en": "the overalls"
+    }
+  }
 ]

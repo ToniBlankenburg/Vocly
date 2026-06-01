@@ -1,32 +1,253 @@
 [
-  { "de": "der Tag", "es": "el día", "fr": "le jour", "en": "the day" },
-  { "de": "die Nacht", "es": "la noche", "fr": "la nuit", "en": "the night" },
-  { "de": "die Woche", "es": "la semana", "fr": "la semaine", "en": "the week" },
-  { "de": "der Monat", "es": "el mes", "fr": "le mois", "en": "the month" },
-  { "de": "das Jahr", "es": "el año", "fr": "l'année", "en": "the year" },
-  { "de": "heute", "es": "hoy", "fr": "aujourd'hui", "en": "today" },
-  { "de": "morgen", "es": "mañana", "fr": "demain", "en": "tomorrow" },
-  { "de": "gestern", "es": "ayer", "fr": "hier", "en": "yesterday" },
-  { "de": "die Stunde", "es": "la hora", "fr": "l'heure", "en": "the hour" },
-  { "de": "die Minute", "es": "el minuto", "fr": "la minute", "en": "the minute" },
-  { "de": "der Morgen", "es": "la mañana", "fr": "le matin", "en": "the morning" },
-  { "de": "der Nachmittag", "es": "la tarde", "fr": "l'après-midi", "en": "the afternoon" },
-  { "de": "der Abend", "es": "la tarde-noche", "fr": "le soir", "en": "the evening" },
-  { "de": "jetzt", "es": "ahora", "fr": "maintenant", "en": "now" },
-  { "de": "immer", "es": "siempre", "fr": "toujours", "en": "always" },
-  { "de": "nie", "es": "nunca", "fr": "jamais", "en": "never" },
-  { "de": "früh", "es": "temprano", "fr": "tôt", "en": "early" },
-  { "de": "spät", "es": "tarde", "fr": "tard", "en": "late" },
-  { "de": "bald", "es": "pronto", "fr": "bientôt", "en": "soon" },
-  { "de": "manchmal", "es": "a veces", "fr": "parfois", "en": "sometimes" },
-  { "de": "die Sekunde", "es": "el segundo", "fr": "la seconde", "en": "the second" },
-  { "de": "das Datum", "es": "la fecha", "fr": "la date", "en": "the date" },
-  { "de": "der Montag", "es": "el lunes", "fr": "lundi", "en": "Monday" },
-  { "de": "der Dienstag", "es": "el martes", "fr": "mardi", "en": "Tuesday" },
-  { "de": "der Mittwoch", "es": "el miércoles", "fr": "mercredi", "en": "Wednesday" },
-  { "de": "der Donnerstag", "es": "el jueves", "fr": "jeudi", "en": "Thursday" },
-  { "de": "der Freitag", "es": "el viernes", "fr": "vendredi", "en": "Friday" },
-  { "de": "das Wochenende", "es": "el fin de semana", "fr": "le week-end", "en": "the weekend" },
-  { "de": "der Kalender", "es": "el calendario", "fr": "le calendrier", "en": "the calendar" },
-  { "de": "die Uhr", "es": "el reloj", "fr": "l'horloge", "en": "the clock" }
+  {
+    "de": "heute",
+    "core": true,
+    "translations": {
+      "es": "hoy",
+      "fr": "aujourd'hui",
+      "en": "today"
+    }
+  },
+  {
+    "de": "morgen",
+    "core": true,
+    "translations": {
+      "es": "mañana",
+      "fr": "demain",
+      "en": "tomorrow"
+    }
+  },
+  {
+    "de": "gestern",
+    "core": true,
+    "translations": {
+      "es": "ayer",
+      "fr": "hier",
+      "en": "yesterday"
+    }
+  },
+  {
+    "de": "jetzt",
+    "core": true,
+    "translations": {
+      "es": "ahora",
+      "fr": "maintenant",
+      "en": "now"
+    }
+  },
+  {
+    "de": "der Tag",
+    "core": true,
+    "translations": {
+      "es": "el día",
+      "fr": "le jour",
+      "en": "the day"
+    }
+  },
+  {
+    "de": "die Nacht",
+    "core": true,
+    "translations": {
+      "es": "la noche",
+      "fr": "la nuit",
+      "en": "the night"
+    }
+  },
+  {
+    "de": "die Woche",
+    "core": true,
+    "translations": {
+      "es": "la semana",
+      "fr": "la semaine",
+      "en": "the week"
+    }
+  },
+  {
+    "de": "der Morgen",
+    "core": true,
+    "translations": {
+      "es": "la mañana",
+      "fr": "le matin",
+      "en": "the morning"
+    }
+  },
+  {
+    "de": "der Abend",
+    "core": true,
+    "translations": {
+      "es": "la tarde-noche",
+      "fr": "le soir",
+      "en": "the evening"
+    }
+  },
+  {
+    "de": "früh",
+    "core": true,
+    "translations": {
+      "es": "temprano",
+      "fr": "tôt",
+      "en": "early"
+    }
+  },
+  {
+    "de": "spät",
+    "core": true,
+    "translations": {
+      "es": "tarde",
+      "fr": "tard",
+      "en": "late"
+    }
+  },
+  {
+    "de": "der Monat",
+    "translations": {
+      "es": "el mes",
+      "fr": "le mois",
+      "en": "the month"
+    }
+  },
+  {
+    "de": "das Jahr",
+    "translations": {
+      "es": "el año",
+      "fr": "l'année",
+      "en": "the year"
+    }
+  },
+  {
+    "de": "die Stunde",
+    "translations": {
+      "es": "la hora",
+      "fr": "l'heure",
+      "en": "the hour"
+    }
+  },
+  {
+    "de": "die Minute",
+    "translations": {
+      "es": "el minuto",
+      "fr": "la minute",
+      "en": "the minute"
+    }
+  },
+  {
+    "de": "der Nachmittag",
+    "translations": {
+      "es": "la tarde",
+      "fr": "l'après-midi",
+      "en": "the afternoon"
+    }
+  },
+  {
+    "de": "immer",
+    "translations": {
+      "es": "siempre",
+      "fr": "toujours",
+      "en": "always"
+    }
+  },
+  {
+    "de": "nie",
+    "translations": {
+      "es": "nunca",
+      "fr": "jamais",
+      "en": "never"
+    }
+  },
+  {
+    "de": "bald",
+    "translations": {
+      "es": "pronto",
+      "fr": "bientôt",
+      "en": "soon"
+    }
+  },
+  {
+    "de": "manchmal",
+    "translations": {
+      "es": "a veces",
+      "fr": "parfois",
+      "en": "sometimes"
+    }
+  },
+  {
+    "de": "die Sekunde",
+    "translations": {
+      "es": "el segundo",
+      "fr": "la seconde",
+      "en": "the second"
+    }
+  },
+  {
+    "de": "das Datum",
+    "translations": {
+      "es": "la fecha",
+      "fr": "la date",
+      "en": "the date"
+    }
+  },
+  {
+    "de": "der Montag",
+    "translations": {
+      "es": "el lunes",
+      "fr": "lundi",
+      "en": "Monday"
+    }
+  },
+  {
+    "de": "der Dienstag",
+    "translations": {
+      "es": "el martes",
+      "fr": "mardi",
+      "en": "Tuesday"
+    }
+  },
+  {
+    "de": "der Mittwoch",
+    "translations": {
+      "es": "el miércoles",
+      "fr": "mercredi",
+      "en": "Wednesday"
+    }
+  },
+  {
+    "de": "der Donnerstag",
+    "translations": {
+      "es": "el jueves",
+      "fr": "jeudi",
+      "en": "Thursday"
+    }
+  },
+  {
+    "de": "der Freitag",
+    "translations": {
+      "es": "el viernes",
+      "fr": "vendredi",
+      "en": "Friday"
+    }
+  },
+  {
+    "de": "das Wochenende",
+    "translations": {
+      "es": "el fin de semana",
+      "fr": "le week-end",
+      "en": "the weekend"
+    }
+  },
+  {
+    "de": "der Kalender",
+    "translations": {
+      "es": "el calendario",
+      "fr": "le calendrier",
+      "en": "the calendar"
+    }
+  },
+  {
+    "de": "die Uhr",
+    "translations": {
+      "es": "el reloj",
+      "fr": "l'horloge",
+      "en": "the clock"
+    }
+  }
 ]

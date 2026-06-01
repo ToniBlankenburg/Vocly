@@ -1,27 +1,209 @@
 [
-  { "de": "rot", "es": "rojo", "fr": "rouge", "en": "red" },
-  { "de": "blau", "es": "azul", "fr": "bleu", "en": "blue" },
-  { "de": "grün", "es": "verde", "fr": "vert", "en": "green" },
-  { "de": "gelb", "es": "amarillo", "fr": "jaune", "en": "yellow" },
-  { "de": "schwarz", "es": "negro", "fr": "noir", "en": "black" },
-  { "de": "weiß", "es": "blanco", "fr": "blanc", "en": "white" },
-  { "de": "orange", "es": "naranja", "fr": "orange", "en": "orange" },
-  { "de": "lila", "es": "morado", "fr": "violet", "en": "purple" },
-  { "de": "rosa", "es": "rosa", "fr": "rose", "en": "pink" },
-  { "de": "grau", "es": "gris", "fr": "gris", "en": "grey" },
-  { "de": "braun", "es": "marrón", "fr": "marron", "en": "brown" },
-  { "de": "hellblau", "es": "celeste", "fr": "bleu ciel", "en": "light blue" },
-  { "de": "dunkel", "es": "oscuro", "fr": "foncé", "en": "dark" },
-  { "de": "hell", "es": "claro", "fr": "clair", "en": "light" },
-  { "de": "bunt", "es": "colorido", "fr": "coloré", "en": "colourful" },
-  { "de": "türkis", "es": "turquesa", "fr": "turquoise", "en": "turquoise" },
-  { "de": "beige", "es": "beige", "fr": "beige", "en": "beige" },
-  { "de": "golden", "es": "dorado", "fr": "doré", "en": "golden" },
-  { "de": "silbern", "es": "plateado", "fr": "argenté", "en": "silver" },
-  { "de": "dunkelblau", "es": "azul marino", "fr": "bleu marine", "en": "dark blue" },
-  { "de": "hellgrün", "es": "verde claro", "fr": "vert clair", "en": "light green" },
-  { "de": "violett", "es": "violeta", "fr": "mauve", "en": "violet" },
-  { "de": "bordeaux", "es": "burdeos", "fr": "bordeaux", "en": "burgundy" },
-  { "de": "cremefarben", "es": "crema", "fr": "crème", "en": "cream" },
-  { "de": "khaki", "es": "caqui", "fr": "kaki", "en": "khaki" }
+  {
+    "de": "rot",
+    "core": true,
+    "translations": {
+      "es": "rojo",
+      "fr": "rouge",
+      "en": "red"
+    }
+  },
+  {
+    "de": "blau",
+    "core": true,
+    "translations": {
+      "es": "azul",
+      "fr": "bleu",
+      "en": "blue"
+    }
+  },
+  {
+    "de": "grün",
+    "core": true,
+    "translations": {
+      "es": "verde",
+      "fr": "vert",
+      "en": "green"
+    }
+  },
+  {
+    "de": "gelb",
+    "core": true,
+    "translations": {
+      "es": "amarillo",
+      "fr": "jaune",
+      "en": "yellow"
+    }
+  },
+  {
+    "de": "schwarz",
+    "core": true,
+    "translations": {
+      "es": "negro",
+      "fr": "noir",
+      "en": "black"
+    }
+  },
+  {
+    "de": "weiß",
+    "core": true,
+    "translations": {
+      "es": "blanco",
+      "fr": "blanc",
+      "en": "white"
+    }
+  },
+  {
+    "de": "orange",
+    "core": true,
+    "translations": {
+      "es": "naranja",
+      "fr": "orange",
+      "en": "orange"
+    }
+  },
+  {
+    "de": "lila",
+    "translations": {
+      "es": "morado",
+      "fr": "violet",
+      "en": "purple"
+    }
+  },
+  {
+    "de": "rosa",
+    "translations": {
+      "es": "rosa",
+      "fr": "rose",
+      "en": "pink"
+    }
+  },
+  {
+    "de": "grau",
+    "translations": {
+      "es": "gris",
+      "fr": "gris",
+      "en": "grey"
+    }
+  },
+  {
+    "de": "braun",
+    "translations": {
+      "es": "marrón",
+      "fr": "marron",
+      "en": "brown"
+    }
+  },
+  {
+    "de": "hellblau",
+    "translations": {
+      "es": "celeste",
+      "fr": "bleu ciel",
+      "en": "light blue"
+    }
+  },
+  {
+    "de": "dunkel",
+    "translations": {
+      "es": "oscuro",
+      "fr": "foncé",
+      "en": "dark"
+    }
+  },
+  {
+    "de": "hell",
+    "translations": {
+      "es": "claro",
+      "fr": "clair",
+      "en": "light"
+    }
+  },
+  {
+    "de": "bunt",
+    "translations": {
+      "es": "colorido",
+      "fr": "coloré",
+      "en": "colourful"
+    }
+  },
+  {
+    "de": "türkis",
+    "translations": {
+      "es": "turquesa",
+      "fr": "turquoise",
+      "en": "turquoise"
+    }
+  },
+  {
+    "de": "beige",
+    "translations": {
+      "es": "beige",
+      "fr": "beige",
+      "en": "beige"
+    }
+  },
+  {
+    "de": "golden",
+    "translations": {
+      "es": "dorado",
+      "fr": "doré",
+      "en": "golden"
+    }
+  },
+  {
+    "de": "silbern",
+    "translations": {
+      "es": "plateado",
+      "fr": "argenté",
+      "en": "silver"
+    }
+  },
+  {
+    "de": "dunkelblau",
+    "translations": {
+      "es": "azul marino",
+      "fr": "bleu marine",
+      "en": "dark blue"
+    }
+  },
+  {
+    "de": "hellgrün",
+    "translations": {
+      "es": "verde claro",
+      "fr": "vert clair",
+      "en": "light green"
+    }
+  },
+  {
+    "de": "violett",
+    "translations": {
+      "es": "violeta",
+      "fr": "mauve",
+      "en": "violet"
+    }
+  },
+  {
+    "de": "bordeaux",
+    "translations": {
+      "es": "burdeos",
+      "fr": "bordeaux",
+      "en": "burgundy"
+    }
+  },
+  {
+    "de": "cremefarben",
+    "translations": {
+      "es": "crema",
+      "fr": "crème",
+      "en": "cream"
+    }
+  },
+  {
+    "de": "khaki",
+    "translations": {
+      "es": "caqui",
+      "fr": "kaki",
+      "en": "khaki"
+    }
+  }
 ]

@@ -1,32 +1,252 @@
 [
-  { "de": "das Zimmer", "es": "la habitación", "fr": "la chambre", "en": "the room" },
-  { "de": "die Küche", "es": "la cocina", "fr": "la cuisine", "en": "the kitchen" },
-  { "de": "das Schlafzimmer", "es": "el dormitorio", "fr": "la chambre à coucher", "en": "the bedroom" },
-  { "de": "das Badezimmer", "es": "el baño", "fr": "la salle de bain", "en": "the bathroom" },
-  { "de": "der Tisch", "es": "la mesa", "fr": "la table", "en": "the table" },
-  { "de": "der Stuhl", "es": "la silla", "fr": "la chaise", "en": "the chair" },
-  { "de": "die Tür", "es": "la puerta", "fr": "la porte", "en": "the door" },
-  { "de": "das Fenster", "es": "la ventana", "fr": "la fenêtre", "en": "the window" },
-  { "de": "das Bett", "es": "la cama", "fr": "le lit", "en": "the bed" },
-  { "de": "die Lampe", "es": "la lámpara", "fr": "la lampe", "en": "the lamp" },
-  { "de": "der Boden", "es": "el suelo", "fr": "le sol", "en": "the floor" },
-  { "de": "die Treppe", "es": "la escalera", "fr": "l'escalier", "en": "the stairs" },
-  { "de": "der Garten", "es": "el jardín", "fr": "le jardin", "en": "the garden" },
-  { "de": "der Schlüssel", "es": "la llave", "fr": "la clé", "en": "the key" },
-  { "de": "das Sofa", "es": "el sofá", "fr": "le canapé", "en": "the sofa" },
-  { "de": "die Wand", "es": "la pared", "fr": "le mur", "en": "the wall" },
-  { "de": "die Decke", "es": "el techo", "fr": "le plafond", "en": "the ceiling" },
-  { "de": "der Schrank", "es": "el armario", "fr": "l'armoire", "en": "the wardrobe" },
-  { "de": "das Regal", "es": "la estantería", "fr": "l'étagère", "en": "the shelf" },
-  { "de": "das Wohnzimmer", "es": "el salón", "fr": "le salon", "en": "the living room" },
-  { "de": "das Dach", "es": "el tejado", "fr": "le toit", "en": "the roof" },
-  { "de": "der Keller", "es": "el sótano", "fr": "la cave", "en": "the cellar" },
-  { "de": "der Aufzug", "es": "el ascensor", "fr": "l'ascenseur", "en": "the lift" },
-  { "de": "die Heizung", "es": "la calefacción", "fr": "le chauffage", "en": "the heating" },
-  { "de": "das Waschbecken", "es": "el lavabo", "fr": "le lavabo", "en": "the sink" },
-  { "de": "die Dusche", "es": "la ducha", "fr": "la douche", "en": "the shower" },
-  { "de": "der Spiegel", "es": "el espejo", "fr": "le miroir", "en": "the mirror" },
-  { "de": "die Badewanne", "es": "la bañera", "fr": "la baignoire", "en": "the bathtub" },
-  { "de": "der Eingang", "es": "la entrada", "fr": "l'entrée", "en": "the entrance" },
-  { "de": "der Balkon", "es": "el balcón", "fr": "le balcon", "en": "the balcony" }
+  {
+    "de": "das Zimmer",
+    "core": true,
+    "translations": {
+      "es": "la habitación",
+      "fr": "la chambre",
+      "en": "the room"
+    }
+  },
+  {
+    "de": "die Küche",
+    "core": true,
+    "translations": {
+      "es": "la cocina",
+      "fr": "la cuisine",
+      "en": "the kitchen"
+    }
+  },
+  {
+    "de": "das Schlafzimmer",
+    "core": true,
+    "translations": {
+      "es": "el dormitorio",
+      "fr": "la chambre à coucher",
+      "en": "the bedroom"
+    }
+  },
+  {
+    "de": "das Badezimmer",
+    "core": true,
+    "translations": {
+      "es": "el baño",
+      "fr": "la salle de bain",
+      "en": "the bathroom"
+    }
+  },
+  {
+    "de": "das Wohnzimmer",
+    "core": true,
+    "translations": {
+      "es": "el salón",
+      "fr": "le salon",
+      "en": "the living room"
+    }
+  },
+  {
+    "de": "die Tür",
+    "core": true,
+    "translations": {
+      "es": "la puerta",
+      "fr": "la porte",
+      "en": "the door"
+    }
+  },
+  {
+    "de": "das Fenster",
+    "core": true,
+    "translations": {
+      "es": "la ventana",
+      "fr": "la fenêtre",
+      "en": "the window"
+    }
+  },
+  {
+    "de": "das Bett",
+    "core": true,
+    "translations": {
+      "es": "la cama",
+      "fr": "le lit",
+      "en": "the bed"
+    }
+  },
+  {
+    "de": "der Tisch",
+    "core": true,
+    "translations": {
+      "es": "la mesa",
+      "fr": "la table",
+      "en": "the table"
+    }
+  },
+  {
+    "de": "der Stuhl",
+    "core": true,
+    "translations": {
+      "es": "la silla",
+      "fr": "la chaise",
+      "en": "the chair"
+    }
+  },
+  {
+    "de": "die Lampe",
+    "translations": {
+      "es": "la lámpara",
+      "fr": "la lampe",
+      "en": "the lamp"
+    }
+  },
+  {
+    "de": "der Boden",
+    "translations": {
+      "es": "el suelo",
+      "fr": "le sol",
+      "en": "the floor"
+    }
+  },
+  {
+    "de": "die Treppe",
+    "translations": {
+      "es": "la escalera",
+      "fr": "l'escalier",
+      "en": "the stairs"
+    }
+  },
+  {
+    "de": "der Garten",
+    "translations": {
+      "es": "el jardín",
+      "fr": "le jardin",
+      "en": "the garden"
+    }
+  },
+  {
+    "de": "der Schlüssel",
+    "translations": {
+      "es": "la llave",
+      "fr": "la clé",
+      "en": "the key"
+    }
+  },
+  {
+    "de": "das Sofa",
+    "translations": {
+      "es": "el sofá",
+      "fr": "le canapé",
+      "en": "the sofa"
+    }
+  },
+  {
+    "de": "die Wand",
+    "translations": {
+      "es": "la pared",
+      "fr": "le mur",
+      "en": "the wall"
+    }
+  },
+  {
+    "de": "die Decke",
+    "translations": {
+      "es": "el techo",
+      "fr": "le plafond",
+      "en": "the ceiling"
+    }
+  },
+  {
+    "de": "der Schrank",
+    "translations": {
+      "es": "el armario",
+      "fr": "l'armoire",
+      "en": "the wardrobe"
+    }
+  },
+  {
+    "de": "das Regal",
+    "translations": {
+      "es": "la estantería",
+      "fr": "l'étagère",
+      "en": "the shelf"
+    }
+  },
+  {
+    "de": "das Dach",
+    "translations": {
+      "es": "el tejado",
+      "fr": "le toit",
+      "en": "the roof"
+    }
+  },
+  {
+    "de": "der Keller",
+    "translations": {
+      "es": "el sótano",
+      "fr": "la cave",
+      "en": "the cellar"
+    }
+  },
+  {
+    "de": "der Aufzug",
+    "translations": {
+      "es": "el ascensor",
+      "fr": "l'ascenseur",
+      "en": "the lift"
+    }
+  },
+  {
+    "de": "die Heizung",
+    "translations": {
+      "es": "la calefacción",
+      "fr": "le chauffage",
+      "en": "the heating"
+    }
+  },
+  {
+    "de": "das Waschbecken",
+    "translations": {
+      "es": "el lavabo",
+      "fr": "le lavabo",
+      "en": "the sink"
+    }
+  },
+  {
+    "de": "die Dusche",
+    "translations": {
+      "es": "la ducha",
+      "fr": "la douche",
+      "en": "the shower"
+    }
+  },
+  {
+    "de": "der Spiegel",
+    "translations": {
+      "es": "el espejo",
+      "fr": "le miroir",
+      "en": "the mirror"
+    }
+  },
+  {
+    "de": "die Badewanne",
+    "translations": {
+      "es": "la bañera",
+      "fr": "la baignoire",
+      "en": "the bathtub"
+    }
+  },
+  {
+    "de": "der Eingang",
+    "translations": {
+      "es": "la entrada",
+      "fr": "l'entrée",
+      "en": "the entrance"
+    }
+  },
+  {
+    "de": "der Balkon",
+    "translations": {
+      "es": "el balcón",
+      "fr": "le balcon",
+      "en": "the balcony"
+    }
+  }
 ]

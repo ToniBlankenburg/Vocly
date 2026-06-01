@@ -1,0 +1,106 @@
+[
+  {
+    "de": "Was?",
+    "core": true,
+    "translations": {
+      "es": "¿Qué?",
+      "fr": "Quoi?",
+      "en": "What?"
+    }
+  },
+  {
+    "de": "Wer?",
+    "core": true,
+    "translations": {
+      "es": "¿Quién?",
+      "fr": "Qui?",
+      "en": "Who?"
+    }
+  },
+  {
+    "de": "Wo?",
+    "core": true,
+    "translations": {
+      "es": "¿Dónde?",
+      "fr": "Où?",
+      "en": "Where?"
+    }
+  },
+  {
+    "de": "Wie?",
+    "core": true,
+    "translations": {
+      "es": "¿Cómo?",
+      "fr": "Comment?",
+      "en": "How?"
+    }
+  },
+  {
+    "de": "Wann?",
+    "core": true,
+    "translations": {
+      "es": "¿Cuándo?",
+      "fr": "Quand?",
+      "en": "When?"
+    }
+  },
+  {
+    "de": "Warum?",
+    "core": true,
+    "translations": {
+      "es": "¿Por qué?",
+      "fr": "Pourquoi?",
+      "en": "Why?"
+    }
+  },
+  {
+    "de": "Wie viel?",
+    "core": true,
+    "translations": {
+      "es": "¿Cuánto?",
+      "fr": "Combien?",
+      "en": "How much?"
+    }
+  },
+  {
+    "de": "Welcher?",
+    "core": true,
+    "translations": {
+      "es": "¿Cuál?",
+      "fr": "Lequel?",
+      "en": "Which?"
+    }
+  },
+  {
+    "de": "Wohin?",
+    "translations": {
+      "es": "¿Adónde?",
+      "fr": "Où (aller)?",
+      "en": "Where to?"
+    }
+  },
+  {
+    "de": "Woher?",
+    "translations": {
+      "es": "¿De dónde?",
+      "fr": "D'où?",
+      "en": "Where from?"
+    }
+  },
+  {
+    "de": "Wie lange?",
+    "translations": {
+      "es": "¿Cuánto tiempo?",
+      "fr": "Combien de temps?",
+      "en": "How long?"
+    }
+  },
+  {
+    "de": "Wie oft?",
+    "translations": {
+      "es": "¿Con qué frecuencia?",
+      "fr": "Combien de fois?",
+      "en": "How often?"
+    }
+  }
+]

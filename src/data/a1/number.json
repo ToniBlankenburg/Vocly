@@ -1,27 +1,213 @@
 [
-  { "de": "null", "es": "cero", "fr": "zéro", "en": "zero" },
-  { "de": "eins", "es": "uno", "fr": "un", "en": "one" },
-  { "de": "zwei", "es": "dos", "fr": "deux", "en": "two" },
-  { "de": "drei", "es": "tres", "fr": "trois", "en": "three" },
-  { "de": "vier", "es": "cuatro", "fr": "quatre", "en": "four" },
-  { "de": "fünf", "es": "cinco", "fr": "cinq", "en": "five" },
-  { "de": "sechs", "es": "seis", "fr": "six", "en": "six" },
-  { "de": "sieben", "es": "siete", "fr": "sept", "en": "seven" },
-  { "de": "acht", "es": "ocho", "fr": "huit", "en": "eight" },
-  { "de": "neun", "es": "nueve", "fr": "neuf", "en": "nine" },
-  { "de": "zehn", "es": "diez", "fr": "dix", "en": "ten" },
-  { "de": "elf", "es": "once", "fr": "onze", "en": "eleven" },
-  { "de": "zwölf", "es": "doce", "fr": "douze", "en": "twelve" },
-  { "de": "dreizehn", "es": "trece", "fr": "treize", "en": "thirteen" },
-  { "de": "vierzehn", "es": "catorce", "fr": "quatorze", "en": "fourteen" },
-  { "de": "fünfzehn", "es": "quince", "fr": "quinze", "en": "fifteen" },
-  { "de": "sechzehn", "es": "dieciséis", "fr": "seize", "en": "sixteen" },
-  { "de": "siebzehn", "es": "diecisiete", "fr": "dix-sept", "en": "seventeen" },
-  { "de": "zwanzig", "es": "veinte", "fr": "vingt", "en": "twenty" },
-  { "de": "dreißig", "es": "treinta", "fr": "trente", "en": "thirty" },
-  { "de": "vierzig", "es": "cuarenta", "fr": "quarante", "en": "forty" },
-  { "de": "fünfzig", "es": "cincuenta", "fr": "cinquante", "en": "fifty" },
-  { "de": "hundert", "es": "cien", "fr": "cent", "en": "hundred" },
-  { "de": "tausend", "es": "mil", "fr": "mille", "en": "thousand" },
-  { "de": "eine Million", "es": "un millón", "fr": "un million", "en": "one million" }
+  {
+    "de": "null",
+    "core": true,
+    "translations": {
+      "es": "cero",
+      "fr": "zéro",
+      "en": "zero"
+    }
+  },
+  {
+    "de": "eins",
+    "core": true,
+    "translations": {
+      "es": "uno",
+      "fr": "un",
+      "en": "one"
+    }
+  },
+  {
+    "de": "zwei",
+    "core": true,
+    "translations": {
+      "es": "dos",
+      "fr": "deux",
+      "en": "two"
+    }
+  },
+  {
+    "de": "drei",
+    "core": true,
+    "translations": {
+      "es": "tres",
+      "fr": "trois",
+      "en": "three"
+    }
+  },
+  {
+    "de": "vier",
+    "core": true,
+    "translations": {
+      "es": "cuatro",
+      "fr": "quatre",
+      "en": "four"
+    }
+  },
+  {
+    "de": "fünf",
+    "core": true,
+    "translations": {
+      "es": "cinco",
+      "fr": "cinq",
+      "en": "five"
+    }
+  },
+  {
+    "de": "sechs",
+    "core": true,
+    "translations": {
+      "es": "seis",
+      "fr": "six",
+      "en": "six"
+    }
+  },
+  {
+    "de": "sieben",
+    "core": true,
+    "translations": {
+      "es": "siete",
+      "fr": "sept",
+      "en": "seven"
+    }
+  },
+  {
+    "de": "acht",
+    "core": true,
+    "translations": {
+      "es": "ocho",
+      "fr": "huit",
+      "en": "eight"
+    }
+  },
+  {
+    "de": "neun",
+    "core": true,
+    "translations": {
+      "es": "nueve",
+      "fr": "neuf",
+      "en": "nine"
+    }
+  },
+  {
+    "de": "zehn",
+    "core": true,
+    "translations": {
+      "es": "diez",
+      "fr": "dix",
+      "en": "ten"
+    }
+  },
+  {
+    "de": "elf",
+    "translations": {
+      "es": "once",
+      "fr": "onze",
+      "en": "eleven"
+    }
+  },
+  {
+    "de": "zwölf",
+    "translations": {
+      "es": "doce",
+      "fr": "douze",
+      "en": "twelve"
+    }
+  },
+  {
+    "de": "dreizehn",
+    "translations": {
+      "es": "trece",
+      "fr": "treize",
+      "en": "thirteen"
+    }
+  },
+  {
+    "de": "vierzehn",
+    "translations": {
+      "es": "catorce",
+      "fr": "quatorze",
+      "en": "fourteen"
+    }
+  },
+  {
+    "de": "fünfzehn",
+    "translations": {
+      "es": "quince",
+      "fr": "quinze",
+      "en": "fifteen"
+    }
+  },
+  {
+    "de": "sechzehn",
+    "translations": {
+      "es": "dieciséis",
+      "fr": "seize",
+      "en": "sixteen"
+    }
+  },
+  {
+    "de": "siebzehn",
+    "translations": {
+      "es": "diecisiete",
+      "fr": "dix-sept",
+      "en": "seventeen"
+    }
+  },
+  {
+    "de": "zwanzig",
+    "translations": {
+      "es": "veinte",
+      "fr": "vingt",
+      "en": "twenty"
+    }
+  },
+  {
+    "de": "dreißig",
+    "translations": {
+      "es": "treinta",
+      "fr": "trente",
+      "en": "thirty"
+    }
+  },
+  {
+    "de": "vierzig",
+    "translations": {
+      "es": "cuarenta",
+      "fr": "quarante",
+      "en": "forty"
+    }
+  },
+  {
+    "de": "fünfzig",
+    "translations": {
+      "es": "cincuenta",
+      "fr": "cinquante",
+      "en": "fifty"
+    }
+  },
+  {
+    "de": "hundert",
+    "translations": {
+      "es": "cien",
+      "fr": "cent",
+      "en": "hundred"
+    }
+  },
+  {
+    "de": "tausend",
+    "translations": {
+      "es": "mil",
+      "fr": "mille",
+      "en": "thousand"
+    }
+  },
+  {
+    "de": "eine Million",
+    "translations": {
+      "es": "un millón",
+      "fr": "un million",
+      "en": "one million"
+    }
+  }
 ]

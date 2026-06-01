@@ -1,27 +1,213 @@
 [
-  { "de": "die Mutter", "es": "la madre", "fr": "la mère", "en": "the mother" },
-  { "de": "der Vater", "es": "el padre", "fr": "le père", "en": "the father" },
-  { "de": "die Schwester", "es": "la hermana", "fr": "la sœur", "en": "the sister" },
-  { "de": "der Bruder", "es": "el hermano", "fr": "le frère", "en": "the brother" },
-  { "de": "die Tochter", "es": "la hija", "fr": "la fille", "en": "the daughter" },
-  { "de": "der Sohn", "es": "el hijo", "fr": "le fils", "en": "the son" },
-  { "de": "die Großmutter", "es": "la abuela", "fr": "la grand-mère", "en": "the grandmother" },
-  { "de": "der Großvater", "es": "el abuelo", "fr": "le grand-père", "en": "the grandfather" },
-  { "de": "die Tante", "es": "la tía", "fr": "la tante", "en": "the aunt" },
-  { "de": "der Onkel", "es": "el tío", "fr": "l'oncle", "en": "the uncle" },
-  { "de": "die Cousine", "es": "la prima", "fr": "la cousine", "en": "the cousin" },
-  { "de": "der Cousin", "es": "el primo", "fr": "le cousin", "en": "the cousin" },
-  { "de": "die Ehefrau", "es": "la esposa", "fr": "la femme", "en": "the wife" },
-  { "de": "der Ehemann", "es": "el esposo", "fr": "le mari", "en": "the husband" },
-  { "de": "das Baby", "es": "el bebé", "fr": "le bébé", "en": "the baby" },
-  { "de": "das Kind", "es": "el niño", "fr": "l'enfant", "en": "the child" },
-  { "de": "die Nichte", "es": "la sobrina", "fr": "la nièce", "en": "the niece" },
-  { "de": "der Neffe", "es": "el sobrino", "fr": "le neveu", "en": "the nephew" },
-  { "de": "die Eltern", "es": "los padres", "fr": "les parents", "en": "the parents" },
-  { "de": "die Geschwister", "es": "los hermanos", "fr": "les frères et sœurs", "en": "the siblings" },
-  { "de": "die Großeltern", "es": "los abuelos", "fr": "les grands-parents", "en": "the grandparents" },
-  { "de": "die Familie", "es": "la familia", "fr": "la famille", "en": "the family" },
-  { "de": "der Zwilling", "es": "el gemelo", "fr": "le jumeau", "en": "the twin" },
-  { "de": "das Mädchen", "es": "la niña", "fr": "la fille", "en": "the girl" },
-  { "de": "der Junge", "es": "el chico", "fr": "le garçon", "en": "the boy" }
+  {
+    "de": "die Mutter",
+    "core": true,
+    "translations": {
+      "es": "la madre",
+      "fr": "la mère",
+      "en": "the mother"
+    }
+  },
+  {
+    "de": "der Vater",
+    "core": true,
+    "translations": {
+      "es": "el padre",
+      "fr": "le père",
+      "en": "the father"
+    }
+  },
+  {
+    "de": "die Schwester",
+    "core": true,
+    "translations": {
+      "es": "la hermana",
+      "fr": "la sœur",
+      "en": "the sister"
+    }
+  },
+  {
+    "de": "der Bruder",
+    "core": true,
+    "translations": {
+      "es": "el hermano",
+      "fr": "le frère",
+      "en": "the brother"
+    }
+  },
+  {
+    "de": "die Tochter",
+    "core": true,
+    "translations": {
+      "es": "la hija",
+      "fr": "la fille",
+      "en": "the daughter"
+    }
+  },
+  {
+    "de": "der Sohn",
+    "core": true,
+    "translations": {
+      "es": "el hijo",
+      "fr": "le fils",
+      "en": "the son"
+    }
+  },
+  {
+    "de": "die Familie",
+    "core": true,
+    "translations": {
+      "es": "la familia",
+      "fr": "la famille",
+      "en": "the family"
+    }
+  },
+  {
+    "de": "die Eltern",
+    "core": true,
+    "translations": {
+      "es": "los padres",
+      "fr": "les parents",
+      "en": "the parents"
+    }
+  },
+  {
+    "de": "das Kind",
+    "core": true,
+    "translations": {
+      "es": "el niño",
+      "fr": "l'enfant",
+      "en": "the child"
+    }
+  },
+  {
+    "de": "das Mädchen",
+    "core": true,
+    "translations": {
+      "es": "la niña",
+      "fr": "la fille",
+      "en": "the girl"
+    }
+  },
+  {
+    "de": "der Junge",
+    "core": true,
+    "translations": {
+      "es": "el chico",
+      "fr": "le garçon",
+      "en": "the boy"
+    }
+  },
+  {
+    "de": "die Großmutter",
+    "translations": {
+      "es": "la abuela",
+      "fr": "la grand-mère",
+      "en": "the grandmother"
+    }
+  },
+  {
+    "de": "der Großvater",
+    "translations": {
+      "es": "el abuelo",
+      "fr": "le grand-père",
+      "en": "the grandfather"
+    }
+  },
+  {
+    "de": "die Tante",
+    "translations": {
+      "es": "la tía",
+      "fr": "la tante",
+      "en": "the aunt"
+    }
+  },
+  {
+    "de": "der Onkel",
+    "translations": {
+      "es": "el tío",
+      "fr": "l'oncle",
+      "en": "the uncle"
+    }
+  },
+  {
+    "de": "die Cousine",
+    "translations": {
+      "es": "la prima",
+      "fr": "la cousine",
+      "en": "the cousin"
+    }
+  },
+  {
+    "de": "der Cousin",
+    "translations": {
+      "es": "el primo",
+      "fr": "le cousin",
+      "en": "the cousin"
+    }
+  },
+  {
+    "de": "die Ehefrau",
+    "translations": {
+      "es": "la esposa",
+      "fr": "la femme",
+      "en": "the wife"
+    }
+  },
+  {
+    "de": "der Ehemann",
+    "translations": {
+      "es": "el esposo",
+      "fr": "le mari",
+      "en": "the husband"
+    }
+  },
+  {
+    "de": "das Baby",
+    "translations": {
+      "es": "el bebé",
+      "fr": "le bébé",
+      "en": "the baby"
+    }
+  },
+  {
+    "de": "die Nichte",
+    "translations": {
+      "es": "la sobrina",
+      "fr": "la nièce",
+      "en": "the niece"
+    }
+  },
+  {
+    "de": "der Neffe",
+    "translations": {
+      "es": "el sobrino",
+      "fr": "le neveu",
+      "en": "the nephew"
+    }
+  },
+  {
+    "de": "die Geschwister",
+    "translations": {
+      "es": "los hermanos",
+      "fr": "les frères et sœurs",
+      "en": "the siblings"
+    }
+  },
+  {
+    "de": "die Großeltern",
+    "translations": {
+      "es": "los abuelos",
+      "fr": "les grands-parents",
+      "en": "the grandparents"
+    }
+  },
+  {
+    "de": "der Zwilling",
+    "translations": {
+      "es": "el gemelo",
+      "fr": "le jumeau",
+      "en": "the twin"
+    }
+  }
 ]

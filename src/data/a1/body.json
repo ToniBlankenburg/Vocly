@@ -1,32 +1,254 @@
 [
-  { "de": "der Kopf", "es": "la cabeza", "fr": "la tête", "en": "the head" },
-  { "de": "das Haar", "es": "el pelo", "fr": "le cheveu", "en": "the hair" },
-  { "de": "das Gesicht", "es": "la cara", "fr": "le visage", "en": "the face" },
-  { "de": "das Auge", "es": "el ojo", "fr": "l'œil", "en": "the eye" },
-  { "de": "das Ohr", "es": "la oreja", "fr": "l'oreille", "en": "the ear" },
-  { "de": "die Nase", "es": "la nariz", "fr": "le nez", "en": "the nose" },
-  { "de": "der Mund", "es": "la boca", "fr": "la bouche", "en": "the mouth" },
-  { "de": "die Lippe", "es": "el labio", "fr": "la lèvre", "en": "the lip" },
-  { "de": "der Zahn", "es": "el diente", "fr": "la dent", "en": "the tooth" },
-  { "de": "die Zunge", "es": "la lengua", "fr": "la langue", "en": "the tongue" },
-  { "de": "die Stirn", "es": "la frente", "fr": "le front", "en": "the forehead" },
-  { "de": "die Wange", "es": "la mejilla", "fr": "la joue", "en": "the cheek" },
-  { "de": "der Hals", "es": "el cuello", "fr": "le cou", "en": "the neck" },
-  { "de": "die Schulter", "es": "el hombro", "fr": "l'épaule", "en": "the shoulder" },
-  { "de": "der Arm", "es": "el brazo", "fr": "le bras", "en": "the arm" },
-  { "de": "der Ellbogen", "es": "el codo", "fr": "le coude", "en": "the elbow" },
-  { "de": "die Hand", "es": "la mano", "fr": "la main", "en": "the hand" },
-  { "de": "der Finger", "es": "el dedo", "fr": "le doigt", "en": "the finger" },
-  { "de": "der Daumen", "es": "el pulgar", "fr": "le pouce", "en": "the thumb" },
-  { "de": "das Bein", "es": "la pierna", "fr": "la jambe", "en": "the leg" },
-  { "de": "das Knie", "es": "la rodilla", "fr": "le genou", "en": "the knee" },
-  { "de": "der Fuß", "es": "el pie", "fr": "le pied", "en": "the foot" },
-  { "de": "die Zehe", "es": "el dedo del pie", "fr": "l'orteil", "en": "the toe" },
-  { "de": "der Bauch", "es": "el vientre", "fr": "le ventre", "en": "the belly" },
-  { "de": "der Rücken", "es": "la espalda", "fr": "le dos", "en": "the back" },
-  { "de": "die Brust", "es": "el pecho", "fr": "la poitrine", "en": "the chest" },
-  { "de": "das Herz", "es": "el corazón", "fr": "le cœur", "en": "the heart" },
-  { "de": "die Haut", "es": "la piel", "fr": "la peau", "en": "the skin" },
-  { "de": "das Blut", "es": "la sangre", "fr": "le sang", "en": "the blood" },
-  { "de": "der Knochen", "es": "el hueso", "fr": "l'os", "en": "the bone" }
+  {
+    "de": "der Kopf",
+    "core": true,
+    "translations": {
+      "es": "la cabeza",
+      "fr": "la tête",
+      "en": "the head"
+    }
+  },
+  {
+    "de": "das Auge",
+    "core": true,
+    "translations": {
+      "es": "el ojo",
+      "fr": "l'œil",
+      "en": "the eye"
+    }
+  },
+  {
+    "de": "das Ohr",
+    "core": true,
+    "translations": {
+      "es": "la oreja",
+      "fr": "l'oreille",
+      "en": "the ear"
+    }
+  },
+  {
+    "de": "die Nase",
+    "core": true,
+    "translations": {
+      "es": "la nariz",
+      "fr": "le nez",
+      "en": "the nose"
+    }
+  },
+  {
+    "de": "der Mund",
+    "core": true,
+    "translations": {
+      "es": "la boca",
+      "fr": "la bouche",
+      "en": "the mouth"
+    }
+  },
+  {
+    "de": "die Hand",
+    "core": true,
+    "translations": {
+      "es": "la mano",
+      "fr": "la main",
+      "en": "the hand"
+    }
+  },
+  {
+    "de": "der Arm",
+    "core": true,
+    "translations": {
+      "es": "el brazo",
+      "fr": "le bras",
+      "en": "the arm"
+    }
+  },
+  {
+    "de": "das Bein",
+    "core": true,
+    "translations": {
+      "es": "la pierna",
+      "fr": "la jambe",
+      "en": "the leg"
+    }
+  },
+  {
+    "de": "der Fuß",
+    "core": true,
+    "translations": {
+      "es": "el pie",
+      "fr": "le pied",
+      "en": "the foot"
+    }
+  },
+  {
+    "de": "der Bauch",
+    "core": true,
+    "translations": {
+      "es": "el vientre",
+      "fr": "le ventre",
+      "en": "the belly"
+    }
+  },
+  {
+    "de": "der Rücken",
+    "core": true,
+    "translations": {
+      "es": "la espalda",
+      "fr": "le dos",
+      "en": "the back"
+    }
+  },
+  {
+    "de": "das Herz",
+    "core": true,
+    "translations": {
+      "es": "el corazón",
+      "fr": "le cœur",
+      "en": "the heart"
+    }
+  },
+  {
+    "de": "das Haar",
+    "translations": {
+      "es": "el pelo",
+      "fr": "le cheveu",
+      "en": "the hair"
+    }
+  },
+  {
+    "de": "das Gesicht",
+    "translations": {
+      "es": "la cara",
+      "fr": "le visage",
+      "en": "the face"
+    }
+  },
+  {
+    "de": "die Lippe",
+    "translations": {
+      "es": "el labio",
+      "fr": "la lèvre",
+      "en": "the lip"
+    }
+  },
+  {
+    "de": "der Zahn",
+    "translations": {
+      "es": "el diente",
+      "fr": "la dent",
+      "en": "the tooth"
+    }
+  },
+  {
+    "de": "die Zunge",
+    "translations": {
+      "es": "la lengua",
+      "fr": "la langue",
+      "en": "the tongue"
+    }
+  },
+  {
+    "de": "die Stirn",
+    "translations": {
+      "es": "la frente",
+      "fr": "le front",
+      "en": "the forehead"
+    }
+  },
+  {
+    "de": "die Wange",
+    "translations": {
+      "es": "la mejilla",
+      "fr": "la joue",
+      "en": "the cheek"
+    }
+  },
+  {
+    "de": "der Hals",
+    "translations": {
+      "es": "el cuello",
+      "fr": "le cou",
+      "en": "the neck"
+    }
+  },
+  {
+    "de": "die Schulter",
+    "translations": {
+      "es": "el hombro",
+      "fr": "l'épaule",
+      "en": "the shoulder"
+    }
+  },
+  {
+    "de": "der Ellbogen",
+    "translations": {
+      "es": "el codo",
+      "fr": "le coude",
+      "en": "the elbow"
+    }
+  },
+  {
+    "de": "der Finger",
+    "translations": {
+      "es": "el dedo",
+      "fr": "le doigt",
+      "en": "the finger"
+    }
+  },
+  {
+    "de": "der Daumen",
+    "translations": {
+      "es": "el pulgar",
+      "fr": "le pouce",
+      "en": "the thumb"
+    }
+  },
+  {
+    "de": "das Knie",
+    "translations": {
+      "es": "la rodilla",
+      "fr": "le genou",
+      "en": "the knee"
+    }
+  },
+  {
+    "de": "die Zehe",
+    "translations": {
+      "es": "el dedo del pie",
+      "fr": "l'orteil",
+      "en": "the toe"
+    }
+  },
+  {
+    "de": "die Brust",
+    "translations": {
+      "es": "el pecho",
+      "fr": "la poitrine",
+      "en": "the chest"
+    }
+  },
+  {
+    "de": "die Haut",
+    "translations": {
+      "es": "la piel",
+      "fr": "la peau",
+      "en": "the skin"
+    }
+  },
+  {
+    "de": "das Blut",
+    "translations": {
+      "es": "la sangre",
+      "fr": "le sang",
+      "en": "the blood"
+    }
+  },
+  {
+    "de": "der Knochen",
+    "translations": {
+      "es": "el hueso",
+      "fr": "l'os",
+      "en": "the bone"
+    }
+  }
 ]

@@ -1,27 +1,208 @@
 [
-  { "de": "die Sonne", "es": "el sol", "fr": "le soleil", "en": "the sun" },
-  { "de": "der Regen", "es": "la lluvia", "fr": "la pluie", "en": "the rain" },
-  { "de": "der Wind", "es": "el viento", "fr": "le vent", "en": "the wind" },
-  { "de": "der Schnee", "es": "la nieve", "fr": "la neige", "en": "the snow" },
-  { "de": "die Wolke", "es": "la nube", "fr": "le nuage", "en": "the cloud" },
-  { "de": "das Gewitter", "es": "la tormenta", "fr": "l'orage", "en": "the thunderstorm" },
-  { "de": "das Eis", "es": "el hielo", "fr": "la glace", "en": "the ice" },
-  { "de": "der Nebel", "es": "la niebla", "fr": "le brouillard", "en": "the fog" },
-  { "de": "der Donner", "es": "el trueno", "fr": "le tonnerre", "en": "the thunder" },
-  { "de": "der Blitz", "es": "el relámpago", "fr": "l'éclair", "en": "the lightning" },
-  { "de": "die Hitze", "es": "el calor", "fr": "la chaleur", "en": "the heat" },
-  { "de": "die Kälte", "es": "el frío", "fr": "le froid", "en": "the cold" },
-  { "de": "der Regenbogen", "es": "el arco iris", "fr": "l'arc-en-ciel", "en": "the rainbow" },
-  { "de": "sonnig", "es": "soleado", "fr": "ensoleillé", "en": "sunny" },
-  { "de": "bewölkt", "es": "nublado", "fr": "nuageux", "en": "cloudy" },
-  { "de": "regnerisch", "es": "lluvioso", "fr": "pluvieux", "en": "rainy" },
-  { "de": "heiß", "es": "caliente", "fr": "chaud", "en": "hot" },
-  { "de": "die Temperatur", "es": "la temperatura", "fr": "la température", "en": "the temperature" },
-  { "de": "der Frost", "es": "la helada", "fr": "le gel", "en": "the frost" },
-  { "de": "trocken", "es": "seco", "fr": "sec", "en": "dry" },
-  { "de": "feucht", "es": "húmedo", "fr": "humide", "en": "damp" },
-  { "de": "der Hagel", "es": "el granizo", "fr": "la grêle", "en": "the hail" },
-  { "de": "der Sturm", "es": "el temporal", "fr": "la tempête", "en": "the storm" },
-  { "de": "die Brise", "es": "la brisa", "fr": "la brise", "en": "the breeze" },
-  { "de": "schneeig", "es": "nevado", "fr": "neigeux", "en": "snowy" }
+  {
+    "de": "die Sonne",
+    "core": true,
+    "translations": {
+      "es": "el sol",
+      "fr": "le soleil",
+      "en": "the sun"
+    }
+  },
+  {
+    "de": "der Regen",
+    "core": true,
+    "translations": {
+      "es": "la lluvia",
+      "fr": "la pluie",
+      "en": "the rain"
+    }
+  },
+  {
+    "de": "der Schnee",
+    "core": true,
+    "translations": {
+      "es": "la nieve",
+      "fr": "la neige",
+      "en": "the snow"
+    }
+  },
+  {
+    "de": "sonnig",
+    "core": true,
+    "translations": {
+      "es": "soleado",
+      "fr": "ensoleillé",
+      "en": "sunny"
+    }
+  },
+  {
+    "de": "bewölkt",
+    "core": true,
+    "translations": {
+      "es": "nublado",
+      "fr": "nuageux",
+      "en": "cloudy"
+    }
+  },
+  {
+    "de": "regnerisch",
+    "core": true,
+    "translations": {
+      "es": "lluvioso",
+      "fr": "pluvieux",
+      "en": "rainy"
+    }
+  },
+  {
+    "de": "der Wind",
+    "translations": {
+      "es": "el viento",
+      "fr": "le vent",
+      "en": "the wind"
+    }
+  },
+  {
+    "de": "die Wolke",
+    "translations": {
+      "es": "la nube",
+      "fr": "le nuage",
+      "en": "the cloud"
+    }
+  },
+  {
+    "de": "das Gewitter",
+    "translations": {
+      "es": "la tormenta",
+      "fr": "l'orage",
+      "en": "the thunderstorm"
+    }
+  },
+  {
+    "de": "das Eis",
+    "translations": {
+      "es": "el hielo",
+      "fr": "la glace",
+      "en": "the ice"
+    }
+  },
+  {
+    "de": "der Nebel",
+    "translations": {
+      "es": "la niebla",
+      "fr": "le brouillard",
+      "en": "the fog"
+    }
+  },
+  {
+    "de": "der Donner",
+    "translations": {
+      "es": "el trueno",
+      "fr": "le tonnerre",
+      "en": "the thunder"
+    }
+  },
+  {
+    "de": "der Blitz",
+    "translations": {
+      "es": "el relámpago",
+      "fr": "l'éclair",
+      "en": "the lightning"
+    }
+  },
+  {
+    "de": "die Hitze",
+    "translations": {
+      "es": "el calor",
+      "fr": "la chaleur",
+      "en": "the heat"
+    }
+  },
+  {
+    "de": "die Kälte",
+    "translations": {
+      "es": "el frío",
+      "fr": "le froid",
+      "en": "the cold"
+    }
+  },
+  {
+    "de": "der Regenbogen",
+    "translations": {
+      "es": "el arco iris",
+      "fr": "l'arc-en-ciel",
+      "en": "the rainbow"
+    }
+  },
+  {
+    "de": "heiß",
+    "translations": {
+      "es": "caliente",
+      "fr": "chaud",
+      "en": "hot"
+    }
+  },
+  {
+    "de": "die Temperatur",
+    "translations": {
+      "es": "la temperatura",
+      "fr": "la température",
+      "en": "the temperature"
+    }
+  },
+  {
+    "de": "der Frost",
+    "translations": {
+      "es": "la helada",
+      "fr": "le gel",
+      "en": "the frost"
+    }
+  },
+  {
+    "de": "trocken",
+    "translations": {
+      "es": "seco",
+      "fr": "sec",
+      "en": "dry"
+    }
+  },
+  {
+    "de": "feucht",
+    "translations": {
+      "es": "húmedo",
+      "fr": "humide",
+      "en": "damp"
+    }
+  },
+  {
+    "de": "der Hagel",
+    "translations": {
+      "es": "el granizo",
+      "fr": "la grêle",
+      "en": "the hail"
+    }
+  },
+  {
+    "de": "der Sturm",
+    "translations": {
+      "es": "el temporal",
+      "fr": "la tempête",
+      "en": "the storm"
+    }
+  },
+  {
+    "de": "die Brise",
+    "translations": {
+      "es": "la brisa",
+      "fr": "la brise",
+      "en": "the breeze"
+    }
+  },
+  {
+    "de": "schneeig",
+    "translations": {
+      "es": "nevado",
+      "fr": "neigeux",
+      "en": "snowy"
+    }
+  }
 ]

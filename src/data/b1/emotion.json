@@ -1,17 +1,122 @@
 [
-  { "de": "die Liebe", "es": "el amor", "fr": "l'amour", "en": "love" },
-  { "de": "die Angst", "es": "el miedo", "fr": "la peur", "en": "fear" },
-  { "de": "die Freude", "es": "la alegría", "fr": "la joie", "en": "joy" },
-  { "de": "die Wut", "es": "la ira", "fr": "la colère", "en": "anger" },
-  { "de": "die Trauer", "es": "la tristeza", "fr": "la tristesse", "en": "sadness" },
-  { "de": "der Stolz", "es": "el orgullo", "fr": "la fierté", "en": "pride" },
-  { "de": "die Hoffnung", "es": "la esperanza", "fr": "l'espoir", "en": "hope" },
-  { "de": "die Enttäuschung", "es": "la decepción", "fr": "la déception", "en": "disappointment" },
-  { "de": "die Überraschung", "es": "la sorpresa", "fr": "la surprise", "en": "surprise" },
-  { "de": "die Einsamkeit", "es": "la soledad", "fr": "la solitude", "en": "loneliness" },
-  { "de": "der Stress", "es": "el estrés", "fr": "le stress", "en": "stress" },
-  { "de": "die Aufregung", "es": "la emoción", "fr": "l'excitation", "en": "excitement" },
-  { "de": "die Scham", "es": "la vergüenza", "fr": "la honte", "en": "shame" },
-  { "de": "der Neid", "es": "la envidia", "fr": "la jalousie", "en": "envy" },
-  { "de": "das Mitgefühl", "es": "la compasión", "fr": "la compassion", "en": "compassion" }
+  {
+    "de": "die Liebe",
+    "translations": {
+      "es": "el amor",
+      "fr": "l'amour",
+      "en": "love"
+    }
+  },
+  {
+    "de": "die Angst",
+    "translations": {
+      "es": "el miedo",
+      "fr": "la peur",
+      "en": "fear"
+    }
+  },
+  {
+    "de": "die Freude",
+    "translations": {
+      "es": "la alegría",
+      "fr": "la joie",
+      "en": "joy"
+    }
+  },
+  {
+    "de": "die Wut",
+    "translations": {
+      "es": "la ira",
+      "fr": "la colère",
+      "en": "anger"
+    }
+  },
+  {
+    "de": "die Trauer",
+    "translations": {
+      "es": "la tristeza",
+      "fr": "la tristesse",
+      "en": "sadness"
+    }
+  },
+  {
+    "de": "der Stolz",
+    "translations": {
+      "es": "el orgullo",
+      "fr": "la fierté",
+      "en": "pride"
+    }
+  },
+  {
+    "de": "die Hoffnung",
+    "translations": {
+      "es": "la esperanza",
+      "fr": "l'espoir",
+      "en": "hope"
+    }
+  },
+  {
+    "de": "die Enttäuschung",
+    "translations": {
+      "es": "la decepción",
+      "fr": "la déception",
+      "en": "disappointment"
+    }
+  },
+  {
+    "de": "die Überraschung",
+    "translations": {
+      "es": "la sorpresa",
+      "fr": "la surprise",
+      "en": "surprise"
+    }
+  },
+  {
+    "de": "die Einsamkeit",
+    "translations": {
+      "es": "la soledad",
+      "fr": "la solitude",
+      "en": "loneliness"
+    }
+  },
+  {
+    "de": "der Stress",
+    "translations": {
+      "es": "el estrés",
+      "fr": "le stress",
+      "en": "stress"
+    }
+  },
+  {
+    "de": "die Aufregung",
+    "translations": {
+      "es": "la emoción",
+      "fr": "l'excitation",
+      "en": "excitement"
+    }
+  },
+  {
+    "de": "die Scham",
+    "translations": {
+      "es": "la vergüenza",
+      "fr": "la honte",
+      "en": "shame"
+    }
+  },
+  {
+    "de": "der Neid",
+    "translations": {
+      "es": "la envidia",
+      "fr": "la jalousie",
+      "en": "envy"
+    }
+  },
+  {
+    "de": "das Mitgefühl",
+    "translations": {
+      "es": "la compasión",
+      "fr": "la compassion",
+      "en": "compassion"
+    }
+  }
 ]
